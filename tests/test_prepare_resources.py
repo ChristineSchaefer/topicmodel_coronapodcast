@@ -1,6 +1,6 @@
 import unittest
 
-from prepare_resources.text_processing import remove_non_character, question_detection
+from preprocessing.prepare_resources.text_processing import remove_non_character, question_detection
 
 
 class TestPrepareResources(unittest.TestCase):
