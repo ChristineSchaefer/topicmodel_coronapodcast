@@ -20,7 +20,7 @@ def start_lda():
     # Step 5: Compute bow-representation of data.
     ciesek_dict = Dictionary(get_lemmas('SC'))
     # Filter out words that occur less than 20 documents, or more than 50% of the documents.
-    ciesek_dict.filter_extremes(no_below=20, no_above=0.5)
+    ciesek_dict.filter_extremes(no_below=5, no_above=0.5)
     # Bag-of-words representation of the documents.
     c_corpus = [ciesek_dict.doc2bow(question) for question in get_lemmas('SC')]
 
@@ -31,7 +31,7 @@ def start_lda():
 
     logging.info(f'\n\n**************TOPIC MODELING CHRISTIAN DROSTEN**************')
     drosten_dict = Dictionary(get_lemmas('CD'))
-    drosten_dict.filter_extremes(no_below=20, no_above=0.5)
+    drosten_dict.filter_extremes(no_below=5, no_above=0.5)
     d_corpus = [drosten_dict.doc2bow(question) for question in get_lemmas('CD')]
 
     print('Number of unique tokens: %d' % len(drosten_dict))

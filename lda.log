@@ -1,355 +1,354 @@
-2021-09-27 17:33:27,803:INFO:
+2021-09-28 16:41:30,251:INFO:
 
 ******************************** The program started. ********************************
 
-2021-09-27 17:33:42,164:INFO:
+2021-09-28 16:41:39,242:INFO:
 
 **************TOPIC MODELING SANDRA CIESEK**************
-2021-09-27 17:33:42,164:INFO:adding document #0 to Dictionary(0 unique tokens: [])
-2021-09-27 17:33:42,167:INFO:built Dictionary(768 unique tokens: ['der', 'haben', 'ich', 'jetzig', 'zeitpunkt']...) from 282 documents (total 2802 corpus positions)
-2021-09-27 17:33:42,179:INFO:Dictionary lifecycle event {'msg': "built Dictionary(768 unique tokens: ['der', 'haben', 'ich', 'jetzig', 'zeitpunkt']...) from 282 documents (total 2802 corpus positions)", 'datetime': '2021-09-27T17:33:42.167352', 'gensim': '4.1.2', 'python': '3.9.5 (tags/v3.9.5:0a7dcbd, May  3 2021, 17:27:52) [MSC v.1928 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19043-SP0', 'event': 'created'}
-2021-09-27 17:33:42,180:INFO:discarding 747 tokens: [('der', 155), ('jetzig', 1), ('zeitpunkt', 2), ('zum', 7), ('überraschen', 3), ('als', 11), ('erwarten', 2), ('ging', 2), ('schnell', 3), ('geben', 8)]...
-2021-09-27 17:33:42,180:INFO:keeping 21 tokens which were in no less than 20 and no more than 141 (=50.0%) documents
-2021-09-27 17:33:42,180:INFO:resulting dictionary: Dictionary(21 unique tokens: ['haben', 'ich', 'für', 'noch', 'was']...)
-2021-09-27 17:33:42,181:INFO:using autotuned alpha, starting with [0.2, 0.2, 0.2, 0.2, 0.2]
-2021-09-27 17:33:42,181:INFO:using serial LDA version on this node
-2021-09-27 17:33:42,181:INFO:running online (multi-pass) LDA training, 5 topics, 20 passes over the supplied corpus of 282 documents, updating model once every 282 documents, evaluating perplexity every 0 documents, iterating 400x with a convergence threshold of 0.001000
-2021-09-27 17:33:42,181:INFO:PROGRESS: pass 0, at document #282/282
-2021-09-27 17:33:42,226:INFO:optimized alpha [0.1828355, 0.17868437, 0.17095754, 0.17272115, 0.17951864]
-2021-09-27 17:33:42,226:INFO:topic #0 (0.183): 0.313*"ich" + 0.109*"sein" + 0.079*"einen" + 0.074*"auch" + 0.050*"so" + 0.050*"für" + 0.045*"sich" + 0.045*"haben" + 0.040*"oder" + 0.040*"wenn"
-2021-09-27 17:33:42,226:INFO:topic #1 (0.179): 0.165*"ich" + 0.164*"in" + 0.108*"was" + 0.103*"und" + 0.072*"wie" + 0.058*"sein" + 0.047*"auch" + 0.047*"haben" + 0.047*"im" + 0.037*"sich"
-2021-09-27 17:33:42,226:INFO:topic #2 (0.171): 0.140*"ich" + 0.115*"sich" + 0.093*"einen" + 0.092*"noch" + 0.078*"was" + 0.077*"dies" + 0.063*"sein" + 0.055*"und" + 0.047*"nicht" + 0.040*"oder"
-2021-09-27 17:33:42,227:INFO:topic #3 (0.173): 0.148*"man" + 0.135*"können" + 0.096*"ich" + 0.095*"sein" + 0.055*"wie" + 0.055*"nicht" + 0.055*"und" + 0.042*"was" + 0.042*"auch" + 0.042*"einen"
-2021-09-27 17:33:42,227:INFO:topic #4 (0.180): 0.139*"sein" + 0.111*"da" + 0.084*"ich" + 0.079*"auch" + 0.074*"für" + 0.061*"so" + 0.056*"was" + 0.047*"wie" + 0.042*"und" + 0.042*"einen"
-2021-09-27 17:33:42,227:INFO:topic diff=0.955939, rho=1.000000
-2021-09-27 17:33:42,227:INFO:PROGRESS: pass 1, at document #282/282
-2021-09-27 17:33:42,263:INFO:optimized alpha [0.17923284, 0.1769142, 0.15663755, 0.16121104, 0.1716131]
-2021-09-27 17:33:42,263:INFO:topic #0 (0.179): 0.296*"ich" + 0.123*"sein" + 0.089*"einen" + 0.086*"auch" + 0.051*"für" + 0.049*"oder" + 0.047*"haben" + 0.047*"sich" + 0.046*"wenn" + 0.044*"so"
-2021-09-27 17:33:42,263:INFO:topic #1 (0.177): 0.185*"ich" + 0.169*"in" + 0.112*"was" + 0.101*"und" + 0.087*"wie" + 0.055*"sein" + 0.053*"im" + 0.044*"dies" + 0.042*"haben" + 0.037*"sich"
-2021-09-27 17:33:42,263:INFO:topic #2 (0.157): 0.150*"ich" + 0.137*"sich" + 0.129*"noch" + 0.089*"dies" + 0.076*"einen" + 0.063*"was" + 0.058*"sein" + 0.055*"und" + 0.053*"nicht" + 0.032*"oder"
-2021-09-27 17:33:42,263:INFO:topic #3 (0.161): 0.176*"können" + 0.173*"man" + 0.075*"sein" + 0.074*"ich" + 0.058*"und" + 0.055*"wie" + 0.051*"nicht" + 0.049*"was" + 0.047*"wenn" + 0.044*"auch"
-2021-09-27 17:33:42,263:INFO:topic #4 (0.172): 0.145*"sein" + 0.132*"da" + 0.081*"auch" + 0.078*"für" + 0.073*"so" + 0.067*"ich" + 0.066*"was" + 0.050*"einen" + 0.041*"nicht" + 0.040*"noch"
-2021-09-27 17:33:42,263:INFO:topic diff=0.295490, rho=0.577350
-2021-09-27 17:33:42,264:INFO:PROGRESS: pass 2, at document #282/282
-2021-09-27 17:33:42,298:INFO:optimized alpha [0.17871863, 0.17689848, 0.14583911, 0.15286791, 0.16553895]
-2021-09-27 17:33:42,298:INFO:topic #0 (0.179): 0.279*"ich" + 0.132*"sein" + 0.099*"auch" + 0.094*"einen" + 0.053*"oder" + 0.049*"wenn" + 0.049*"für" + 0.049*"haben" + 0.046*"sich" + 0.044*"so"
-2021-09-27 17:33:42,299:INFO:topic #1 (0.177): 0.195*"ich" + 0.170*"in" + 0.115*"was" + 0.100*"und" + 0.092*"wie" + 0.056*"im" + 0.054*"sein" + 0.050*"dies" + 0.040*"haben" + 0.040*"sich"
-2021-09-27 17:33:42,299:INFO:topic #2 (0.146): 0.165*"ich" + 0.152*"noch" + 0.143*"sich" + 0.099*"dies" + 0.066*"einen" + 0.064*"nicht" + 0.054*"sein" + 0.052*"was" + 0.050*"und" + 0.029*"oder"
-2021-09-27 17:33:42,299:INFO:topic #3 (0.153): 0.210*"können" + 0.195*"man" + 0.061*"sein" + 0.058*"und" + 0.058*"wie" + 0.056*"ich" + 0.053*"was" + 0.048*"wenn" + 0.045*"nicht" + 0.043*"auch"
-2021-09-27 17:33:42,299:INFO:topic #4 (0.166): 0.148*"da" + 0.147*"sein" + 0.083*"für" + 0.078*"so" + 0.077*"auch" + 0.073*"was" + 0.058*"ich" + 0.052*"einen" + 0.048*"nicht" + 0.042*"noch"
-2021-09-27 17:33:42,299:INFO:topic diff=0.262492, rho=0.500000
-2021-09-27 17:33:42,299:INFO:PROGRESS: pass 3, at document #282/282
-2021-09-27 17:33:42,328:INFO:optimized alpha [0.17983142, 0.17726688, 0.1384279, 0.14635278, 0.1600573]
-2021-09-27 17:33:42,328:INFO:topic #0 (0.180): 0.269*"ich" + 0.139*"sein" + 0.108*"auch" + 0.097*"einen" + 0.055*"oder" + 0.050*"wenn" + 0.050*"haben" + 0.048*"für" + 0.045*"sich" + 0.043*"so"
-2021-09-27 17:33:42,328:INFO:topic #1 (0.177): 0.200*"ich" + 0.171*"in" + 0.115*"was" + 0.100*"und" + 0.098*"wie" + 0.056*"im" + 0.055*"sein" + 0.053*"dies" + 0.041*"sich" + 0.039*"haben"
-2021-09-27 17:33:42,329:INFO:topic #2 (0.138): 0.176*"ich" + 0.170*"noch" + 0.150*"sich" + 0.101*"dies" + 0.072*"nicht" + 0.060*"einen" + 0.053*"sein" + 0.046*"und" + 0.044*"was" + 0.026*"oder"
-2021-09-27 17:33:42,329:INFO:topic #3 (0.146): 0.235*"können" + 0.212*"man" + 0.060*"wie" + 0.058*"und" + 0.057*"was" + 0.052*"sein" + 0.048*"wenn" + 0.042*"ich" + 0.041*"nicht" + 0.039*"auch"
-2021-09-27 17:33:42,329:INFO:topic #4 (0.160): 0.162*"da" + 0.143*"sein" + 0.087*"für" + 0.085*"so" + 0.078*"was" + 0.072*"auch" + 0.054*"nicht" + 0.052*"einen" + 0.050*"ich" + 0.043*"noch"
-2021-09-27 17:33:42,329:INFO:topic diff=0.239940, rho=0.447214
-2021-09-27 17:33:42,329:INFO:PROGRESS: pass 4, at document #282/282
-2021-09-27 17:33:42,358:INFO:optimized alpha [0.18199709, 0.17786764, 0.13274492, 0.1410776, 0.15488607]
-2021-09-27 17:33:42,358:INFO:topic #0 (0.182): 0.262*"ich" + 0.143*"sein" + 0.117*"auch" + 0.098*"einen" + 0.057*"oder" + 0.050*"wenn" + 0.050*"haben" + 0.047*"für" + 0.045*"sich" + 0.043*"so"
-2021-09-27 17:33:42,358:INFO:topic #1 (0.178): 0.203*"ich" + 0.173*"in" + 0.116*"was" + 0.101*"wie" + 0.100*"und" + 0.057*"im" + 0.056*"sein" + 0.055*"dies" + 0.041*"sich" + 0.039*"haben"
-2021-09-27 17:33:42,358:INFO:topic #2 (0.133): 0.184*"noch" + 0.183*"ich" + 0.153*"sich" + 0.103*"dies" + 0.078*"nicht" + 0.056*"einen" + 0.052*"sein" + 0.043*"und" + 0.038*"was" + 0.025*"oder"
-2021-09-27 17:33:42,358:INFO:topic #3 (0.141): 0.254*"können" + 0.225*"man" + 0.062*"wie" + 0.061*"was" + 0.059*"und" + 0.049*"wenn" + 0.046*"sein" + 0.039*"nicht" + 0.037*"einen" + 0.033*"ich"
-2021-09-27 17:33:42,358:INFO:topic #4 (0.155): 0.174*"da" + 0.140*"sein" + 0.090*"für" + 0.090*"so" + 0.082*"was" + 0.067*"auch" + 0.059*"nicht" + 0.052*"einen" + 0.043*"ich" + 0.042*"noch"
-2021-09-27 17:33:42,358:INFO:topic diff=0.217528, rho=0.408248
-2021-09-27 17:33:42,359:INFO:PROGRESS: pass 5, at document #282/282
-2021-09-27 17:33:42,388:INFO:optimized alpha [0.18405066, 0.17848814, 0.12785248, 0.13669126, 0.15092179]
-2021-09-27 17:33:42,388:INFO:topic #0 (0.184): 0.257*"ich" + 0.145*"sein" + 0.123*"auch" + 0.099*"einen" + 0.058*"oder" + 0.050*"wenn" + 0.049*"haben" + 0.047*"für" + 0.045*"sich" + 0.043*"und"
-2021-09-27 17:33:42,388:INFO:topic #1 (0.178): 0.205*"ich" + 0.175*"in" + 0.118*"was" + 0.103*"wie" + 0.100*"und" + 0.058*"im" + 0.056*"dies" + 0.056*"sein" + 0.041*"sich" + 0.038*"haben"
-2021-09-27 17:33:42,388:INFO:topic #2 (0.128): 0.195*"noch" + 0.188*"ich" + 0.153*"sich" + 0.105*"dies" + 0.083*"nicht" + 0.052*"sein" + 0.050*"einen" + 0.040*"und" + 0.032*"was" + 0.024*"oder"
-2021-09-27 17:33:42,388:INFO:topic #3 (0.137): 0.267*"können" + 0.234*"man" + 0.065*"wie" + 0.064*"was" + 0.060*"und" + 0.049*"wenn" + 0.041*"sein" + 0.037*"nicht" + 0.036*"einen" + 0.027*"ich"
-2021-09-27 17:33:42,388:INFO:topic #4 (0.151): 0.184*"da" + 0.138*"sein" + 0.093*"so" + 0.092*"für" + 0.084*"was" + 0.064*"auch" + 0.062*"nicht" + 0.051*"einen" + 0.041*"noch" + 0.038*"ich"
-2021-09-27 17:33:42,388:INFO:topic diff=0.195760, rho=0.377964
-2021-09-27 17:33:42,389:INFO:PROGRESS: pass 6, at document #282/282
-2021-09-27 17:33:42,417:INFO:optimized alpha [0.18732981, 0.17964998, 0.12361834, 0.13302822, 0.14713319]
-2021-09-27 17:33:42,417:INFO:topic #0 (0.187): 0.251*"ich" + 0.145*"sein" + 0.128*"auch" + 0.100*"einen" + 0.058*"oder" + 0.049*"haben" + 0.049*"wenn" + 0.048*"für" + 0.045*"sich" + 0.044*"und"
-2021-09-27 17:33:42,417:INFO:topic #1 (0.180): 0.205*"ich" + 0.176*"in" + 0.119*"was" + 0.105*"wie" + 0.100*"und" + 0.057*"im" + 0.057*"dies" + 0.056*"sein" + 0.043*"sich" + 0.038*"haben"
-2021-09-27 17:33:42,417:INFO:topic #2 (0.124): 0.204*"noch" + 0.194*"ich" + 0.148*"sich" + 0.108*"dies" + 0.089*"nicht" + 0.052*"sein" + 0.047*"einen" + 0.039*"und" + 0.027*"was" + 0.022*"oder"
-2021-09-27 17:33:42,417:INFO:topic #3 (0.133): 0.278*"können" + 0.241*"man" + 0.067*"was" + 0.066*"wie" + 0.060*"und" + 0.050*"wenn" + 0.038*"sein" + 0.036*"nicht" + 0.035*"einen" + 0.023*"ich"
-2021-09-27 17:33:42,417:INFO:topic #4 (0.147): 0.197*"da" + 0.137*"sein" + 0.097*"so" + 0.091*"für" + 0.088*"was" + 0.065*"nicht" + 0.058*"auch" + 0.049*"einen" + 0.042*"noch" + 0.035*"oder"
-2021-09-27 17:33:42,417:INFO:topic diff=0.180967, rho=0.353553
-2021-09-27 17:33:42,417:INFO:PROGRESS: pass 7, at document #282/282
-2021-09-27 17:33:42,447:INFO:optimized alpha [0.19023801, 0.18130575, 0.11952937, 0.12987529, 0.14387225]
-2021-09-27 17:33:42,447:INFO:topic #0 (0.190): 0.247*"ich" + 0.146*"sein" + 0.132*"auch" + 0.101*"einen" + 0.059*"oder" + 0.049*"haben" + 0.049*"für" + 0.048*"wenn" + 0.047*"sich" + 0.044*"und"
-2021-09-27 17:33:42,447:INFO:topic #1 (0.181): 0.206*"ich" + 0.176*"in" + 0.119*"was" + 0.107*"wie" + 0.100*"und" + 0.057*"dies" + 0.057*"im" + 0.056*"sein" + 0.046*"sich" + 0.037*"haben"
-2021-09-27 17:33:42,447:INFO:topic #2 (0.120): 0.216*"noch" + 0.197*"ich" + 0.138*"sich" + 0.110*"dies" + 0.096*"nicht" + 0.052*"sein" + 0.046*"einen" + 0.035*"und" + 0.022*"was" + 0.019*"oder"
-2021-09-27 17:33:42,447:INFO:topic #3 (0.130): 0.286*"können" + 0.247*"man" + 0.069*"was" + 0.068*"wie" + 0.061*"und" + 0.051*"wenn" + 0.035*"sein" + 0.035*"nicht" + 0.034*"einen" + 0.023*"so"
-2021-09-27 17:33:42,448:INFO:topic #4 (0.144): 0.207*"da" + 0.136*"sein" + 0.100*"so" + 0.092*"was" + 0.091*"für" + 0.068*"nicht" + 0.052*"auch" + 0.047*"einen" + 0.043*"noch" + 0.036*"oder"
-2021-09-27 17:33:42,448:INFO:topic diff=0.162598, rho=0.333333
-2021-09-27 17:33:42,448:INFO:PROGRESS: pass 8, at document #282/282
-2021-09-27 17:33:42,474:INFO:optimized alpha [0.19277403, 0.18297611, 0.11586911, 0.12712142, 0.14102194]
-2021-09-27 17:33:42,475:INFO:topic #0 (0.193): 0.245*"ich" + 0.146*"sein" + 0.134*"auch" + 0.102*"einen" + 0.060*"oder" + 0.049*"für" + 0.049*"haben" + 0.048*"wenn" + 0.047*"sich" + 0.045*"und"
-2021-09-27 17:33:42,475:INFO:topic #1 (0.183): 0.207*"ich" + 0.175*"in" + 0.119*"was" + 0.108*"wie" + 0.100*"und" + 0.058*"dies" + 0.056*"im" + 0.056*"sein" + 0.049*"sich" + 0.037*"haben"
-2021-09-27 17:33:42,475:INFO:topic #2 (0.116): 0.225*"noch" + 0.198*"ich" + 0.130*"sich" + 0.113*"dies" + 0.103*"nicht" + 0.052*"sein" + 0.046*"einen" + 0.033*"und" + 0.021*"im" + 0.019*"was"
-2021-09-27 17:33:42,475:INFO:topic #3 (0.127): 0.292*"können" + 0.252*"man" + 0.070*"was" + 0.069*"wie" + 0.062*"und" + 0.051*"wenn" + 0.035*"nicht" + 0.034*"einen" + 0.033*"sein" + 0.024*"so"
-2021-09-27 17:33:42,475:INFO:topic #4 (0.141): 0.215*"da" + 0.136*"sein" + 0.102*"so" + 0.094*"was" + 0.091*"für" + 0.069*"nicht" + 0.048*"auch" + 0.045*"einen" + 0.044*"noch" + 0.037*"oder"
-2021-09-27 17:33:42,475:INFO:topic diff=0.142950, rho=0.316228
-2021-09-27 17:33:42,475:INFO:PROGRESS: pass 9, at document #282/282
-2021-09-27 17:33:42,502:INFO:optimized alpha [0.19500619, 0.18444565, 0.112680025, 0.124696374, 0.13864179]
-2021-09-27 17:33:42,503:INFO:topic #0 (0.195): 0.243*"ich" + 0.146*"sein" + 0.136*"auch" + 0.102*"einen" + 0.060*"oder" + 0.049*"für" + 0.049*"haben" + 0.047*"sich" + 0.047*"wenn" + 0.045*"und"
-2021-09-27 17:33:42,503:INFO:topic #1 (0.184): 0.209*"ich" + 0.175*"in" + 0.119*"was" + 0.109*"wie" + 0.100*"und" + 0.058*"dies" + 0.056*"sein" + 0.056*"im" + 0.050*"sich" + 0.036*"haben"
-2021-09-27 17:33:42,503:INFO:topic #2 (0.113): 0.232*"noch" + 0.199*"ich" + 0.124*"sich" + 0.114*"dies" + 0.107*"nicht" + 0.052*"sein" + 0.046*"einen" + 0.031*"und" + 0.022*"im" + 0.016*"oder"
-2021-09-27 17:33:42,503:INFO:topic #3 (0.125): 0.297*"können" + 0.255*"man" + 0.070*"was" + 0.069*"wie" + 0.063*"und" + 0.052*"wenn" + 0.034*"nicht" + 0.033*"einen" + 0.032*"sein" + 0.024*"so"
-2021-09-27 17:33:42,503:INFO:topic #4 (0.139): 0.221*"da" + 0.135*"sein" + 0.103*"so" + 0.096*"was" + 0.091*"für" + 0.071*"nicht" + 0.045*"auch" + 0.045*"noch" + 0.044*"einen" + 0.038*"oder"
-2021-09-27 17:33:42,503:INFO:topic diff=0.125852, rho=0.301511
-2021-09-27 17:33:42,504:INFO:PROGRESS: pass 10, at document #282/282
-2021-09-27 17:33:42,534:INFO:optimized alpha [0.19722319, 0.18598168, 0.109988585, 0.12255366, 0.13653694]
-2021-09-27 17:33:42,534:INFO:topic #0 (0.197): 0.241*"ich" + 0.145*"sein" + 0.138*"auch" + 0.102*"einen" + 0.060*"oder" + 0.049*"für" + 0.049*"haben" + 0.047*"sich" + 0.047*"wenn" + 0.046*"und"
-2021-09-27 17:33:42,534:INFO:topic #1 (0.186): 0.210*"ich" + 0.174*"in" + 0.120*"was" + 0.110*"wie" + 0.100*"und" + 0.058*"dies" + 0.056*"sein" + 0.055*"im" + 0.052*"sich" + 0.036*"haben"
-2021-09-27 17:33:42,534:INFO:topic #2 (0.110): 0.240*"noch" + 0.198*"ich" + 0.119*"sich" + 0.116*"dies" + 0.111*"nicht" + 0.052*"sein" + 0.046*"einen" + 0.029*"und" + 0.023*"im" + 0.015*"oder"
-2021-09-27 17:33:42,534:INFO:topic #3 (0.123): 0.302*"können" + 0.258*"man" + 0.070*"wie" + 0.070*"was" + 0.064*"und" + 0.052*"wenn" + 0.034*"nicht" + 0.033*"einen" + 0.031*"sein" + 0.025*"so"
-2021-09-27 17:33:42,534:INFO:topic #4 (0.137): 0.228*"da" + 0.136*"sein" + 0.104*"so" + 0.097*"was" + 0.091*"für" + 0.072*"nicht" + 0.044*"noch" + 0.043*"einen" + 0.042*"auch" + 0.039*"oder"
-2021-09-27 17:33:42,534:INFO:topic diff=0.112536, rho=0.288675
-2021-09-27 17:33:42,534:INFO:PROGRESS: pass 11, at document #282/282
-2021-09-27 17:33:42,561:INFO:optimized alpha [0.19944467, 0.18757787, 0.10759233, 0.12064782, 0.13466044]
-2021-09-27 17:33:42,561:INFO:topic #0 (0.199): 0.239*"ich" + 0.145*"sein" + 0.140*"auch" + 0.102*"einen" + 0.060*"oder" + 0.050*"haben" + 0.050*"für" + 0.047*"sich" + 0.046*"wenn" + 0.046*"und"
-2021-09-27 17:33:42,561:INFO:topic #1 (0.188): 0.212*"ich" + 0.173*"in" + 0.120*"was" + 0.110*"wie" + 0.100*"und" + 0.057*"dies" + 0.056*"sein" + 0.055*"sich" + 0.055*"im" + 0.035*"haben"
-2021-09-27 17:33:42,561:INFO:topic #2 (0.108): 0.252*"noch" + 0.194*"ich" + 0.118*"dies" + 0.116*"nicht" + 0.110*"sich" + 0.053*"sein" + 0.046*"einen" + 0.026*"und" + 0.024*"im" + 0.015*"oder"
-2021-09-27 17:33:42,561:INFO:topic #3 (0.121): 0.305*"können" + 0.261*"man" + 0.071*"wie" + 0.069*"was" + 0.064*"und" + 0.053*"wenn" + 0.034*"nicht" + 0.033*"einen" + 0.031*"sein" + 0.025*"so"
-2021-09-27 17:33:42,561:INFO:topic #4 (0.135): 0.234*"da" + 0.136*"sein" + 0.105*"so" + 0.099*"was" + 0.091*"für" + 0.073*"nicht" + 0.043*"einen" + 0.042*"noch" + 0.040*"oder" + 0.039*"auch"
-2021-09-27 17:33:42,561:INFO:topic diff=0.103006, rho=0.277350
-2021-09-27 17:33:42,562:INFO:PROGRESS: pass 12, at document #282/282
-2021-09-27 17:33:42,587:INFO:optimized alpha [0.2014643, 0.18933496, 0.10555719, 0.11894553, 0.13297075]
-2021-09-27 17:33:42,587:INFO:topic #0 (0.201): 0.237*"ich" + 0.145*"sein" + 0.141*"auch" + 0.102*"einen" + 0.060*"oder" + 0.050*"haben" + 0.050*"für" + 0.047*"sich" + 0.046*"wenn" + 0.046*"und"
-2021-09-27 17:33:42,587:INFO:topic #1 (0.189): 0.214*"ich" + 0.173*"in" + 0.120*"was" + 0.111*"wie" + 0.100*"und" + 0.057*"dies" + 0.057*"sich" + 0.055*"sein" + 0.054*"im" + 0.035*"haben"
-2021-09-27 17:33:42,587:INFO:topic #2 (0.106): 0.260*"noch" + 0.190*"ich" + 0.120*"nicht" + 0.120*"dies" + 0.104*"sich" + 0.054*"sein" + 0.046*"einen" + 0.025*"im" + 0.023*"und" + 0.014*"oder"
-2021-09-27 17:33:42,587:INFO:topic #3 (0.119): 0.308*"können" + 0.263*"man" + 0.071*"wie" + 0.069*"was" + 0.065*"und" + 0.053*"wenn" + 0.034*"nicht" + 0.033*"einen" + 0.030*"sein" + 0.025*"so"
-2021-09-27 17:33:42,587:INFO:topic #4 (0.133): 0.240*"da" + 0.137*"sein" + 0.107*"so" + 0.101*"was" + 0.092*"für" + 0.073*"nicht" + 0.043*"einen" + 0.040*"oder" + 0.040*"noch" + 0.035*"auch"
-2021-09-27 17:33:42,587:INFO:topic diff=0.092960, rho=0.267261
-2021-09-27 17:33:42,588:INFO:PROGRESS: pass 13, at document #282/282
-2021-09-27 17:33:42,613:INFO:optimized alpha [0.20350067, 0.19095771, 0.10372654, 0.11741104, 0.13144208]
-2021-09-27 17:33:42,614:INFO:topic #0 (0.204): 0.236*"ich" + 0.145*"sein" + 0.143*"auch" + 0.102*"einen" + 0.060*"oder" + 0.051*"haben" + 0.050*"für" + 0.047*"sich" + 0.046*"und" + 0.046*"wenn"
-2021-09-27 17:33:42,614:INFO:topic #1 (0.191): 0.215*"ich" + 0.172*"in" + 0.120*"was" + 0.111*"wie" + 0.101*"und" + 0.058*"sich" + 0.056*"dies" + 0.055*"sein" + 0.054*"im" + 0.034*"haben"
-2021-09-27 17:33:42,614:INFO:topic #2 (0.104): 0.267*"noch" + 0.187*"ich" + 0.125*"nicht" + 0.123*"dies" + 0.099*"sich" + 0.054*"sein" + 0.046*"einen" + 0.026*"im" + 0.021*"und" + 0.014*"oder"
-2021-09-27 17:33:42,614:INFO:topic #3 (0.117): 0.310*"können" + 0.265*"man" + 0.072*"wie" + 0.068*"was" + 0.065*"und" + 0.054*"wenn" + 0.033*"nicht" + 0.032*"einen" + 0.030*"sein" + 0.026*"so"
-2021-09-27 17:33:42,614:INFO:topic #4 (0.131): 0.246*"da" + 0.138*"sein" + 0.108*"so" + 0.103*"was" + 0.093*"für" + 0.073*"nicht" + 0.043*"einen" + 0.041*"oder" + 0.038*"noch" + 0.032*"auch"
-2021-09-27 17:33:42,614:INFO:topic diff=0.084032, rho=0.258199
-2021-09-27 17:33:42,614:INFO:PROGRESS: pass 14, at document #282/282
-2021-09-27 17:33:42,639:INFO:optimized alpha [0.20520747, 0.19278637, 0.102068394, 0.116020314, 0.13005061]
-2021-09-27 17:33:42,639:INFO:topic #0 (0.205): 0.234*"ich" + 0.145*"sein" + 0.144*"auch" + 0.102*"einen" + 0.061*"oder" + 0.051*"haben" + 0.050*"für" + 0.047*"sich" + 0.046*"und" + 0.046*"wenn"
-2021-09-27 17:33:42,639:INFO:topic #1 (0.193): 0.218*"ich" + 0.171*"in" + 0.120*"was" + 0.112*"wie" + 0.101*"und" + 0.059*"sich" + 0.055*"dies" + 0.055*"sein" + 0.053*"im" + 0.034*"haben"
-2021-09-27 17:33:42,639:INFO:topic #2 (0.102): 0.272*"noch" + 0.183*"ich" + 0.128*"nicht" + 0.124*"dies" + 0.095*"sich" + 0.054*"sein" + 0.046*"einen" + 0.027*"im" + 0.018*"und" + 0.014*"oder"
-2021-09-27 17:33:42,639:INFO:topic #3 (0.116): 0.312*"können" + 0.266*"man" + 0.072*"wie" + 0.068*"was" + 0.066*"und" + 0.054*"wenn" + 0.033*"nicht" + 0.032*"einen" + 0.029*"sein" + 0.026*"so"
-2021-09-27 17:33:42,639:INFO:topic #4 (0.130): 0.252*"da" + 0.139*"sein" + 0.109*"so" + 0.105*"was" + 0.094*"für" + 0.073*"nicht" + 0.043*"einen" + 0.041*"oder" + 0.037*"noch" + 0.028*"auch"
-2021-09-27 17:33:42,639:INFO:topic diff=0.076628, rho=0.250000
-2021-09-27 17:33:42,640:INFO:PROGRESS: pass 15, at document #282/282
-2021-09-27 17:33:42,663:INFO:optimized alpha [0.2071047, 0.19417334, 0.10055442, 0.11474935, 0.1287751]
-2021-09-27 17:33:42,663:INFO:topic #0 (0.207): 0.234*"ich" + 0.146*"auch" + 0.144*"sein" + 0.102*"einen" + 0.061*"oder" + 0.052*"haben" + 0.050*"für" + 0.047*"sich" + 0.046*"und" + 0.045*"wenn"
-2021-09-27 17:33:42,663:INFO:topic #1 (0.194): 0.218*"ich" + 0.171*"in" + 0.120*"was" + 0.113*"wie" + 0.102*"und" + 0.059*"sich" + 0.055*"dies" + 0.055*"sein" + 0.053*"im" + 0.034*"haben"
-2021-09-27 17:33:42,663:INFO:topic #2 (0.101): 0.277*"noch" + 0.181*"ich" + 0.130*"nicht" + 0.126*"dies" + 0.093*"sich" + 0.055*"sein" + 0.046*"einen" + 0.027*"im" + 0.016*"und" + 0.014*"oder"
-2021-09-27 17:33:42,663:INFO:topic #3 (0.115): 0.314*"können" + 0.267*"man" + 0.072*"wie" + 0.068*"was" + 0.066*"und" + 0.054*"wenn" + 0.033*"nicht" + 0.032*"einen" + 0.029*"sein" + 0.026*"so"
-2021-09-27 17:33:42,663:INFO:topic #4 (0.129): 0.256*"da" + 0.140*"sein" + 0.110*"so" + 0.107*"was" + 0.095*"für" + 0.073*"nicht" + 0.043*"einen" + 0.042*"oder" + 0.036*"noch" + 0.024*"auch"
-2021-09-27 17:33:42,663:INFO:topic diff=0.069208, rho=0.242536
-2021-09-27 17:33:42,663:INFO:PROGRESS: pass 16, at document #282/282
-2021-09-27 17:33:42,687:INFO:optimized alpha [0.20854753, 0.19574876, 0.09916414, 0.113581166, 0.12760024]
-2021-09-27 17:33:42,687:INFO:topic #0 (0.209): 0.232*"ich" + 0.147*"auch" + 0.144*"sein" + 0.102*"einen" + 0.061*"oder" + 0.052*"haben" + 0.050*"für" + 0.047*"und" + 0.046*"sich" + 0.045*"wenn"
-2021-09-27 17:33:42,687:INFO:topic #1 (0.196): 0.219*"ich" + 0.171*"in" + 0.119*"was" + 0.113*"wie" + 0.102*"und" + 0.060*"sich" + 0.055*"sein" + 0.055*"dies" + 0.053*"im" + 0.033*"haben"
-2021-09-27 17:33:42,688:INFO:topic #2 (0.099): 0.280*"noch" + 0.179*"ich" + 0.133*"nicht" + 0.127*"dies" + 0.091*"sich" + 0.055*"sein" + 0.046*"einen" + 0.027*"im" + 0.014*"und" + 0.014*"oder"
-2021-09-27 17:33:42,688:INFO:topic #3 (0.114): 0.315*"können" + 0.268*"man" + 0.072*"wie" + 0.067*"was" + 0.067*"und" + 0.054*"wenn" + 0.033*"nicht" + 0.032*"einen" + 0.029*"sein" + 0.026*"so"
-2021-09-27 17:33:42,688:INFO:topic #4 (0.128): 0.260*"da" + 0.140*"sein" + 0.111*"so" + 0.109*"was" + 0.095*"für" + 0.074*"nicht" + 0.044*"einen" + 0.042*"oder" + 0.035*"noch" + 0.021*"auch"
-2021-09-27 17:33:42,688:INFO:topic diff=0.063188, rho=0.235702
-2021-09-27 17:33:42,688:INFO:PROGRESS: pass 17, at document #282/282
-2021-09-27 17:33:42,712:INFO:optimized alpha [0.2098762, 0.19720593, 0.097881906, 0.112503335, 0.12651446]
-2021-09-27 17:33:42,712:INFO:topic #0 (0.210): 0.231*"ich" + 0.148*"auch" + 0.144*"sein" + 0.102*"einen" + 0.061*"oder" + 0.053*"haben" + 0.050*"für" + 0.047*"und" + 0.046*"sich" + 0.045*"wenn"
-2021-09-27 17:33:42,713:INFO:topic #1 (0.197): 0.220*"ich" + 0.170*"in" + 0.119*"was" + 0.114*"wie" + 0.102*"und" + 0.060*"sich" + 0.055*"sein" + 0.054*"dies" + 0.052*"im" + 0.033*"haben"
-2021-09-27 17:33:42,713:INFO:topic #2 (0.098): 0.283*"noch" + 0.177*"ich" + 0.134*"nicht" + 0.128*"dies" + 0.089*"sich" + 0.055*"sein" + 0.046*"einen" + 0.028*"im" + 0.014*"oder" + 0.013*"und"
-2021-09-27 17:33:42,713:INFO:topic #3 (0.113): 0.316*"können" + 0.269*"man" + 0.073*"wie" + 0.067*"was" + 0.067*"und" + 0.055*"wenn" + 0.033*"nicht" + 0.032*"einen" + 0.029*"sein" + 0.026*"so"
-2021-09-27 17:33:42,713:INFO:topic #4 (0.127): 0.264*"da" + 0.141*"sein" + 0.112*"so" + 0.110*"was" + 0.096*"für" + 0.074*"nicht" + 0.044*"einen" + 0.043*"oder" + 0.035*"noch" + 0.019*"auch"
-2021-09-27 17:33:42,713:INFO:topic diff=0.057631, rho=0.229416
-2021-09-27 17:33:42,713:INFO:PROGRESS: pass 18, at document #282/282
-2021-09-27 17:33:42,738:INFO:optimized alpha [0.21124908, 0.1984105, 0.09669463, 0.11150516, 0.12550801]
-2021-09-27 17:33:42,738:INFO:topic #0 (0.211): 0.231*"ich" + 0.149*"auch" + 0.144*"sein" + 0.102*"einen" + 0.061*"oder" + 0.053*"haben" + 0.050*"für" + 0.047*"und" + 0.046*"sich" + 0.045*"wenn"
-2021-09-27 17:33:42,738:INFO:topic #1 (0.198): 0.221*"ich" + 0.170*"in" + 0.119*"was" + 0.114*"wie" + 0.103*"und" + 0.060*"sich" + 0.055*"sein" + 0.054*"dies" + 0.052*"im" + 0.033*"haben"
-2021-09-27 17:33:42,739:INFO:topic #2 (0.097): 0.285*"noch" + 0.175*"ich" + 0.136*"nicht" + 0.128*"dies" + 0.088*"sich" + 0.055*"sein" + 0.046*"einen" + 0.028*"im" + 0.014*"oder" + 0.011*"und"
-2021-09-27 17:33:42,739:INFO:topic #3 (0.112): 0.317*"können" + 0.269*"man" + 0.073*"wie" + 0.067*"und" + 0.067*"was" + 0.055*"wenn" + 0.033*"nicht" + 0.032*"einen" + 0.028*"sein" + 0.026*"so"
-2021-09-27 17:33:42,739:INFO:topic #4 (0.126): 0.267*"da" + 0.142*"sein" + 0.112*"so" + 0.111*"was" + 0.097*"für" + 0.074*"nicht" + 0.044*"einen" + 0.043*"oder" + 0.034*"noch" + 0.016*"auch"
-2021-09-27 17:33:42,739:INFO:topic diff=0.052607, rho=0.223607
-2021-09-27 17:33:42,739:INFO:PROGRESS: pass 19, at document #282/282
-2021-09-27 17:33:42,764:INFO:optimized alpha [0.21249571, 0.19965382, 0.095594086, 0.1105812, 0.12457675]
-2021-09-27 17:33:42,764:INFO:topic #0 (0.212): 0.230*"ich" + 0.149*"auch" + 0.144*"sein" + 0.102*"einen" + 0.061*"oder" + 0.053*"haben" + 0.050*"für" + 0.047*"und" + 0.046*"sich" + 0.045*"so"
-2021-09-27 17:33:42,764:INFO:topic #1 (0.200): 0.221*"ich" + 0.170*"in" + 0.119*"was" + 0.114*"wie" + 0.103*"und" + 0.061*"sich" + 0.055*"sein" + 0.054*"dies" + 0.052*"im" + 0.033*"haben"
-2021-09-27 17:33:42,764:INFO:topic #2 (0.096): 0.287*"noch" + 0.174*"ich" + 0.137*"nicht" + 0.129*"dies" + 0.087*"sich" + 0.055*"sein" + 0.046*"einen" + 0.028*"im" + 0.015*"oder" + 0.010*"und"
-2021-09-27 17:33:42,764:INFO:topic #3 (0.111): 0.317*"können" + 0.270*"man" + 0.073*"wie" + 0.068*"und" + 0.067*"was" + 0.055*"wenn" + 0.033*"nicht" + 0.032*"einen" + 0.028*"sein" + 0.026*"so"
-2021-09-27 17:33:42,764:INFO:topic #4 (0.125): 0.270*"da" + 0.142*"sein" + 0.113*"so" + 0.112*"was" + 0.097*"für" + 0.074*"nicht" + 0.044*"einen" + 0.043*"oder" + 0.034*"noch" + 0.014*"auch"
-2021-09-27 17:33:42,764:INFO:topic diff=0.048273, rho=0.218218
-2021-09-27 17:33:42,765:INFO:LdaModel lifecycle event {'msg': 'trained LdaModel(num_terms=21, num_topics=5, decay=0.5, chunksize=2000) in 0.58s', 'datetime': '2021-09-27T17:33:42.765726', 'gensim': '4.1.2', 'python': '3.9.5 (tags/v3.9.5:0a7dcbd, May  3 2021, 17:27:52) [MSC v.1928 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19043-SP0', 'event': 'created'}
-2021-09-27 17:33:42,770:INFO:
+2021-09-28 16:41:39,243:INFO:adding document #0 to Dictionary(0 unique tokens: [])
+2021-09-28 16:41:39,243:INFO:built Dictionary(288 unique tokens: ['zeitpunkt', 'möglichkeit', 'abnahme', 'abstrich', 'angabe']...) from 218 documents (total 456 corpus positions)
+2021-09-28 16:41:39,255:INFO:Dictionary lifecycle event {'msg': "built Dictionary(288 unique tokens: ['zeitpunkt', 'möglichkeit', 'abnahme', 'abstrich', 'angabe']...) from 218 documents (total 456 corpus positions)", 'datetime': '2021-09-28T16:41:39.243442', 'gensim': '4.1.2', 'python': '3.9.5 (tags/v3.9.5:0a7dcbd, May  3 2021, 17:27:52) [MSC v.1928 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19043-SP0', 'event': 'created'}
+2021-09-28 16:41:39,255:INFO:discarding 271 tokens: [('zeitpunkt', 2), ('möglichkeit', 1), ('abnahme', 1), ('abstrich', 4), ('angabe', 1), ('fehler', 1), ('pcr-tests', 1), ('sensitivität', 2), ('blut', 1), ('direktnachweis', 1)]...
+2021-09-28 16:41:39,255:INFO:keeping 17 tokens which were in no less than 5 and no more than 109 (=50.0%) documents
+2021-09-28 16:41:39,255:INFO:resulting dictionary: Dictionary(17 unique tokens: ['frage', 'test', 'virus', 'symptom', 'frau']...)
+2021-09-28 16:41:39,255:INFO:using autotuned alpha, starting with [0.2, 0.2, 0.2, 0.2, 0.2]
+2021-09-28 16:41:39,255:INFO:using serial LDA version on this node
+2021-09-28 16:41:39,256:INFO:running online (multi-pass) LDA training, 5 topics, 20 passes over the supplied corpus of 218 documents, updating model once every 218 documents, evaluating perplexity every 0 documents, iterating 400x with a convergence threshold of 0.001000
+2021-09-28 16:41:39,256:INFO:PROGRESS: pass 0, at document #218/218
+2021-09-28 16:41:39,271:INFO:optimized alpha [0.20254135, 0.19723369, 0.19761278, 0.20481277, 0.20089619]
+2021-09-28 16:41:39,271:INFO:topic #0 (0.203): 0.342*"frau" + 0.194*"frage" + 0.157*"herr" + 0.121*"kind" + 0.046*"zahl" + 0.046*"mensch" + 0.009*"virus" + 0.009*"symptom" + 0.009*"rolle" + 0.009*"forschung"
+2021-09-28 16:41:39,271:INFO:topic #1 (0.197): 0.313*"symptom" + 0.211*"mensch" + 0.161*"zahl" + 0.111*"virus" + 0.061*"verlauf" + 0.014*"frau" + 0.013*"herr" + 0.012*"kind" + 0.012*"frage" + 0.012*"rolle"
+2021-09-28 16:41:39,271:INFO:topic #2 (0.198): 0.227*"virus" + 0.142*"frau" + 0.141*"intensivstation" + 0.097*"patient" + 0.097*"frage" + 0.096*"woche" + 0.054*"zahl" + 0.054*"kind" + 0.011*"herr" + 0.011*"symptom"
+2021-09-28 16:41:39,271:INFO:topic #3 (0.205): 0.184*"forschung" + 0.160*"winter" + 0.160*"herbst" + 0.109*"patient" + 0.108*"kind" + 0.059*"frau" + 0.057*"intensivstation" + 0.057*"rolle" + 0.032*"virus" + 0.032*"verlauf"
+2021-09-28 16:41:39,271:INFO:topic #4 (0.201): 0.200*"test" + 0.165*"woche" + 0.162*"rolle" + 0.162*"herr" + 0.124*"verlauf" + 0.087*"symptom" + 0.011*"frau" + 0.010*"virus" + 0.009*"forschung" + 0.009*"mensch"
+2021-09-28 16:41:39,271:INFO:topic diff=2.996556, rho=1.000000
+2021-09-28 16:41:39,272:INFO:PROGRESS: pass 1, at document #218/218
+2021-09-28 16:41:39,282:INFO:optimized alpha [0.20668054, 0.19491783, 0.19381328, 0.20339437, 0.2025795]
+2021-09-28 16:41:39,283:INFO:topic #0 (0.207): 0.384*"frau" + 0.187*"frage" + 0.179*"kind" + 0.127*"herr" + 0.027*"zahl" + 0.020*"mensch" + 0.007*"virus" + 0.007*"symptom" + 0.007*"forschung" + 0.007*"rolle"
+2021-09-28 16:41:39,283:INFO:topic #1 (0.195): 0.360*"symptom" + 0.242*"mensch" + 0.181*"zahl" + 0.053*"virus" + 0.032*"verlauf" + 0.012*"frau" + 0.011*"herr" + 0.011*"kind" + 0.011*"frage" + 0.011*"rolle"
+2021-09-28 16:41:39,283:INFO:topic #2 (0.194): 0.323*"virus" + 0.177*"intensivstation" + 0.130*"patient" + 0.076*"frage" + 0.069*"frau" + 0.057*"zahl" + 0.049*"woche" + 0.030*"kind" + 0.010*"herr" + 0.010*"symptom"
+2021-09-28 16:41:39,283:INFO:topic #3 (0.203): 0.217*"forschung" + 0.188*"winter" + 0.188*"herbst" + 0.110*"patient" + 0.075*"kind" + 0.049*"intensivstation" + 0.039*"frau" + 0.037*"verlauf" + 0.032*"rolle" + 0.019*"virus"
+2021-09-28 16:41:39,283:INFO:topic #4 (0.203): 0.193*"woche" + 0.192*"rolle" + 0.186*"test" + 0.161*"herr" + 0.136*"verlauf" + 0.047*"symptom" + 0.008*"frau" + 0.008*"virus" + 0.008*"forschung" + 0.008*"mensch"
+2021-09-28 16:41:39,283:INFO:topic diff=0.404159, rho=0.577350
+2021-09-28 16:41:39,283:INFO:PROGRESS: pass 2, at document #218/218
+2021-09-28 16:41:39,293:INFO:optimized alpha [0.20889606, 0.19305107, 0.19153067, 0.20063382, 0.20567892]
+2021-09-28 16:41:39,293:INFO:topic #0 (0.209): 0.416*"frau" + 0.220*"kind" + 0.192*"frage" + 0.067*"herr" + 0.018*"zahl" + 0.013*"mensch" + 0.007*"forschung" + 0.007*"virus" + 0.007*"symptom" + 0.007*"rolle"
+2021-09-28 16:41:39,293:INFO:topic #1 (0.193): 0.381*"symptom" + 0.250*"mensch" + 0.192*"zahl" + 0.031*"virus" + 0.021*"verlauf" + 0.011*"frau" + 0.011*"herr" + 0.011*"kind" + 0.010*"frage" + 0.010*"rolle"
+2021-09-28 16:41:39,293:INFO:topic #2 (0.192): 0.330*"virus" + 0.196*"intensivstation" + 0.196*"patient" + 0.062*"frage" + 0.053*"zahl" + 0.037*"frau" + 0.027*"woche" + 0.018*"kind" + 0.009*"herr" + 0.009*"verlauf"
+2021-09-28 16:41:39,293:INFO:topic #3 (0.201): 0.259*"forschung" + 0.223*"winter" + 0.223*"herbst" + 0.069*"patient" + 0.048*"kind" + 0.033*"intensivstation" + 0.030*"frau" + 0.025*"verlauf" + 0.023*"rolle" + 0.015*"virus"
+2021-09-28 16:41:39,294:INFO:topic #4 (0.206): 0.206*"herr" + 0.189*"woche" + 0.188*"rolle" + 0.170*"test" + 0.146*"verlauf" + 0.027*"symptom" + 0.007*"frau" + 0.007*"virus" + 0.007*"forschung" + 0.007*"mensch"
+2021-09-28 16:41:39,294:INFO:topic diff=0.289941, rho=0.500000
+2021-09-28 16:41:39,294:INFO:PROGRESS: pass 3, at document #218/218
+2021-09-28 16:41:39,303:INFO:optimized alpha [0.21071364, 0.19145554, 0.18954757, 0.19819577, 0.20834103]
+2021-09-28 16:41:39,303:INFO:topic #0 (0.211): 0.431*"frau" + 0.239*"kind" + 0.195*"frage" + 0.040*"herr" + 0.013*"zahl" + 0.010*"mensch" + 0.007*"forschung" + 0.007*"virus" + 0.007*"symptom" + 0.007*"rolle"
+2021-09-28 16:41:39,303:INFO:topic #1 (0.191): 0.390*"symptom" + 0.253*"mensch" + 0.198*"zahl" + 0.022*"virus" + 0.016*"verlauf" + 0.010*"frau" + 0.010*"kind" + 0.010*"herr" + 0.010*"rolle" + 0.010*"frage"
+2021-09-28 16:41:39,303:INFO:topic #2 (0.190): 0.333*"virus" + 0.223*"patient" + 0.204*"intensivstation" + 0.056*"frage" + 0.051*"zahl" + 0.024*"frau" + 0.018*"woche" + 0.014*"kind" + 0.009*"verlauf" + 0.009*"herr"
+2021-09-28 16:41:39,303:INFO:topic #3 (0.198): 0.283*"forschung" + 0.244*"winter" + 0.244*"herbst" + 0.045*"patient" + 0.033*"kind" + 0.023*"intensivstation" + 0.023*"frau" + 0.019*"verlauf" + 0.017*"rolle" + 0.013*"virus"
+2021-09-28 16:41:39,304:INFO:topic #4 (0.208): 0.224*"herr" + 0.187*"woche" + 0.187*"rolle" + 0.163*"test" + 0.151*"verlauf" + 0.017*"symptom" + 0.007*"frau" + 0.006*"virus" + 0.006*"forschung" + 0.006*"mensch"
+2021-09-28 16:41:39,304:INFO:topic diff=0.206737, rho=0.447214
+2021-09-28 16:41:39,304:INFO:PROGRESS: pass 4, at document #218/218
+2021-09-28 16:41:39,313:INFO:optimized alpha [0.21229704, 0.19006002, 0.18780348, 0.19604482, 0.21069139]
+2021-09-28 16:41:39,313:INFO:topic #0 (0.212): 0.439*"frau" + 0.248*"kind" + 0.196*"frage" + 0.026*"herr" + 0.011*"zahl" + 0.009*"mensch" + 0.007*"forschung" + 0.006*"virus" + 0.006*"symptom" + 0.006*"rolle"
+2021-09-28 16:41:39,313:INFO:topic #1 (0.190): 0.395*"symptom" + 0.254*"mensch" + 0.201*"zahl" + 0.017*"virus" + 0.013*"verlauf" + 0.010*"frau" + 0.010*"kind" + 0.010*"herr" + 0.010*"rolle" + 0.010*"frage"
+2021-09-28 16:41:39,313:INFO:topic #2 (0.188): 0.334*"virus" + 0.236*"patient" + 0.208*"intensivstation" + 0.053*"frage" + 0.050*"zahl" + 0.017*"frau" + 0.014*"woche" + 0.011*"kind" + 0.009*"verlauf" + 0.009*"herr"
+2021-09-28 16:41:39,313:INFO:topic #3 (0.196): 0.297*"forschung" + 0.256*"winter" + 0.256*"herbst" + 0.032*"patient" + 0.024*"kind" + 0.018*"frau" + 0.018*"intensivstation" + 0.015*"verlauf" + 0.014*"rolle" + 0.011*"virus"
+2021-09-28 16:41:39,313:INFO:topic #4 (0.211): 0.233*"herr" + 0.187*"woche" + 0.186*"rolle" + 0.160*"test" + 0.153*"verlauf" + 0.013*"symptom" + 0.006*"frau" + 0.006*"virus" + 0.006*"forschung" + 0.006*"mensch"
+2021-09-28 16:41:39,313:INFO:topic diff=0.160485, rho=0.408248
+2021-09-28 16:41:39,314:INFO:PROGRESS: pass 5, at document #218/218
+2021-09-28 16:41:39,323:INFO:optimized alpha [0.21371172, 0.18881722, 0.18624736, 0.19412647, 0.21280289]
+2021-09-28 16:41:39,323:INFO:topic #0 (0.214): 0.444*"frau" + 0.253*"kind" + 0.197*"frage" + 0.019*"herr" + 0.009*"zahl" + 0.008*"mensch" + 0.006*"forschung" + 0.006*"virus" + 0.006*"symptom" + 0.006*"rolle"
+2021-09-28 16:41:39,323:INFO:topic #1 (0.189): 0.397*"symptom" + 0.254*"mensch" + 0.203*"zahl" + 0.014*"virus" + 0.012*"verlauf" + 0.010*"frau" + 0.010*"kind" + 0.010*"rolle" + 0.010*"herr" + 0.010*"frage"
+2021-09-28 16:41:39,323:INFO:topic #2 (0.186): 0.335*"virus" + 0.243*"patient" + 0.210*"intensivstation" + 0.051*"frage" + 0.050*"zahl" + 0.014*"frau" + 0.012*"woche" + 0.010*"kind" + 0.009*"verlauf" + 0.008*"rolle"
+2021-09-28 16:41:39,323:INFO:topic #3 (0.194): 0.306*"forschung" + 0.263*"winter" + 0.263*"herbst" + 0.023*"patient" + 0.018*"kind" + 0.015*"frau" + 0.015*"intensivstation" + 0.013*"verlauf" + 0.012*"rolle" + 0.010*"virus"
+2021-09-28 16:41:39,323:INFO:topic #4 (0.213): 0.238*"herr" + 0.186*"woche" + 0.186*"rolle" + 0.158*"test" + 0.154*"verlauf" + 0.010*"symptom" + 0.006*"frau" + 0.006*"virus" + 0.006*"forschung" + 0.006*"mensch"
+2021-09-28 16:41:39,323:INFO:topic diff=0.126256, rho=0.377964
+2021-09-28 16:41:39,323:INFO:PROGRESS: pass 6, at document #218/218
+2021-09-28 16:41:39,333:INFO:optimized alpha [0.21499422, 0.18769549, 0.18484199, 0.19239712, 0.21472323]
+2021-09-28 16:41:39,333:INFO:topic #0 (0.215): 0.447*"frau" + 0.256*"kind" + 0.197*"frage" + 0.014*"herr" + 0.008*"zahl" + 0.007*"mensch" + 0.006*"forschung" + 0.006*"virus" + 0.006*"symptom" + 0.006*"rolle"
+2021-09-28 16:41:39,333:INFO:topic #1 (0.188): 0.399*"symptom" + 0.254*"mensch" + 0.204*"zahl" + 0.013*"virus" + 0.011*"verlauf" + 0.010*"kind" + 0.010*"rolle" + 0.010*"frau" + 0.010*"herr" + 0.010*"frage"
+2021-09-28 16:41:39,333:INFO:topic #2 (0.185): 0.335*"virus" + 0.247*"patient" + 0.211*"intensivstation" + 0.050*"frage" + 0.049*"zahl" + 0.012*"frau" + 0.011*"woche" + 0.009*"kind" + 0.009*"verlauf" + 0.008*"rolle"
+2021-09-28 16:41:39,333:INFO:topic #3 (0.192): 0.311*"forschung" + 0.268*"winter" + 0.268*"herbst" + 0.018*"patient" + 0.015*"kind" + 0.013*"frau" + 0.013*"intensivstation" + 0.012*"verlauf" + 0.011*"rolle" + 0.010*"virus"
+2021-09-28 16:41:39,333:INFO:topic #4 (0.215): 0.241*"herr" + 0.186*"woche" + 0.186*"rolle" + 0.157*"test" + 0.154*"verlauf" + 0.009*"symptom" + 0.006*"frau" + 0.006*"virus" + 0.006*"forschung" + 0.006*"mensch"
+2021-09-28 16:41:39,333:INFO:topic diff=0.098278, rho=0.353553
+2021-09-28 16:41:39,333:INFO:PROGRESS: pass 7, at document #218/218
+2021-09-28 16:41:39,342:INFO:optimized alpha [0.21616876, 0.18667248, 0.18355978, 0.19082296, 0.21648584]
+2021-09-28 16:41:39,342:INFO:topic #0 (0.216): 0.448*"frau" + 0.257*"kind" + 0.197*"frage" + 0.012*"herr" + 0.008*"zahl" + 0.007*"mensch" + 0.006*"forschung" + 0.006*"virus" + 0.006*"symptom" + 0.006*"rolle"
+2021-09-28 16:41:39,343:INFO:topic #1 (0.187): 0.400*"symptom" + 0.255*"mensch" + 0.205*"zahl" + 0.012*"virus" + 0.011*"verlauf" + 0.010*"rolle" + 0.010*"kind" + 0.010*"frau" + 0.010*"herr" + 0.010*"frage"
+2021-09-28 16:41:39,343:INFO:topic #2 (0.184): 0.336*"virus" + 0.249*"patient" + 0.212*"intensivstation" + 0.050*"frage" + 0.049*"zahl" + 0.011*"frau" + 0.010*"woche" + 0.009*"kind" + 0.009*"verlauf" + 0.008*"rolle"
+2021-09-28 16:41:39,343:INFO:topic #3 (0.191): 0.314*"forschung" + 0.271*"winter" + 0.271*"herbst" + 0.015*"patient" + 0.013*"kind" + 0.012*"frau" + 0.011*"intensivstation" + 0.011*"verlauf" + 0.010*"rolle" + 0.010*"virus"
+2021-09-28 16:41:39,343:INFO:topic #4 (0.216): 0.242*"herr" + 0.186*"woche" + 0.186*"rolle" + 0.157*"test" + 0.155*"verlauf" + 0.008*"symptom" + 0.006*"virus" + 0.006*"frau" + 0.006*"patient" + 0.006*"forschung"
+2021-09-28 16:41:39,343:INFO:topic diff=0.075262, rho=0.333333
+2021-09-28 16:41:39,343:INFO:PROGRESS: pass 8, at document #218/218
+2021-09-28 16:41:39,352:INFO:optimized alpha [0.21725288, 0.18573041, 0.18238021, 0.18937863, 0.21811545]
+2021-09-28 16:41:39,352:INFO:topic #0 (0.217): 0.449*"frau" + 0.259*"kind" + 0.198*"frage" + 0.010*"herr" + 0.007*"zahl" + 0.007*"mensch" + 0.006*"forschung" + 0.006*"virus" + 0.006*"symptom" + 0.006*"rolle"
+2021-09-28 16:41:39,352:INFO:topic #1 (0.186): 0.400*"symptom" + 0.255*"mensch" + 0.205*"zahl" + 0.011*"virus" + 0.010*"verlauf" + 0.010*"rolle" + 0.010*"kind" + 0.010*"frau" + 0.010*"herr" + 0.010*"frage"
+2021-09-28 16:41:39,353:INFO:topic #2 (0.182): 0.336*"virus" + 0.251*"patient" + 0.212*"intensivstation" + 0.049*"frage" + 0.049*"zahl" + 0.010*"frau" + 0.009*"woche" + 0.009*"kind" + 0.009*"verlauf" + 0.008*"rolle"
+2021-09-28 16:41:39,353:INFO:topic #3 (0.189): 0.317*"forschung" + 0.273*"winter" + 0.273*"herbst" + 0.013*"patient" + 0.012*"kind" + 0.011*"frau" + 0.011*"intensivstation" + 0.010*"verlauf" + 0.010*"rolle" + 0.009*"virus"
+2021-09-28 16:41:39,353:INFO:topic #4 (0.218): 0.243*"herr" + 0.186*"woche" + 0.186*"rolle" + 0.156*"test" + 0.155*"verlauf" + 0.007*"symptom" + 0.006*"virus" + 0.006*"frau" + 0.006*"patient" + 0.006*"forschung"
+2021-09-28 16:41:39,353:INFO:topic diff=0.056769, rho=0.316228
+2021-09-28 16:41:39,353:INFO:PROGRESS: pass 9, at document #218/218
+2021-09-28 16:41:39,362:INFO:optimized alpha [0.21825963, 0.18485832, 0.1812878, 0.18804418, 0.21963112]
+2021-09-28 16:41:39,362:INFO:topic #0 (0.218): 0.450*"frau" + 0.259*"kind" + 0.198*"frage" + 0.009*"herr" + 0.007*"zahl" + 0.007*"mensch" + 0.006*"forschung" + 0.006*"virus" + 0.006*"symptom" + 0.006*"rolle"
+2021-09-28 16:41:39,362:INFO:topic #1 (0.185): 0.401*"symptom" + 0.255*"mensch" + 0.205*"zahl" + 0.011*"virus" + 0.010*"verlauf" + 0.010*"rolle" + 0.010*"kind" + 0.010*"frau" + 0.010*"herr" + 0.010*"frage"
+2021-09-28 16:41:39,362:INFO:topic #2 (0.181): 0.336*"virus" + 0.252*"patient" + 0.213*"intensivstation" + 0.049*"zahl" + 0.049*"frage" + 0.009*"frau" + 0.009*"woche" + 0.009*"kind" + 0.008*"verlauf" + 0.008*"rolle"
+2021-09-28 16:41:39,362:INFO:topic #3 (0.188): 0.318*"forschung" + 0.274*"winter" + 0.274*"herbst" + 0.012*"patient" + 0.011*"kind" + 0.010*"frau" + 0.010*"intensivstation" + 0.010*"verlauf" + 0.010*"rolle" + 0.009*"virus"
+2021-09-28 16:41:39,362:INFO:topic #4 (0.220): 0.244*"herr" + 0.186*"woche" + 0.186*"rolle" + 0.156*"test" + 0.155*"verlauf" + 0.007*"symptom" + 0.006*"virus" + 0.006*"frau" + 0.006*"patient" + 0.006*"forschung"
+2021-09-28 16:41:39,363:INFO:topic diff=0.042328, rho=0.301511
+2021-09-28 16:41:39,363:INFO:PROGRESS: pass 10, at document #218/218
+2021-09-28 16:41:39,372:INFO:optimized alpha [0.21919924, 0.18404546, 0.18027014, 0.18680392, 0.22104743]
+2021-09-28 16:41:39,372:INFO:topic #0 (0.219): 0.451*"frau" + 0.260*"kind" + 0.198*"frage" + 0.008*"herr" + 0.007*"zahl" + 0.007*"mensch" + 0.006*"forschung" + 0.006*"virus" + 0.006*"symptom" + 0.006*"rolle"
+2021-09-28 16:41:39,372:INFO:topic #1 (0.184): 0.401*"symptom" + 0.255*"mensch" + 0.206*"zahl" + 0.010*"virus" + 0.010*"verlauf" + 0.010*"rolle" + 0.010*"kind" + 0.010*"frau" + 0.010*"herr" + 0.010*"frage"
+2021-09-28 16:41:39,372:INFO:topic #2 (0.180): 0.336*"virus" + 0.253*"patient" + 0.213*"intensivstation" + 0.049*"zahl" + 0.049*"frage" + 0.009*"frau" + 0.009*"woche" + 0.008*"kind" + 0.008*"verlauf" + 0.008*"rolle"
+2021-09-28 16:41:39,372:INFO:topic #3 (0.187): 0.319*"forschung" + 0.275*"winter" + 0.275*"herbst" + 0.011*"patient" + 0.010*"kind" + 0.010*"frau" + 0.010*"intensivstation" + 0.010*"verlauf" + 0.009*"rolle" + 0.009*"virus"
+2021-09-28 16:41:39,372:INFO:topic #4 (0.221): 0.244*"herr" + 0.186*"woche" + 0.186*"rolle" + 0.156*"test" + 0.155*"verlauf" + 0.007*"symptom" + 0.006*"virus" + 0.006*"frau" + 0.006*"patient" + 0.006*"intensivstation"
+2021-09-28 16:41:39,372:INFO:topic diff=0.031324, rho=0.288675
+2021-09-28 16:41:39,372:INFO:PROGRESS: pass 11, at document #218/218
+2021-09-28 16:41:39,382:INFO:optimized alpha [0.2200799, 0.18328422, 0.1793174, 0.1856454, 0.22237656]
+2021-09-28 16:41:39,382:INFO:topic #0 (0.220): 0.451*"frau" + 0.260*"kind" + 0.198*"frage" + 0.008*"herr" + 0.007*"zahl" + 0.007*"mensch" + 0.006*"forschung" + 0.006*"virus" + 0.006*"rolle" + 0.006*"symptom"
+2021-09-28 16:41:39,382:INFO:topic #1 (0.183): 0.401*"symptom" + 0.255*"mensch" + 0.206*"zahl" + 0.010*"virus" + 0.010*"verlauf" + 0.010*"rolle" + 0.010*"kind" + 0.010*"frau" + 0.010*"herr" + 0.010*"frage"
+2021-09-28 16:41:39,382:INFO:topic #2 (0.179): 0.336*"virus" + 0.253*"patient" + 0.213*"intensivstation" + 0.049*"zahl" + 0.048*"frage" + 0.009*"frau" + 0.009*"woche" + 0.008*"verlauf" + 0.008*"kind" + 0.008*"rolle"
+2021-09-28 16:41:39,382:INFO:topic #3 (0.186): 0.320*"forschung" + 0.275*"winter" + 0.275*"herbst" + 0.011*"patient" + 0.010*"kind" + 0.010*"frau" + 0.010*"intensivstation" + 0.009*"verlauf" + 0.009*"rolle" + 0.009*"virus"
+2021-09-28 16:41:39,382:INFO:topic #4 (0.222): 0.245*"herr" + 0.186*"woche" + 0.186*"rolle" + 0.156*"test" + 0.155*"verlauf" + 0.006*"symptom" + 0.006*"virus" + 0.006*"patient" + 0.006*"frau" + 0.006*"intensivstation"
+2021-09-28 16:41:39,382:INFO:topic diff=0.023097, rho=0.277350
+2021-09-28 16:41:39,382:INFO:PROGRESS: pass 12, at document #218/218
+2021-09-28 16:41:39,391:INFO:optimized alpha [0.22090943, 0.18256824, 0.17842172, 0.18455853, 0.2236281]
+2021-09-28 16:41:39,392:INFO:topic #0 (0.221): 0.451*"frau" + 0.260*"kind" + 0.198*"frage" + 0.007*"herr" + 0.007*"zahl" + 0.006*"mensch" + 0.006*"forschung" + 0.006*"virus" + 0.006*"rolle" + 0.006*"symptom"
+2021-09-28 16:41:39,392:INFO:topic #1 (0.183): 0.401*"symptom" + 0.255*"mensch" + 0.206*"zahl" + 0.010*"virus" + 0.010*"verlauf" + 0.010*"rolle" + 0.010*"kind" + 0.010*"frau" + 0.010*"herr" + 0.010*"frage"
+2021-09-28 16:41:39,392:INFO:topic #2 (0.178): 0.336*"virus" + 0.254*"patient" + 0.213*"intensivstation" + 0.049*"zahl" + 0.048*"frage" + 0.009*"frau" + 0.008*"woche" + 0.008*"verlauf" + 0.008*"kind" + 0.008*"rolle"
+2021-09-28 16:41:39,392:INFO:topic #3 (0.185): 0.320*"forschung" + 0.276*"winter" + 0.276*"herbst" + 0.010*"patient" + 0.010*"kind" + 0.010*"frau" + 0.009*"intensivstation" + 0.009*"verlauf" + 0.009*"rolle" + 0.009*"virus"
+2021-09-28 16:41:39,392:INFO:topic #4 (0.224): 0.245*"herr" + 0.186*"woche" + 0.186*"rolle" + 0.156*"test" + 0.155*"verlauf" + 0.006*"symptom" + 0.006*"virus" + 0.006*"patient" + 0.006*"frau" + 0.006*"intensivstation"
+2021-09-28 16:41:39,392:INFO:topic diff=0.017030, rho=0.267261
+2021-09-28 16:41:39,392:INFO:PROGRESS: pass 13, at document #218/218
+2021-09-28 16:41:39,401:INFO:optimized alpha [0.22169212, 0.18189225, 0.17757654, 0.18353501, 0.22481]
+2021-09-28 16:41:39,401:INFO:topic #0 (0.222): 0.451*"frau" + 0.260*"kind" + 0.198*"frage" + 0.007*"herr" + 0.007*"zahl" + 0.006*"mensch" + 0.006*"forschung" + 0.006*"rolle" + 0.006*"virus" + 0.006*"symptom"
+2021-09-28 16:41:39,402:INFO:topic #1 (0.182): 0.402*"symptom" + 0.255*"mensch" + 0.206*"zahl" + 0.010*"virus" + 0.010*"verlauf" + 0.010*"rolle" + 0.010*"kind" + 0.010*"frau" + 0.010*"herr" + 0.010*"frage"
+2021-09-28 16:41:39,402:INFO:topic #2 (0.178): 0.336*"virus" + 0.254*"patient" + 0.213*"intensivstation" + 0.049*"zahl" + 0.048*"frage" + 0.009*"frau" + 0.008*"verlauf" + 0.008*"woche" + 0.008*"kind" + 0.008*"rolle"
+2021-09-28 16:41:39,402:INFO:topic #3 (0.184): 0.320*"forschung" + 0.276*"winter" + 0.276*"herbst" + 0.010*"patient" + 0.010*"kind" + 0.009*"frau" + 0.009*"intensivstation" + 0.009*"verlauf" + 0.009*"rolle" + 0.009*"virus"
+2021-09-28 16:41:39,402:INFO:topic #4 (0.225): 0.245*"herr" + 0.186*"woche" + 0.186*"rolle" + 0.156*"test" + 0.155*"verlauf" + 0.006*"symptom" + 0.006*"virus" + 0.006*"patient" + 0.006*"intensivstation" + 0.006*"frau"
+2021-09-28 16:41:39,402:INFO:topic diff=0.012582, rho=0.258199
+2021-09-28 16:41:39,402:INFO:PROGRESS: pass 14, at document #218/218
+2021-09-28 16:41:39,411:INFO:optimized alpha [0.22243278, 0.18125206, 0.17677642, 0.18256783, 0.2259292]
+2021-09-28 16:41:39,411:INFO:topic #0 (0.222): 0.451*"frau" + 0.260*"kind" + 0.198*"frage" + 0.007*"herr" + 0.007*"zahl" + 0.006*"mensch" + 0.006*"forschung" + 0.006*"rolle" + 0.006*"virus" + 0.006*"symptom"
+2021-09-28 16:41:39,411:INFO:topic #1 (0.181): 0.402*"symptom" + 0.255*"mensch" + 0.206*"zahl" + 0.010*"virus" + 0.010*"verlauf" + 0.010*"rolle" + 0.010*"kind" + 0.010*"frau" + 0.010*"herr" + 0.010*"frage"
+2021-09-28 16:41:39,411:INFO:topic #2 (0.177): 0.336*"virus" + 0.254*"patient" + 0.213*"intensivstation" + 0.049*"zahl" + 0.048*"frage" + 0.008*"verlauf" + 0.008*"frau" + 0.008*"woche" + 0.008*"kind" + 0.008*"rolle"
+2021-09-28 16:41:39,411:INFO:topic #3 (0.183): 0.321*"forschung" + 0.276*"winter" + 0.276*"herbst" + 0.010*"patient" + 0.009*"kind" + 0.009*"frau" + 0.009*"intensivstation" + 0.009*"verlauf" + 0.009*"rolle" + 0.009*"virus"
+2021-09-28 16:41:39,411:INFO:topic #4 (0.226): 0.245*"herr" + 0.186*"woche" + 0.186*"rolle" + 0.156*"test" + 0.155*"verlauf" + 0.006*"symptom" + 0.006*"virus" + 0.006*"patient" + 0.006*"intensivstation" + 0.006*"frau"
+2021-09-28 16:41:39,411:INFO:topic diff=0.009336, rho=0.250000
+2021-09-28 16:41:39,412:INFO:PROGRESS: pass 15, at document #218/218
+2021-09-28 16:41:39,421:INFO:optimized alpha [0.2231369, 0.18064378, 0.17601694, 0.18165144, 0.2269917]
+2021-09-28 16:41:39,421:INFO:topic #0 (0.223): 0.451*"frau" + 0.261*"kind" + 0.198*"frage" + 0.007*"herr" + 0.006*"zahl" + 0.006*"mensch" + 0.006*"forschung" + 0.006*"rolle" + 0.006*"virus" + 0.006*"symptom"
+2021-09-28 16:41:39,421:INFO:topic #1 (0.181): 0.402*"symptom" + 0.255*"mensch" + 0.206*"zahl" + 0.010*"virus" + 0.010*"rolle" + 0.010*"verlauf" + 0.010*"kind" + 0.010*"frau" + 0.010*"herr" + 0.010*"frage"
+2021-09-28 16:41:39,421:INFO:topic #2 (0.176): 0.336*"virus" + 0.254*"patient" + 0.213*"intensivstation" + 0.049*"zahl" + 0.048*"frage" + 0.008*"verlauf" + 0.008*"frau" + 0.008*"woche" + 0.008*"kind" + 0.008*"rolle"
+2021-09-28 16:41:39,421:INFO:topic #3 (0.182): 0.321*"forschung" + 0.276*"winter" + 0.276*"herbst" + 0.009*"patient" + 0.009*"kind" + 0.009*"frau" + 0.009*"intensivstation" + 0.009*"verlauf" + 0.009*"rolle" + 0.009*"virus"
+2021-09-28 16:41:39,421:INFO:topic #4 (0.227): 0.245*"herr" + 0.186*"woche" + 0.186*"rolle" + 0.156*"test" + 0.155*"verlauf" + 0.006*"symptom" + 0.006*"virus" + 0.006*"patient" + 0.006*"intensivstation" + 0.006*"frau"
+2021-09-28 16:41:39,421:INFO:topic diff=0.006970, rho=0.242536
+2021-09-28 16:41:39,421:INFO:PROGRESS: pass 16, at document #218/218
+2021-09-28 16:41:39,430:INFO:optimized alpha [0.22380593, 0.18006477, 0.17529403, 0.18078066, 0.22800227]
+2021-09-28 16:41:39,431:INFO:topic #0 (0.224): 0.451*"frau" + 0.261*"kind" + 0.198*"frage" + 0.007*"herr" + 0.006*"zahl" + 0.006*"forschung" + 0.006*"mensch" + 0.006*"rolle" + 0.006*"virus" + 0.006*"verlauf"
+2021-09-28 16:41:39,431:INFO:topic #1 (0.180): 0.402*"symptom" + 0.255*"mensch" + 0.206*"zahl" + 0.010*"virus" + 0.010*"rolle" + 0.010*"verlauf" + 0.010*"kind" + 0.010*"frau" + 0.010*"herr" + 0.010*"frage"
+2021-09-28 16:41:39,431:INFO:topic #2 (0.175): 0.336*"virus" + 0.254*"patient" + 0.213*"intensivstation" + 0.049*"zahl" + 0.048*"frage" + 0.008*"verlauf" + 0.008*"frau" + 0.008*"woche" + 0.008*"rolle" + 0.008*"kind"
+2021-09-28 16:41:39,431:INFO:topic #3 (0.181): 0.321*"forschung" + 0.276*"winter" + 0.276*"herbst" + 0.009*"patient" + 0.009*"kind" + 0.009*"frau" + 0.009*"intensivstation" + 0.009*"verlauf" + 0.009*"rolle" + 0.009*"virus"
+2021-09-28 16:41:39,431:INFO:topic #4 (0.228): 0.245*"herr" + 0.186*"woche" + 0.186*"rolle" + 0.156*"test" + 0.155*"verlauf" + 0.006*"symptom" + 0.006*"virus" + 0.006*"patient" + 0.006*"intensivstation" + 0.006*"frau"
+2021-09-28 16:41:39,431:INFO:topic diff=0.005231, rho=0.235702
+2021-09-28 16:41:39,431:INFO:PROGRESS: pass 17, at document #218/218
+2021-09-28 16:41:39,439:INFO:optimized alpha [0.22444348, 0.17951225, 0.17460431, 0.1799512, 0.22896512]
+2021-09-28 16:41:39,439:INFO:topic #0 (0.224): 0.451*"frau" + 0.261*"kind" + 0.198*"frage" + 0.007*"herr" + 0.006*"zahl" + 0.006*"forschung" + 0.006*"mensch" + 0.006*"rolle" + 0.006*"virus" + 0.006*"verlauf"
+2021-09-28 16:41:39,439:INFO:topic #1 (0.180): 0.402*"symptom" + 0.255*"mensch" + 0.206*"zahl" + 0.010*"virus" + 0.010*"rolle" + 0.010*"kind" + 0.010*"verlauf" + 0.010*"frau" + 0.010*"herr" + 0.010*"frage"
+2021-09-28 16:41:39,439:INFO:topic #2 (0.175): 0.337*"virus" + 0.254*"patient" + 0.213*"intensivstation" + 0.049*"zahl" + 0.048*"frage" + 0.008*"verlauf" + 0.008*"frau" + 0.008*"woche" + 0.008*"rolle" + 0.008*"kind"
+2021-09-28 16:41:39,439:INFO:topic #3 (0.180): 0.321*"forschung" + 0.277*"winter" + 0.277*"herbst" + 0.009*"patient" + 0.009*"frau" + 0.009*"kind" + 0.009*"intensivstation" + 0.009*"verlauf" + 0.009*"rolle" + 0.009*"virus"
+2021-09-28 16:41:39,440:INFO:topic #4 (0.229): 0.245*"herr" + 0.186*"woche" + 0.186*"rolle" + 0.156*"test" + 0.156*"verlauf" + 0.006*"symptom" + 0.006*"virus" + 0.006*"patient" + 0.006*"intensivstation" + 0.006*"frau"
+2021-09-28 16:41:39,440:INFO:topic diff=0.003955, rho=0.229416
+2021-09-28 16:41:39,440:INFO:PROGRESS: pass 18, at document #218/218
+2021-09-28 16:41:39,449:INFO:optimized alpha [0.22505188, 0.17898378, 0.17394501, 0.17915957, 0.2298843]
+2021-09-28 16:41:39,449:INFO:topic #0 (0.225): 0.452*"frau" + 0.261*"kind" + 0.198*"frage" + 0.007*"herr" + 0.006*"zahl" + 0.006*"forschung" + 0.006*"mensch" + 0.006*"rolle" + 0.006*"verlauf" + 0.006*"test"
+2021-09-28 16:41:39,449:INFO:topic #1 (0.179): 0.402*"symptom" + 0.255*"mensch" + 0.206*"zahl" + 0.010*"rolle" + 0.010*"virus" + 0.010*"kind" + 0.010*"verlauf" + 0.010*"frau" + 0.010*"herr" + 0.010*"frage"
+2021-09-28 16:41:39,449:INFO:topic #2 (0.174): 0.337*"virus" + 0.254*"patient" + 0.213*"intensivstation" + 0.049*"zahl" + 0.048*"frage" + 0.008*"verlauf" + 0.008*"frau" + 0.008*"woche" + 0.008*"rolle" + 0.008*"kind"
+2021-09-28 16:41:39,449:INFO:topic #3 (0.179): 0.321*"forschung" + 0.277*"winter" + 0.277*"herbst" + 0.009*"patient" + 0.009*"frau" + 0.009*"kind" + 0.009*"intensivstation" + 0.009*"verlauf" + 0.009*"rolle" + 0.009*"virus"
+2021-09-28 16:41:39,449:INFO:topic #4 (0.230): 0.245*"herr" + 0.186*"woche" + 0.186*"rolle" + 0.156*"test" + 0.156*"verlauf" + 0.006*"symptom" + 0.006*"virus" + 0.006*"patient" + 0.006*"intensivstation" + 0.006*"frau"
+2021-09-28 16:41:39,449:INFO:topic diff=0.003010, rho=0.223607
+2021-09-28 16:41:39,450:INFO:PROGRESS: pass 19, at document #218/218
+2021-09-28 16:41:39,459:INFO:optimized alpha [0.22563359, 0.17847748, 0.17331342, 0.17840245, 0.230763]
+2021-09-28 16:41:39,459:INFO:topic #0 (0.226): 0.452*"frau" + 0.261*"kind" + 0.198*"frage" + 0.007*"herr" + 0.006*"zahl" + 0.006*"forschung" + 0.006*"mensch" + 0.006*"rolle" + 0.006*"verlauf" + 0.006*"test"
+2021-09-28 16:41:39,459:INFO:topic #1 (0.178): 0.402*"symptom" + 0.255*"mensch" + 0.206*"zahl" + 0.010*"rolle" + 0.010*"kind" + 0.010*"virus" + 0.010*"verlauf" + 0.010*"frau" + 0.010*"herr" + 0.010*"frage"
+2021-09-28 16:41:39,459:INFO:topic #2 (0.173): 0.337*"virus" + 0.254*"patient" + 0.213*"intensivstation" + 0.049*"zahl" + 0.048*"frage" + 0.008*"verlauf" + 0.008*"frau" + 0.008*"rolle" + 0.008*"woche" + 0.008*"kind"
+2021-09-28 16:41:39,459:INFO:topic #3 (0.178): 0.321*"forschung" + 0.277*"winter" + 0.277*"herbst" + 0.009*"patient" + 0.009*"frau" + 0.009*"kind" + 0.009*"intensivstation" + 0.009*"verlauf" + 0.009*"rolle" + 0.009*"virus"
+2021-09-28 16:41:39,459:INFO:topic #4 (0.231): 0.245*"herr" + 0.186*"woche" + 0.186*"rolle" + 0.156*"test" + 0.156*"verlauf" + 0.006*"symptom" + 0.006*"virus" + 0.006*"patient" + 0.006*"intensivstation" + 0.006*"frau"
+2021-09-28 16:41:39,459:INFO:topic diff=0.002307, rho=0.218218
+2021-09-28 16:41:39,459:INFO:LdaModel lifecycle event {'msg': 'trained LdaModel(num_terms=17, num_topics=5, decay=0.5, chunksize=2000) in 0.20s', 'datetime': '2021-09-28T16:41:39.459933', 'gensim': '4.1.2', 'python': '3.9.5 (tags/v3.9.5:0a7dcbd, May  3 2021, 17:27:52) [MSC v.1928 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19043-SP0', 'event': 'created'}
+2021-09-28 16:41:39,463:INFO:
 
 **************TOPIC MODELING CHRISTIAN DROSTEN**************
-2021-09-27 17:33:42,770:INFO:adding document #0 to Dictionary(0 unique tokens: [])
-2021-09-27 17:33:42,780:INFO:built Dictionary(1894 unique tokens: ['der', 'entscheidung', 'jetzt', 'richtige', 'sein']...) from 1133 documents (total 11290 corpus positions)
-2021-09-27 17:33:42,780:INFO:Dictionary lifecycle event {'msg': "built Dictionary(1894 unique tokens: ['der', 'entscheidung', 'jetzt', 'richtige', 'sein']...) from 1133 documents (total 11290 corpus positions)", 'datetime': '2021-09-27T17:33:42.780655', 'gensim': '4.1.2', 'python': '3.9.5 (tags/v3.9.5:0a7dcbd, May  3 2021, 17:27:52) [MSC v.1928 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19043-SP0', 'event': 'created'}
-2021-09-27 17:33:42,781:INFO:discarding 1812 tokens: [('der', 639), ('entscheidung', 4), ('richtige', 7), ('ablesen', 6), ('entwicklung', 7), ('daran', 3), ('davon', 9), ('glauben', 6), ('irgendwas', 3), ('land', 14)]...
-2021-09-27 17:33:42,781:INFO:keeping 82 tokens which were in no less than 20 and no more than 566 (=50.0%) documents
-2021-09-27 17:33:42,781:INFO:resulting dictionary: Dictionary(82 unique tokens: ['jetzt', 'sein', 'an', 'dies', 'können']...)
-2021-09-27 17:33:42,785:INFO:using autotuned alpha, starting with [0.2, 0.2, 0.2, 0.2, 0.2]
-2021-09-27 17:33:42,785:INFO:using serial LDA version on this node
-2021-09-27 17:33:42,786:INFO:running online (multi-pass) LDA training, 5 topics, 20 passes over the supplied corpus of 1133 documents, updating model once every 1133 documents, evaluating perplexity every 0 documents, iterating 400x with a convergence threshold of 0.001000
-2021-09-27 17:33:42,786:INFO:PROGRESS: pass 0, at document #1133/1133
-2021-09-27 17:33:43,031:INFO:optimized alpha [0.13111523, 0.170858, 0.1573483, 0.15697044, 0.19256775]
-2021-09-27 17:33:43,031:INFO:topic #0 (0.131): 0.074*"ich" + 0.046*"oder" + 0.040*"können" + 0.037*"weil" + 0.031*"auch" + 0.028*"noch" + 0.028*"nicht" + 0.028*"gehen" + 0.025*"was" + 0.025*"haben"
-2021-09-27 17:33:43,031:INFO:topic #1 (0.171): 0.062*"man" + 0.061*"können" + 0.054*"sein" + 0.054*"was" + 0.051*"ich" + 0.045*"da" + 0.039*"wie" + 0.035*"in" + 0.030*"haben" + 0.029*"einen"
-2021-09-27 17:33:43,031:INFO:topic #2 (0.157): 0.147*"ich" + 0.049*"sein" + 0.048*"wie" + 0.036*"noch" + 0.033*"dies" + 0.027*"zu" + 0.027*"dass" + 0.023*"einen" + 0.023*"da" + 0.023*"denn"
-2021-09-27 17:33:43,031:INFO:topic #3 (0.157): 0.153*"ich" + 0.041*"haben" + 0.040*"einen" + 0.031*"auf" + 0.031*"sich" + 0.030*"sein" + 0.030*"sagen" + 0.030*"wie" + 0.027*"können" + 0.027*"für"
-2021-09-27 17:33:43,031:INFO:topic #4 (0.193): 0.094*"ich" + 0.087*"sein" + 0.039*"und" + 0.036*"nicht" + 0.034*"sich" + 0.030*"einen" + 0.028*"können" + 0.027*"oder" + 0.024*"in" + 0.024*"dies"
-2021-09-27 17:33:43,031:INFO:topic diff=1.014105, rho=1.000000
-2021-09-27 17:33:43,031:INFO:PROGRESS: pass 1, at document #1133/1133
-2021-09-27 17:33:43,234:INFO:optimized alpha [0.11536293, 0.15868302, 0.14571708, 0.1446817, 0.18494551]
-2021-09-27 17:33:43,234:INFO:topic #0 (0.115): 0.072*"ich" + 0.053*"oder" + 0.044*"können" + 0.041*"weil" + 0.035*"gehen" + 0.031*"nicht" + 0.031*"noch" + 0.029*"heißen" + 0.029*"machen" + 0.027*"auch"
-2021-09-27 17:33:43,235:INFO:topic #1 (0.159): 0.071*"man" + 0.067*"können" + 0.060*"was" + 0.052*"sein" + 0.048*"da" + 0.046*"ich" + 0.039*"wie" + 0.037*"in" + 0.031*"einen" + 0.030*"also"
-2021-09-27 17:33:43,235:INFO:topic #2 (0.146): 0.151*"ich" + 0.057*"sein" + 0.053*"wie" + 0.042*"dies" + 0.034*"noch" + 0.030*"zu" + 0.027*"da" + 0.026*"denn" + 0.024*"von" + 0.024*"dass"
-2021-09-27 17:33:43,235:INFO:topic #3 (0.145): 0.163*"ich" + 0.048*"haben" + 0.041*"einen" + 0.035*"sich" + 0.032*"auf" + 0.032*"was" + 0.032*"sagen" + 0.030*"für" + 0.029*"wie" + 0.029*"in"
-2021-09-27 17:33:43,235:INFO:topic #4 (0.185): 0.090*"sein" + 0.087*"ich" + 0.044*"und" + 0.040*"nicht" + 0.035*"sich" + 0.031*"einen" + 0.026*"oder" + 0.025*"auch" + 0.024*"können" + 0.023*"dies"
-2021-09-27 17:33:43,235:INFO:topic diff=0.232762, rho=0.577350
-2021-09-27 17:33:43,235:INFO:PROGRESS: pass 2, at document #1133/1133
-2021-09-27 17:33:43,417:INFO:optimized alpha [0.10561328, 0.14960474, 0.13851331, 0.13687292, 0.17821078]
-2021-09-27 17:33:43,417:INFO:topic #0 (0.106): 0.071*"ich" + 0.058*"oder" + 0.047*"können" + 0.041*"weil" + 0.038*"gehen" + 0.034*"nicht" + 0.032*"noch" + 0.032*"machen" + 0.030*"heißen" + 0.026*"jetzt"
-2021-09-27 17:33:43,418:INFO:topic #1 (0.150): 0.076*"man" + 0.070*"können" + 0.064*"was" + 0.051*"sein" + 0.048*"da" + 0.041*"wie" + 0.040*"ich" + 0.040*"in" + 0.032*"einen" + 0.031*"also"
-2021-09-27 17:33:43,418:INFO:topic #2 (0.139): 0.156*"ich" + 0.062*"sein" + 0.055*"wie" + 0.050*"dies" + 0.032*"noch" + 0.031*"zu" + 0.031*"da" + 0.028*"denn" + 0.026*"von" + 0.025*"in"
-2021-09-27 17:33:43,418:INFO:topic #3 (0.137): 0.168*"ich" + 0.053*"haben" + 0.042*"einen" + 0.038*"sich" + 0.038*"was" + 0.033*"für" + 0.033*"sagen" + 0.033*"auf" + 0.030*"in" + 0.027*"sein"
-2021-09-27 17:33:43,418:INFO:topic #4 (0.178): 0.092*"sein" + 0.082*"ich" + 0.047*"und" + 0.042*"nicht" + 0.034*"sich" + 0.033*"einen" + 0.027*"auch" + 0.025*"oder" + 0.022*"aber" + 0.022*"können"
-2021-09-27 17:33:43,418:INFO:topic diff=0.197803, rho=0.500000
-2021-09-27 17:33:43,418:INFO:PROGRESS: pass 3, at document #1133/1133
-2021-09-27 17:33:43,591:INFO:optimized alpha [0.09863009, 0.14262225, 0.13377938, 0.13131198, 0.17201298]
-2021-09-27 17:33:43,592:INFO:topic #0 (0.099): 0.071*"ich" + 0.060*"oder" + 0.052*"können" + 0.040*"weil" + 0.039*"gehen" + 0.035*"nicht" + 0.035*"machen" + 0.034*"noch" + 0.032*"heißen" + 0.028*"virus"
-2021-09-27 17:33:43,592:INFO:topic #1 (0.143): 0.080*"man" + 0.074*"können" + 0.066*"was" + 0.049*"sein" + 0.048*"da" + 0.042*"wie" + 0.041*"in" + 0.036*"ich" + 0.033*"einen" + 0.032*"also"
-2021-09-27 17:33:43,592:INFO:topic #2 (0.134): 0.157*"ich" + 0.068*"sein" + 0.057*"wie" + 0.054*"dies" + 0.034*"da" + 0.032*"zu" + 0.029*"noch" + 0.028*"denn" + 0.026*"von" + 0.026*"in"
-2021-09-27 17:33:43,592:INFO:topic #3 (0.131): 0.172*"ich" + 0.056*"haben" + 0.042*"was" + 0.041*"sich" + 0.041*"einen" + 0.036*"für" + 0.034*"sagen" + 0.032*"auf" + 0.030*"in" + 0.026*"können"
-2021-09-27 17:33:43,592:INFO:topic #4 (0.172): 0.093*"sein" + 0.078*"ich" + 0.050*"und" + 0.044*"nicht" + 0.035*"einen" + 0.034*"sich" + 0.029*"auch" + 0.024*"oder" + 0.023*"aber" + 0.023*"dann"
-2021-09-27 17:33:43,592:INFO:topic diff=0.170966, rho=0.447214
-2021-09-27 17:33:43,592:INFO:PROGRESS: pass 4, at document #1133/1133
-2021-09-27 17:33:43,760:INFO:optimized alpha [0.093586735, 0.13718826, 0.12997538, 0.12747937, 0.16609246]
-2021-09-27 17:33:43,760:INFO:topic #0 (0.094): 0.073*"ich" + 0.061*"oder" + 0.055*"können" + 0.041*"gehen" + 0.039*"weil" + 0.038*"nicht" + 0.037*"noch" + 0.035*"machen" + 0.032*"heißen" + 0.028*"virus"
-2021-09-27 17:33:43,760:INFO:topic #1 (0.137): 0.082*"man" + 0.076*"können" + 0.068*"was" + 0.049*"sein" + 0.048*"da" + 0.043*"wie" + 0.041*"in" + 0.034*"einen" + 0.034*"ich" + 0.033*"also"
-2021-09-27 17:33:43,760:INFO:topic #2 (0.130): 0.158*"ich" + 0.072*"sein" + 0.058*"dies" + 0.058*"wie" + 0.036*"da" + 0.033*"zu" + 0.028*"denn" + 0.027*"noch" + 0.027*"in" + 0.027*"von"
-2021-09-27 17:33:43,760:INFO:topic #3 (0.127): 0.173*"ich" + 0.058*"haben" + 0.045*"was" + 0.043*"sich" + 0.040*"einen" + 0.038*"für" + 0.035*"sagen" + 0.032*"auf" + 0.031*"in" + 0.026*"können"
-2021-09-27 17:33:43,760:INFO:topic #4 (0.166): 0.092*"sein" + 0.075*"ich" + 0.052*"und" + 0.045*"nicht" + 0.036*"einen" + 0.033*"sich" + 0.030*"auch" + 0.024*"dann" + 0.024*"aber" + 0.023*"oder"
-2021-09-27 17:33:43,760:INFO:topic diff=0.152449, rho=0.408248
-2021-09-27 17:33:43,760:INFO:PROGRESS: pass 5, at document #1133/1133
-2021-09-27 17:33:43,922:INFO:optimized alpha [0.0896019, 0.13298689, 0.1270773, 0.124477156, 0.16122256]
-2021-09-27 17:33:43,922:INFO:topic #0 (0.090): 0.074*"ich" + 0.062*"oder" + 0.058*"können" + 0.041*"gehen" + 0.040*"noch" + 0.038*"weil" + 0.038*"nicht" + 0.035*"machen" + 0.034*"heißen" + 0.027*"virus"
-2021-09-27 17:33:43,922:INFO:topic #1 (0.133): 0.084*"man" + 0.078*"können" + 0.068*"was" + 0.049*"sein" + 0.048*"da" + 0.045*"wie" + 0.042*"in" + 0.035*"einen" + 0.033*"also" + 0.031*"ich"
-2021-09-27 17:33:43,922:INFO:topic #2 (0.127): 0.158*"ich" + 0.076*"sein" + 0.061*"dies" + 0.058*"wie" + 0.037*"da" + 0.034*"zu" + 0.029*"denn" + 0.027*"in" + 0.027*"von" + 0.026*"noch"
-2021-09-27 17:33:43,923:INFO:topic #3 (0.124): 0.175*"ich" + 0.060*"haben" + 0.048*"was" + 0.045*"sich" + 0.039*"für" + 0.039*"einen" + 0.037*"sagen" + 0.032*"in" + 0.030*"auf" + 0.026*"können"
-2021-09-27 17:33:43,923:INFO:topic #4 (0.161): 0.092*"sein" + 0.074*"ich" + 0.054*"und" + 0.046*"nicht" + 0.037*"einen" + 0.033*"sich" + 0.031*"auch" + 0.025*"dann" + 0.025*"aber" + 0.022*"oder"
-2021-09-27 17:33:43,923:INFO:topic diff=0.140845, rho=0.377964
-2021-09-27 17:33:43,923:INFO:PROGRESS: pass 6, at document #1133/1133
-2021-09-27 17:33:44,085:INFO:optimized alpha [0.08629641, 0.12959544, 0.1247889, 0.12228404, 0.15721346]
-2021-09-27 17:33:44,085:INFO:topic #0 (0.086): 0.075*"ich" + 0.063*"oder" + 0.059*"können" + 0.042*"noch" + 0.042*"gehen" + 0.039*"nicht" + 0.038*"weil" + 0.035*"heißen" + 0.035*"machen" + 0.026*"virus"
-2021-09-27 17:33:44,085:INFO:topic #1 (0.130): 0.085*"man" + 0.080*"können" + 0.068*"was" + 0.049*"sein" + 0.047*"da" + 0.046*"wie" + 0.042*"in" + 0.036*"einen" + 0.034*"also" + 0.031*"so"
-2021-09-27 17:33:44,085:INFO:topic #2 (0.125): 0.157*"ich" + 0.078*"sein" + 0.063*"dies" + 0.059*"wie" + 0.039*"da" + 0.035*"zu" + 0.029*"denn" + 0.027*"in" + 0.027*"von" + 0.024*"noch"
-2021-09-27 17:33:44,085:INFO:topic #3 (0.122): 0.177*"ich" + 0.061*"haben" + 0.050*"was" + 0.047*"sich" + 0.040*"für" + 0.038*"einen" + 0.037*"sagen" + 0.032*"in" + 0.029*"auf" + 0.026*"können"
-2021-09-27 17:33:44,085:INFO:topic #4 (0.157): 0.092*"sein" + 0.072*"ich" + 0.055*"und" + 0.047*"nicht" + 0.038*"einen" + 0.033*"sich" + 0.032*"auch" + 0.026*"dann" + 0.026*"aber" + 0.023*"wenn"
-2021-09-27 17:33:44,085:INFO:topic diff=0.127695, rho=0.353553
-2021-09-27 17:33:44,086:INFO:PROGRESS: pass 7, at document #1133/1133
-2021-09-27 17:33:44,239:INFO:optimized alpha [0.08353485, 0.12651287, 0.122878484, 0.12045606, 0.1536365]
-2021-09-27 17:33:44,239:INFO:topic #0 (0.084): 0.076*"ich" + 0.063*"oder" + 0.061*"können" + 0.043*"noch" + 0.042*"gehen" + 0.039*"nicht" + 0.038*"weil" + 0.035*"heißen" + 0.034*"machen" + 0.026*"virus"
-2021-09-27 17:33:44,239:INFO:topic #1 (0.127): 0.087*"man" + 0.082*"können" + 0.068*"was" + 0.049*"sein" + 0.047*"wie" + 0.047*"da" + 0.042*"in" + 0.037*"einen" + 0.035*"also" + 0.032*"so"
-2021-09-27 17:33:44,239:INFO:topic #2 (0.123): 0.157*"ich" + 0.080*"sein" + 0.064*"dies" + 0.060*"wie" + 0.040*"da" + 0.036*"zu" + 0.029*"denn" + 0.027*"in" + 0.027*"von" + 0.024*"noch"
-2021-09-27 17:33:44,239:INFO:topic #3 (0.120): 0.177*"ich" + 0.062*"haben" + 0.053*"was" + 0.048*"sich" + 0.041*"für" + 0.038*"sagen" + 0.037*"einen" + 0.033*"in" + 0.028*"auf" + 0.026*"können"
-2021-09-27 17:33:44,239:INFO:topic #4 (0.154): 0.092*"sein" + 0.072*"ich" + 0.056*"und" + 0.048*"nicht" + 0.039*"einen" + 0.033*"auch" + 0.032*"sich" + 0.027*"dann" + 0.026*"aber" + 0.024*"wenn"
-2021-09-27 17:33:44,239:INFO:topic diff=0.114537, rho=0.333333
-2021-09-27 17:33:44,240:INFO:PROGRESS: pass 8, at document #1133/1133
-2021-09-27 17:33:44,397:INFO:optimized alpha [0.08122009, 0.123586155, 0.12118932, 0.119046636, 0.15059964]
-2021-09-27 17:33:44,397:INFO:topic #0 (0.081): 0.078*"ich" + 0.063*"oder" + 0.062*"können" + 0.043*"noch" + 0.042*"gehen" + 0.039*"nicht" + 0.038*"weil" + 0.034*"heißen" + 0.034*"machen" + 0.025*"virus"
-2021-09-27 17:33:44,397:INFO:topic #1 (0.124): 0.089*"man" + 0.084*"können" + 0.067*"was" + 0.049*"sein" + 0.048*"wie" + 0.046*"da" + 0.042*"in" + 0.038*"einen" + 0.035*"also" + 0.033*"so"
-2021-09-27 17:33:44,397:INFO:topic #2 (0.121): 0.156*"ich" + 0.082*"sein" + 0.066*"dies" + 0.060*"wie" + 0.042*"da" + 0.037*"zu" + 0.029*"denn" + 0.028*"in" + 0.028*"von" + 0.023*"noch"
-2021-09-27 17:33:44,397:INFO:topic #3 (0.119): 0.177*"ich" + 0.063*"haben" + 0.056*"was" + 0.049*"sich" + 0.041*"für" + 0.039*"sagen" + 0.037*"einen" + 0.033*"in" + 0.027*"auf" + 0.026*"können"
-2021-09-27 17:33:44,398:INFO:topic #4 (0.151): 0.092*"sein" + 0.071*"ich" + 0.057*"und" + 0.048*"nicht" + 0.039*"einen" + 0.034*"auch" + 0.032*"sich" + 0.027*"dann" + 0.027*"aber" + 0.025*"wenn"
-2021-09-27 17:33:44,398:INFO:topic diff=0.105180, rho=0.316228
-2021-09-27 17:33:44,398:INFO:PROGRESS: pass 9, at document #1133/1133
-2021-09-27 17:33:44,545:INFO:optimized alpha [0.079309724, 0.120906234, 0.11976831, 0.11780316, 0.14782049]
-2021-09-27 17:33:44,545:INFO:topic #0 (0.079): 0.078*"ich" + 0.063*"können" + 0.063*"oder" + 0.044*"noch" + 0.041*"gehen" + 0.040*"nicht" + 0.038*"weil" + 0.034*"heißen" + 0.034*"machen" + 0.026*"man"
-2021-09-27 17:33:44,545:INFO:topic #1 (0.121): 0.090*"man" + 0.086*"können" + 0.066*"was" + 0.049*"wie" + 0.049*"sein" + 0.045*"da" + 0.042*"in" + 0.038*"einen" + 0.036*"also" + 0.033*"so"
-2021-09-27 17:33:44,545:INFO:topic #2 (0.120): 0.155*"ich" + 0.082*"sein" + 0.067*"dies" + 0.060*"wie" + 0.043*"da" + 0.038*"zu" + 0.030*"denn" + 0.028*"in" + 0.028*"von" + 0.022*"noch"
-2021-09-27 17:33:44,545:INFO:topic #3 (0.118): 0.178*"ich" + 0.063*"haben" + 0.058*"was" + 0.050*"sich" + 0.042*"für" + 0.039*"sagen" + 0.036*"einen" + 0.034*"in" + 0.026*"auf" + 0.026*"sein"
-2021-09-27 17:33:44,545:INFO:topic #4 (0.148): 0.092*"sein" + 0.070*"ich" + 0.057*"und" + 0.048*"nicht" + 0.040*"einen" + 0.035*"auch" + 0.032*"sich" + 0.028*"dann" + 0.027*"aber" + 0.025*"wenn"
-2021-09-27 17:33:44,545:INFO:topic diff=0.095404, rho=0.301511
-2021-09-27 17:33:44,546:INFO:PROGRESS: pass 10, at document #1133/1133
-2021-09-27 17:33:44,694:INFO:optimized alpha [0.07760625, 0.118627205, 0.11855237, 0.11663243, 0.14558467]
-2021-09-27 17:33:44,695:INFO:topic #0 (0.078): 0.080*"ich" + 0.064*"können" + 0.062*"oder" + 0.044*"noch" + 0.041*"nicht" + 0.041*"gehen" + 0.039*"weil" + 0.034*"heißen" + 0.033*"machen" + 0.028*"mehr"
-2021-09-27 17:33:44,695:INFO:topic #1 (0.119): 0.091*"man" + 0.088*"können" + 0.065*"was" + 0.050*"wie" + 0.049*"sein" + 0.044*"da" + 0.042*"in" + 0.039*"einen" + 0.036*"also" + 0.034*"so"
-2021-09-27 17:33:44,695:INFO:topic #2 (0.119): 0.154*"ich" + 0.084*"sein" + 0.069*"dies" + 0.061*"wie" + 0.044*"da" + 0.038*"zu" + 0.030*"denn" + 0.029*"in" + 0.028*"von" + 0.022*"noch"
-2021-09-27 17:33:44,695:INFO:topic #3 (0.117): 0.179*"ich" + 0.064*"haben" + 0.061*"was" + 0.050*"sich" + 0.042*"für" + 0.040*"sagen" + 0.035*"einen" + 0.034*"in" + 0.026*"können" + 0.025*"sein"
-2021-09-27 17:33:44,695:INFO:topic #4 (0.146): 0.092*"sein" + 0.070*"ich" + 0.058*"und" + 0.048*"nicht" + 0.041*"einen" + 0.035*"auch" + 0.032*"sich" + 0.028*"dann" + 0.027*"aber" + 0.026*"wenn"
-2021-09-27 17:33:44,695:INFO:topic diff=0.087879, rho=0.288675
-2021-09-27 17:33:44,695:INFO:PROGRESS: pass 11, at document #1133/1133
-2021-09-27 17:33:44,860:INFO:optimized alpha [0.07614872, 0.11647243, 0.117563605, 0.11569547, 0.14326364]
-2021-09-27 17:33:44,860:INFO:topic #0 (0.076): 0.081*"ich" + 0.065*"können" + 0.061*"oder" + 0.044*"noch" + 0.042*"nicht" + 0.040*"gehen" + 0.039*"weil" + 0.034*"heißen" + 0.033*"machen" + 0.029*"mehr"
-2021-09-27 17:33:44,860:INFO:topic #1 (0.116): 0.092*"man" + 0.089*"können" + 0.065*"was" + 0.051*"wie" + 0.049*"sein" + 0.044*"da" + 0.041*"in" + 0.040*"einen" + 0.037*"also" + 0.035*"so"
-2021-09-27 17:33:44,860:INFO:topic #2 (0.118): 0.153*"ich" + 0.085*"sein" + 0.070*"dies" + 0.061*"wie" + 0.045*"da" + 0.039*"zu" + 0.030*"denn" + 0.029*"in" + 0.028*"von" + 0.022*"gibt"
-2021-09-27 17:33:44,860:INFO:topic #3 (0.116): 0.179*"ich" + 0.064*"haben" + 0.063*"was" + 0.051*"sich" + 0.042*"für" + 0.040*"sagen" + 0.035*"einen" + 0.034*"in" + 0.025*"können" + 0.025*"sein"
-2021-09-27 17:33:44,860:INFO:topic #4 (0.143): 0.091*"sein" + 0.070*"ich" + 0.059*"und" + 0.048*"nicht" + 0.041*"einen" + 0.036*"auch" + 0.031*"sich" + 0.029*"dann" + 0.027*"aber" + 0.027*"wenn"
-2021-09-27 17:33:44,860:INFO:topic diff=0.081897, rho=0.277350
-2021-09-27 17:33:44,861:INFO:PROGRESS: pass 12, at document #1133/1133
-2021-09-27 17:33:45,006:INFO:optimized alpha [0.07488418, 0.11467741, 0.11668423, 0.11479593, 0.1413293]
-2021-09-27 17:33:45,006:INFO:topic #0 (0.075): 0.082*"ich" + 0.066*"können" + 0.061*"oder" + 0.045*"noch" + 0.044*"nicht" + 0.039*"weil" + 0.039*"gehen" + 0.033*"heißen" + 0.032*"machen" + 0.029*"mehr"
-2021-09-27 17:33:45,007:INFO:topic #1 (0.115): 0.093*"man" + 0.090*"können" + 0.064*"was" + 0.052*"wie" + 0.049*"sein" + 0.043*"da" + 0.041*"in" + 0.040*"einen" + 0.037*"also" + 0.035*"so"
-2021-09-27 17:33:45,007:INFO:topic #2 (0.117): 0.153*"ich" + 0.086*"sein" + 0.071*"dies" + 0.060*"wie" + 0.046*"da" + 0.039*"zu" + 0.030*"denn" + 0.029*"in" + 0.029*"von" + 0.022*"gibt"
-2021-09-27 17:33:45,007:INFO:topic #3 (0.115): 0.179*"ich" + 0.065*"was" + 0.064*"haben" + 0.051*"sich" + 0.043*"für" + 0.041*"sagen" + 0.035*"einen" + 0.034*"in" + 0.025*"können" + 0.025*"sein"
-2021-09-27 17:33:45,007:INFO:topic #4 (0.141): 0.091*"sein" + 0.069*"ich" + 0.059*"und" + 0.048*"nicht" + 0.042*"einen" + 0.036*"auch" + 0.031*"sich" + 0.029*"dann" + 0.027*"aber" + 0.027*"wenn"
-2021-09-27 17:33:45,007:INFO:topic diff=0.075931, rho=0.267261
-2021-09-27 17:33:45,007:INFO:PROGRESS: pass 13, at document #1133/1133
-2021-09-27 17:33:45,145:INFO:optimized alpha [0.07376352, 0.112987906, 0.11587867, 0.114213735, 0.13945158]
-2021-09-27 17:33:45,145:INFO:topic #0 (0.074): 0.083*"ich" + 0.067*"können" + 0.060*"oder" + 0.045*"noch" + 0.045*"nicht" + 0.039*"weil" + 0.038*"gehen" + 0.033*"heißen" + 0.031*"machen" + 0.030*"mehr"
-2021-09-27 17:33:45,145:INFO:topic #1 (0.113): 0.094*"man" + 0.091*"können" + 0.063*"was" + 0.053*"wie" + 0.049*"sein" + 0.044*"da" + 0.041*"in" + 0.041*"einen" + 0.037*"also" + 0.036*"so"
-2021-09-27 17:33:45,145:INFO:topic #2 (0.116): 0.152*"ich" + 0.087*"sein" + 0.072*"dies" + 0.060*"wie" + 0.046*"da" + 0.040*"zu" + 0.030*"denn" + 0.029*"in" + 0.029*"von" + 0.023*"gibt"
-2021-09-27 17:33:45,145:INFO:topic #3 (0.114): 0.179*"ich" + 0.066*"was" + 0.065*"haben" + 0.052*"sich" + 0.043*"für" + 0.041*"sagen" + 0.034*"in" + 0.034*"einen" + 0.025*"können" + 0.025*"sein"
-2021-09-27 17:33:45,145:INFO:topic #4 (0.139): 0.091*"sein" + 0.069*"ich" + 0.059*"und" + 0.048*"nicht" + 0.042*"einen" + 0.037*"auch" + 0.031*"sich" + 0.029*"dann" + 0.027*"wenn" + 0.027*"aber"
-2021-09-27 17:33:45,145:INFO:topic diff=0.070081, rho=0.258199
-2021-09-27 17:33:45,146:INFO:PROGRESS: pass 14, at document #1133/1133
-2021-09-27 17:33:45,285:INFO:optimized alpha [0.072775744, 0.1114519, 0.11510399, 0.11359004, 0.13759851]
-2021-09-27 17:33:45,285:INFO:topic #0 (0.073): 0.084*"ich" + 0.068*"können" + 0.060*"oder" + 0.045*"nicht" + 0.045*"noch" + 0.039*"weil" + 0.038*"gehen" + 0.033*"heißen" + 0.031*"machen" + 0.031*"mehr"
-2021-09-27 17:33:45,285:INFO:topic #1 (0.111): 0.095*"man" + 0.092*"können" + 0.062*"was" + 0.054*"wie" + 0.049*"sein" + 0.044*"da" + 0.041*"einen" + 0.040*"in" + 0.037*"also" + 0.036*"so"
-2021-09-27 17:33:45,285:INFO:topic #2 (0.115): 0.152*"ich" + 0.087*"sein" + 0.073*"dies" + 0.060*"wie" + 0.046*"da" + 0.041*"zu" + 0.030*"denn" + 0.030*"in" + 0.029*"von" + 0.023*"gibt"
-2021-09-27 17:33:45,285:INFO:topic #3 (0.114): 0.179*"ich" + 0.068*"was" + 0.065*"haben" + 0.052*"sich" + 0.043*"für" + 0.041*"sagen" + 0.034*"in" + 0.034*"einen" + 0.025*"sein" + 0.025*"können"
-2021-09-27 17:33:45,286:INFO:topic #4 (0.138): 0.091*"sein" + 0.069*"ich" + 0.060*"und" + 0.048*"nicht" + 0.043*"einen" + 0.037*"auch" + 0.031*"sich" + 0.029*"dann" + 0.028*"wenn" + 0.027*"aber"
-2021-09-27 17:33:45,286:INFO:topic diff=0.065081, rho=0.250000
-2021-09-27 17:33:45,286:INFO:PROGRESS: pass 15, at document #1133/1133
-2021-09-27 17:33:45,424:INFO:optimized alpha [0.071864545, 0.11006653, 0.11449783, 0.113168865, 0.135861]
-2021-09-27 17:33:45,424:INFO:topic #0 (0.072): 0.085*"ich" + 0.069*"können" + 0.059*"oder" + 0.046*"nicht" + 0.045*"noch" + 0.040*"weil" + 0.037*"gehen" + 0.032*"heißen" + 0.030*"mehr" + 0.030*"machen"
-2021-09-27 17:33:45,424:INFO:topic #1 (0.110): 0.096*"man" + 0.094*"können" + 0.061*"was" + 0.055*"wie" + 0.049*"sein" + 0.044*"da" + 0.042*"einen" + 0.040*"in" + 0.037*"also" + 0.036*"so"
-2021-09-27 17:33:45,424:INFO:topic #2 (0.114): 0.151*"ich" + 0.089*"sein" + 0.074*"dies" + 0.060*"wie" + 0.046*"da" + 0.041*"zu" + 0.030*"denn" + 0.030*"in" + 0.029*"von" + 0.024*"gibt"
-2021-09-27 17:33:45,424:INFO:topic #3 (0.113): 0.179*"ich" + 0.070*"was" + 0.066*"haben" + 0.052*"sich" + 0.043*"für" + 0.041*"sagen" + 0.035*"in" + 0.033*"einen" + 0.025*"sein" + 0.025*"können"
-2021-09-27 17:33:45,424:INFO:topic #4 (0.136): 0.091*"sein" + 0.069*"ich" + 0.060*"und" + 0.048*"nicht" + 0.043*"einen" + 0.038*"auch" + 0.031*"sich" + 0.030*"dann" + 0.028*"wenn" + 0.027*"aber"
-2021-09-27 17:33:45,424:INFO:topic diff=0.061561, rho=0.242536
-2021-09-27 17:33:45,424:INFO:PROGRESS: pass 16, at document #1133/1133
-2021-09-27 17:33:45,562:INFO:optimized alpha [0.07109238, 0.1088639, 0.11391867, 0.112794295, 0.13414402]
-2021-09-27 17:33:45,562:INFO:topic #0 (0.071): 0.085*"ich" + 0.070*"können" + 0.059*"oder" + 0.047*"nicht" + 0.045*"noch" + 0.040*"weil" + 0.035*"gehen" + 0.032*"heißen" + 0.031*"mehr" + 0.030*"man"
-2021-09-27 17:33:45,563:INFO:topic #1 (0.109): 0.096*"man" + 0.095*"können" + 0.060*"was" + 0.055*"wie" + 0.049*"sein" + 0.044*"da" + 0.042*"einen" + 0.040*"in" + 0.037*"also" + 0.036*"so"
-2021-09-27 17:33:45,563:INFO:topic #2 (0.114): 0.151*"ich" + 0.089*"sein" + 0.074*"dies" + 0.060*"wie" + 0.046*"da" + 0.042*"zu" + 0.031*"denn" + 0.030*"in" + 0.029*"von" + 0.024*"gibt"
-2021-09-27 17:33:45,563:INFO:topic #3 (0.113): 0.180*"ich" + 0.071*"was" + 0.066*"haben" + 0.052*"sich" + 0.043*"für" + 0.042*"sagen" + 0.035*"in" + 0.033*"einen" + 0.025*"sein" + 0.024*"können"
-2021-09-27 17:33:45,563:INFO:topic #4 (0.134): 0.091*"sein" + 0.068*"ich" + 0.060*"und" + 0.047*"nicht" + 0.043*"einen" + 0.038*"auch" + 0.031*"sich" + 0.030*"dann" + 0.029*"wenn" + 0.027*"aber"
-2021-09-27 17:33:45,563:INFO:topic diff=0.058025, rho=0.235702
-2021-09-27 17:33:45,563:INFO:PROGRESS: pass 17, at document #1133/1133
-2021-09-27 17:33:45,700:INFO:optimized alpha [0.070385456, 0.10765715, 0.113405414, 0.11248775, 0.13263367]
-2021-09-27 17:33:45,700:INFO:topic #0 (0.070): 0.086*"ich" + 0.070*"können" + 0.058*"oder" + 0.048*"nicht" + 0.045*"noch" + 0.040*"weil" + 0.035*"gehen" + 0.032*"heißen" + 0.031*"mehr" + 0.030*"man"
-2021-09-27 17:33:45,700:INFO:topic #1 (0.108): 0.097*"man" + 0.096*"können" + 0.059*"was" + 0.056*"wie" + 0.049*"sein" + 0.045*"da" + 0.042*"einen" + 0.039*"in" + 0.037*"also" + 0.037*"so"
-2021-09-27 17:33:45,700:INFO:topic #2 (0.113): 0.150*"ich" + 0.090*"sein" + 0.075*"dies" + 0.060*"wie" + 0.046*"da" + 0.042*"zu" + 0.031*"denn" + 0.030*"in" + 0.030*"von" + 0.025*"gibt"
-2021-09-27 17:33:45,700:INFO:topic #3 (0.112): 0.180*"ich" + 0.072*"was" + 0.066*"haben" + 0.052*"sich" + 0.043*"für" + 0.042*"sagen" + 0.035*"in" + 0.033*"einen" + 0.025*"sein" + 0.024*"können"
-2021-09-27 17:33:45,700:INFO:topic #4 (0.133): 0.091*"sein" + 0.068*"ich" + 0.060*"und" + 0.047*"nicht" + 0.044*"einen" + 0.039*"auch" + 0.031*"sich" + 0.030*"dann" + 0.029*"wenn" + 0.027*"aber"
-2021-09-27 17:33:45,700:INFO:topic diff=0.054070, rho=0.229416
-2021-09-27 17:33:45,701:INFO:PROGRESS: pass 18, at document #1133/1133
-2021-09-27 17:33:45,840:INFO:optimized alpha [0.069766, 0.10653457, 0.11291509, 0.11230454, 0.13117363]
-2021-09-27 17:33:45,840:INFO:topic #0 (0.070): 0.087*"ich" + 0.071*"können" + 0.058*"oder" + 0.048*"nicht" + 0.045*"noch" + 0.041*"weil" + 0.034*"gehen" + 0.032*"heißen" + 0.031*"mehr" + 0.030*"man"
-2021-09-27 17:33:45,840:INFO:topic #1 (0.107): 0.098*"man" + 0.097*"können" + 0.058*"was" + 0.057*"wie" + 0.049*"sein" + 0.045*"da" + 0.042*"einen" + 0.039*"in" + 0.037*"also" + 0.037*"mein"
-2021-09-27 17:33:45,840:INFO:topic #2 (0.113): 0.149*"ich" + 0.091*"sein" + 0.075*"dies" + 0.060*"wie" + 0.047*"da" + 0.043*"zu" + 0.031*"denn" + 0.030*"in" + 0.030*"von" + 0.025*"gibt"
-2021-09-27 17:33:45,840:INFO:topic #3 (0.112): 0.181*"ich" + 0.074*"was" + 0.066*"haben" + 0.052*"sich" + 0.044*"für" + 0.042*"sagen" + 0.035*"in" + 0.032*"einen" + 0.025*"sein" + 0.024*"können"
-2021-09-27 17:33:45,840:INFO:topic #4 (0.131): 0.091*"sein" + 0.068*"ich" + 0.061*"und" + 0.047*"nicht" + 0.044*"einen" + 0.039*"auch" + 0.031*"sich" + 0.030*"dann" + 0.029*"wenn" + 0.027*"aber"
-2021-09-27 17:33:45,840:INFO:topic diff=0.050963, rho=0.223607
-2021-09-27 17:33:45,840:INFO:PROGRESS: pass 19, at document #1133/1133
-2021-09-27 17:33:45,973:INFO:optimized alpha [0.069111995, 0.10548555, 0.112478174, 0.1121121, 0.12982243]
-2021-09-27 17:33:45,973:INFO:topic #0 (0.069): 0.087*"ich" + 0.072*"können" + 0.057*"oder" + 0.049*"nicht" + 0.045*"noch" + 0.041*"weil" + 0.033*"gehen" + 0.032*"heißen" + 0.032*"mehr" + 0.031*"man"
-2021-09-27 17:33:45,973:INFO:topic #1 (0.105): 0.098*"man" + 0.097*"können" + 0.057*"wie" + 0.057*"was" + 0.048*"sein" + 0.045*"da" + 0.043*"einen" + 0.039*"in" + 0.038*"mein" + 0.037*"also"
-2021-09-27 17:33:45,973:INFO:topic #2 (0.112): 0.149*"ich" + 0.092*"sein" + 0.076*"dies" + 0.060*"wie" + 0.047*"da" + 0.043*"zu" + 0.031*"denn" + 0.030*"in" + 0.030*"von" + 0.025*"gibt"
-2021-09-27 17:33:45,973:INFO:topic #3 (0.112): 0.181*"ich" + 0.075*"was" + 0.066*"haben" + 0.052*"sich" + 0.044*"für" + 0.042*"sagen" + 0.035*"in" + 0.032*"einen" + 0.025*"sein" + 0.024*"können"
-2021-09-27 17:33:45,974:INFO:topic #4 (0.130): 0.091*"sein" + 0.068*"ich" + 0.061*"und" + 0.047*"nicht" + 0.044*"einen" + 0.040*"auch" + 0.031*"sich" + 0.030*"dann" + 0.029*"wenn" + 0.027*"aber"
-2021-09-27 17:33:45,974:INFO:topic diff=0.047478, rho=0.218218
-2021-09-27 17:33:45,974:INFO:LdaModel lifecycle event {'msg': 'trained LdaModel(num_terms=82, num_topics=5, decay=0.5, chunksize=2000) in 3.19s', 'datetime': '2021-09-27T17:33:45.974661', 'gensim': '4.1.2', 'python': '3.9.5 (tags/v3.9.5:0a7dcbd, May  3 2021, 17:27:52) [MSC v.1928 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19043-SP0', 'event': 'created'}
-2021-09-27 17:33:45,977:INFO:CorpusAccumulator accumulated stats from 1000 documents
-2021-09-27 17:33:45,983:INFO:
+2021-09-28 16:41:39,463:INFO:adding document #0 to Dictionary(0 unique tokens: [])
+2021-09-28 16:41:39,466:INFO:built Dictionary(810 unique tokens: ['entscheidung', 'entwicklung', 'zahl', 'land', 'datenlage']...) from 837 documents (total 1782 corpus positions)
+2021-09-28 16:41:39,466:INFO:Dictionary lifecycle event {'msg': "built Dictionary(810 unique tokens: ['entscheidung', 'entwicklung', 'zahl', 'land', 'datenlage']...) from 837 documents (total 1782 corpus positions)", 'datetime': '2021-09-28T16:41:39.466886', 'gensim': '4.1.2', 'python': '3.9.5 (tags/v3.9.5:0a7dcbd, May  3 2021, 17:27:52) [MSC v.1928 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19043-SP0', 'event': 'created'}
+2021-09-28 16:41:39,466:INFO:discarding 743 tokens: [('entscheidung', 4), ('datenlage', 1), ('modellrechnungen', 1), ('schritt', 3), ('müssten', 1), ('monat', 2), ('abstandsregelung', 1), ('person', 3), ('reproduktionszahl', 1), ('rezeptor', 1)]...
+2021-09-28 16:41:39,466:INFO:keeping 67 tokens which were in no less than 5 and no more than 418 (=50.0%) documents
+2021-09-28 16:41:39,467:INFO:resulting dictionary: Dictionary(67 unique tokens: ['entwicklung', 'zahl', 'land', 'moment', 'ergebnis']...)
+2021-09-28 16:41:39,468:INFO:using autotuned alpha, starting with [0.2, 0.2, 0.2, 0.2, 0.2]
+2021-09-28 16:41:39,468:INFO:using serial LDA version on this node
+2021-09-28 16:41:39,468:INFO:running online (multi-pass) LDA training, 5 topics, 20 passes over the supplied corpus of 837 documents, updating model once every 837 documents, evaluating perplexity every 0 documents, iterating 400x with a convergence threshold of 0.001000
+2021-09-28 16:41:39,468:INFO:PROGRESS: pass 0, at document #837/837
+2021-09-28 16:41:39,541:INFO:optimized alpha [0.2010792, 0.1986573, 0.19423917, 0.20015156, 0.20090088]
+2021-09-28 16:41:39,541:INFO:topic #0 (0.201): 0.109*"zahl" + 0.088*"frage" + 0.050*"herr" + 0.050*"tag" + 0.050*"verlauf" + 0.045*"drosten" + 0.044*"hörer" + 0.039*"impfstoff" + 0.034*"einschätzung" + 0.034*"zeit"
+2021-09-28 16:41:39,542:INFO:topic #1 (0.199): 0.088*"virus" + 0.074*"patient" + 0.050*"weg" + 0.050*"datum" + 0.050*"maßnahme" + 0.044*"fall" + 0.038*"infektion" + 0.033*"frage" + 0.032*"schule" + 0.032*"woche"
+2021-09-28 16:41:39,542:INFO:topic #2 (0.194): 0.109*"frage" + 0.087*"land" + 0.067*"mensch" + 0.059*"beispiel" + 0.053*"virus" + 0.051*"test" + 0.038*"fall" + 0.037*"blick" + 0.030*"lage" + 0.030*"maske"
+2021-09-28 16:41:39,542:INFO:topic #3 (0.200): 0.095*"mensch" + 0.083*"erkenntnis" + 0.078*"rolle" + 0.073*"virus" + 0.060*"studie" + 0.054*"symptom" + 0.036*"forschung" + 0.036*"ergebnis" + 0.031*"kind" + 0.030*"wochenend"
+2021-09-28 16:41:39,542:INFO:topic #4 (0.201): 0.164*"virus" + 0.091*"sicht" + 0.074*"beispiel" + 0.050*"moment" + 0.049*"test" + 0.043*"situation" + 0.038*"infektion" + 0.038*"abstand" + 0.026*"zahl" + 0.025*"zusammenhang"
+2021-09-28 16:41:39,542:INFO:topic diff=2.540973, rho=1.000000
+2021-09-28 16:41:39,542:INFO:PROGRESS: pass 1, at document #837/837
+2021-09-28 16:41:39,594:INFO:optimized alpha [0.20143062, 0.19784985, 0.19039735, 0.20074224, 0.2008606]
+2021-09-28 16:41:39,594:INFO:topic #0 (0.201): 0.127*"zahl" + 0.075*"herr" + 0.066*"drosten" + 0.063*"frage" + 0.055*"verlauf" + 0.050*"tag" + 0.044*"hörer" + 0.041*"impfstoff" + 0.040*"zeit" + 0.036*"erklärung"
+2021-09-28 16:41:39,594:INFO:topic #1 (0.198): 0.084*"patient" + 0.062*"virus" + 0.057*"maßnahme" + 0.056*"weg" + 0.055*"datum" + 0.050*"fall" + 0.046*"woche" + 0.041*"infektion" + 0.038*"antikörper" + 0.034*"erkrankung"
+2021-09-28 16:41:39,594:INFO:topic #2 (0.190): 0.167*"frage" + 0.097*"land" + 0.068*"beispiel" + 0.059*"mensch" + 0.059*"test" + 0.042*"blick" + 0.039*"virus" + 0.038*"fall" + 0.034*"maske" + 0.033*"lage"
+2021-09-28 16:41:39,594:INFO:topic #3 (0.201): 0.100*"mensch" + 0.093*"erkenntnis" + 0.076*"rolle" + 0.067*"studie" + 0.059*"symptom" + 0.051*"virus" + 0.042*"forschung" + 0.041*"kind" + 0.039*"ergebnis" + 0.037*"coronavirus"
+2021-09-28 16:41:39,595:INFO:topic #4 (0.201): 0.232*"virus" + 0.108*"sicht" + 0.074*"beispiel" + 0.059*"moment" + 0.047*"test" + 0.046*"situation" + 0.041*"infektion" + 0.039*"abstand" + 0.033*"labor" + 0.027*"zusammenhang"
+2021-09-28 16:41:39,595:INFO:topic diff=0.408406, rho=0.577350
+2021-09-28 16:41:39,595:INFO:PROGRESS: pass 2, at document #837/837
+2021-09-28 16:41:39,644:INFO:optimized alpha [0.20164658, 0.19796908, 0.18804935, 0.20190795, 0.20120096]
+2021-09-28 16:41:39,644:INFO:topic #0 (0.202): 0.139*"zahl" + 0.087*"herr" + 0.077*"drosten" + 0.059*"verlauf" + 0.051*"frage" + 0.050*"tag" + 0.045*"hörer" + 0.042*"zeit" + 0.042*"impfstoff" + 0.038*"erklärung"
+2021-09-28 16:41:39,644:INFO:topic #1 (0.198): 0.087*"patient" + 0.059*"maßnahme" + 0.058*"weg" + 0.057*"datum" + 0.056*"woche" + 0.052*"fall" + 0.048*"antikörper" + 0.045*"virus" + 0.044*"infektion" + 0.042*"erkrankung"
+2021-09-28 16:41:39,644:INFO:topic #2 (0.188): 0.195*"frage" + 0.101*"land" + 0.085*"test" + 0.072*"beispiel" + 0.053*"mensch" + 0.042*"blick" + 0.038*"fall" + 0.036*"maske" + 0.035*"lage" + 0.034*"variante"
+2021-09-28 16:41:39,644:INFO:topic #3 (0.202): 0.104*"mensch" + 0.100*"erkenntnis" + 0.075*"rolle" + 0.069*"studie" + 0.061*"symptom" + 0.048*"kind" + 0.046*"forschung" + 0.045*"coronavirus" + 0.042*"ergebnis" + 0.038*"bisschen"
+2021-09-28 16:41:39,644:INFO:topic #4 (0.201): 0.286*"virus" + 0.117*"sicht" + 0.074*"beispiel" + 0.064*"moment" + 0.047*"situation" + 0.042*"infektion" + 0.040*"abstand" + 0.037*"labor" + 0.029*"zusammenhang" + 0.025*"kontakt"
+2021-09-28 16:41:39,644:INFO:topic diff=0.305754, rho=0.500000
+2021-09-28 16:41:39,645:INFO:PROGRESS: pass 3, at document #837/837
+2021-09-28 16:41:39,690:INFO:optimized alpha [0.20170052, 0.19830148, 0.18628106, 0.20309477, 0.2017532]
+2021-09-28 16:41:39,691:INFO:topic #0 (0.202): 0.147*"zahl" + 0.094*"herr" + 0.083*"drosten" + 0.062*"verlauf" + 0.051*"tag" + 0.046*"frage" + 0.045*"hörer" + 0.044*"zeit" + 0.043*"impfstoff" + 0.039*"erklärung"
+2021-09-28 16:41:39,691:INFO:topic #1 (0.198): 0.090*"patient" + 0.061*"woche" + 0.060*"maßnahme" + 0.059*"weg" + 0.059*"datum" + 0.053*"fall" + 0.053*"antikörper" + 0.048*"infektion" + 0.046*"erkrankung" + 0.043*"hinweis"
+2021-09-28 16:41:39,691:INFO:topic #2 (0.186): 0.211*"frage" + 0.102*"land" + 0.097*"test" + 0.076*"beispiel" + 0.050*"mensch" + 0.041*"blick" + 0.038*"fall" + 0.037*"maske" + 0.036*"lage" + 0.036*"variante"
+2021-09-28 16:41:39,691:INFO:topic #3 (0.203): 0.106*"mensch" + 0.104*"erkenntnis" + 0.075*"rolle" + 0.070*"studie" + 0.062*"symptom" + 0.054*"kind" + 0.048*"forschung" + 0.048*"coronavirus" + 0.044*"ergebnis" + 0.039*"bisschen"
+2021-09-28 16:41:39,691:INFO:topic #4 (0.202): 0.321*"virus" + 0.122*"sicht" + 0.071*"beispiel" + 0.066*"moment" + 0.047*"situation" + 0.041*"infektion" + 0.040*"abstand" + 0.038*"labor" + 0.031*"zusammenhang" + 0.025*"kontakt"
+2021-09-28 16:41:39,691:INFO:topic diff=0.247255, rho=0.447214
+2021-09-28 16:41:39,691:INFO:PROGRESS: pass 4, at document #837/837
+2021-09-28 16:41:39,735:INFO:optimized alpha [0.20173243, 0.19878787, 0.18541014, 0.20436054, 0.20215522]
+2021-09-28 16:41:39,736:INFO:topic #0 (0.202): 0.153*"zahl" + 0.098*"herr" + 0.087*"drosten" + 0.065*"verlauf" + 0.052*"tag" + 0.046*"hörer" + 0.045*"zeit" + 0.044*"impfstoff" + 0.040*"erklärung" + 0.037*"frage"
+2021-09-28 16:41:39,736:INFO:topic #1 (0.199): 0.092*"patient" + 0.063*"woche" + 0.060*"maßnahme" + 0.060*"weg" + 0.060*"datum" + 0.057*"fall" + 0.056*"antikörper" + 0.053*"infektion" + 0.049*"erkrankung" + 0.046*"hinweis"
+2021-09-28 16:41:39,736:INFO:topic #2 (0.185): 0.226*"frage" + 0.101*"land" + 0.101*"test" + 0.089*"beispiel" + 0.045*"mensch" + 0.041*"blick" + 0.037*"maske" + 0.036*"variante" + 0.036*"lage" + 0.035*"fall"
+2021-09-28 16:41:39,736:INFO:topic #3 (0.204): 0.109*"mensch" + 0.105*"erkenntnis" + 0.075*"rolle" + 0.070*"studie" + 0.063*"symptom" + 0.058*"kind" + 0.050*"coronavirus" + 0.049*"forschung" + 0.045*"ergebnis" + 0.040*"bisschen"
+2021-09-28 16:41:39,736:INFO:topic #4 (0.202): 0.346*"virus" + 0.126*"sicht" + 0.069*"moment" + 0.059*"beispiel" + 0.047*"situation" + 0.040*"abstand" + 0.039*"labor" + 0.038*"infektion" + 0.032*"zusammenhang" + 0.026*"kontakt"
+2021-09-28 16:41:39,736:INFO:topic diff=0.206046, rho=0.408248
+2021-09-28 16:41:39,736:INFO:PROGRESS: pass 5, at document #837/837
+2021-09-28 16:41:39,779:INFO:optimized alpha [0.20175028, 0.19930424, 0.18499498, 0.20569633, 0.20221323]
+2021-09-28 16:41:39,779:INFO:topic #0 (0.202): 0.156*"zahl" + 0.101*"herr" + 0.090*"drosten" + 0.068*"verlauf" + 0.052*"tag" + 0.047*"hörer" + 0.046*"zeit" + 0.045*"impfstoff" + 0.041*"erklärung" + 0.035*"einschätzung"
+2021-09-28 16:41:39,779:INFO:topic #1 (0.199): 0.094*"patient" + 0.065*"woche" + 0.061*"maßnahme" + 0.061*"weg" + 0.060*"datum" + 0.059*"infektion" + 0.058*"fall" + 0.058*"antikörper" + 0.051*"erkrankung" + 0.047*"hinweis"
+2021-09-28 16:41:39,779:INFO:topic #2 (0.185): 0.234*"frage" + 0.106*"beispiel" + 0.102*"test" + 0.100*"land" + 0.041*"mensch" + 0.040*"blick" + 0.036*"maske" + 0.036*"variante" + 0.036*"lage" + 0.032*"fall"
+2021-09-28 16:41:39,780:INFO:topic #3 (0.206): 0.110*"mensch" + 0.106*"erkenntnis" + 0.074*"rolle" + 0.071*"studie" + 0.063*"kind" + 0.063*"symptom" + 0.050*"coronavirus" + 0.050*"forschung" + 0.045*"ergebnis" + 0.040*"bisschen"
+2021-09-28 16:41:39,780:INFO:topic #4 (0.202): 0.364*"virus" + 0.131*"sicht" + 0.072*"moment" + 0.047*"situation" + 0.042*"beispiel" + 0.041*"abstand" + 0.040*"labor" + 0.037*"infektion" + 0.033*"zusammenhang" + 0.027*"kontakt"
+2021-09-28 16:41:39,780:INFO:topic diff=0.169731, rho=0.377964
+2021-09-28 16:41:39,780:INFO:PROGRESS: pass 6, at document #837/837
+2021-09-28 16:41:39,821:INFO:optimized alpha [0.20183146, 0.19978939, 0.18476164, 0.206944, 0.20228748]
+2021-09-28 16:41:39,822:INFO:topic #0 (0.202): 0.159*"zahl" + 0.103*"herr" + 0.091*"drosten" + 0.071*"verlauf" + 0.053*"tag" + 0.047*"hörer" + 0.047*"zeit" + 0.046*"impfstoff" + 0.041*"erklärung" + 0.036*"einschätzung"
+2021-09-28 16:41:39,822:INFO:topic #1 (0.200): 0.095*"patient" + 0.066*"woche" + 0.062*"infektion" + 0.061*"maßnahme" + 0.061*"weg" + 0.061*"datum" + 0.059*"fall" + 0.059*"antikörper" + 0.053*"erkrankung" + 0.048*"hinweis"
+2021-09-28 16:41:39,822:INFO:topic #2 (0.185): 0.243*"frage" + 0.115*"beispiel" + 0.103*"test" + 0.099*"land" + 0.040*"blick" + 0.040*"mensch" + 0.036*"maske" + 0.036*"variante" + 0.036*"lage" + 0.031*"fall"
+2021-09-28 16:41:39,822:INFO:topic #3 (0.207): 0.111*"mensch" + 0.106*"erkenntnis" + 0.074*"rolle" + 0.071*"studie" + 0.068*"kind" + 0.063*"symptom" + 0.051*"coronavirus" + 0.051*"forschung" + 0.045*"ergebnis" + 0.040*"bisschen"
+2021-09-28 16:41:39,822:INFO:topic #4 (0.202): 0.375*"virus" + 0.133*"sicht" + 0.075*"moment" + 0.047*"situation" + 0.041*"abstand" + 0.040*"labor" + 0.037*"infektion" + 0.033*"zusammenhang" + 0.033*"beispiel" + 0.027*"kontakt"
+2021-09-28 16:41:39,822:INFO:topic diff=0.139288, rho=0.353553
+2021-09-28 16:41:39,822:INFO:PROGRESS: pass 7, at document #837/837
+2021-09-28 16:41:39,869:INFO:optimized alpha [0.2019123, 0.20029902, 0.18457322, 0.20814404, 0.20237067]
+2021-09-28 16:41:39,869:INFO:topic #0 (0.202): 0.161*"zahl" + 0.104*"herr" + 0.093*"drosten" + 0.072*"verlauf" + 0.053*"tag" + 0.047*"hörer" + 0.047*"zeit" + 0.046*"impfstoff" + 0.041*"erklärung" + 0.036*"einschätzung"
+2021-09-28 16:41:39,869:INFO:topic #1 (0.200): 0.096*"patient" + 0.066*"woche" + 0.066*"infektion" + 0.061*"maßnahme" + 0.061*"weg" + 0.061*"datum" + 0.060*"fall" + 0.060*"antikörper" + 0.053*"erkrankung" + 0.048*"hinweis"
+2021-09-28 16:41:39,869:INFO:topic #2 (0.185): 0.249*"frage" + 0.120*"beispiel" + 0.104*"test" + 0.099*"land" + 0.039*"blick" + 0.038*"mensch" + 0.036*"maske" + 0.036*"variante" + 0.036*"lage" + 0.030*"fall"
+2021-09-28 16:41:39,869:INFO:topic #3 (0.208): 0.112*"mensch" + 0.107*"erkenntnis" + 0.074*"rolle" + 0.072*"kind" + 0.071*"studie" + 0.063*"symptom" + 0.051*"coronavirus" + 0.051*"forschung" + 0.046*"ergebnis" + 0.040*"bisschen"
+2021-09-28 16:41:39,869:INFO:topic #4 (0.202): 0.382*"virus" + 0.135*"sicht" + 0.076*"moment" + 0.047*"situation" + 0.041*"abstand" + 0.041*"labor" + 0.036*"infektion" + 0.034*"zusammenhang" + 0.027*"kontakt" + 0.027*"beispiel"
+2021-09-28 16:41:39,869:INFO:topic diff=0.112201, rho=0.333333
+2021-09-28 16:41:39,870:INFO:PROGRESS: pass 8, at document #837/837
+2021-09-28 16:41:39,914:INFO:optimized alpha [0.20199533, 0.20078859, 0.18447307, 0.20927072, 0.20245658]
+2021-09-28 16:41:39,914:INFO:topic #0 (0.202): 0.163*"zahl" + 0.105*"herr" + 0.093*"drosten" + 0.074*"verlauf" + 0.053*"tag" + 0.048*"hörer" + 0.047*"zeit" + 0.046*"impfstoff" + 0.042*"erklärung" + 0.036*"einschätzung"
+2021-09-28 16:41:39,914:INFO:topic #1 (0.201): 0.096*"patient" + 0.068*"infektion" + 0.066*"woche" + 0.061*"maßnahme" + 0.061*"weg" + 0.061*"datum" + 0.060*"fall" + 0.060*"antikörper" + 0.054*"erkrankung" + 0.048*"schule"
+2021-09-28 16:41:39,914:INFO:topic #2 (0.184): 0.254*"frage" + 0.124*"beispiel" + 0.104*"test" + 0.098*"land" + 0.039*"blick" + 0.038*"mensch" + 0.036*"maske" + 0.036*"variante" + 0.036*"lage" + 0.030*"fall"
+2021-09-28 16:41:39,914:INFO:topic #3 (0.209): 0.112*"mensch" + 0.107*"erkenntnis" + 0.075*"kind" + 0.074*"rolle" + 0.071*"studie" + 0.063*"symptom" + 0.051*"coronavirus" + 0.051*"forschung" + 0.046*"ergebnis" + 0.040*"bisschen"
+2021-09-28 16:41:39,914:INFO:topic #4 (0.202): 0.387*"virus" + 0.137*"sicht" + 0.077*"moment" + 0.048*"situation" + 0.041*"abstand" + 0.041*"labor" + 0.036*"infektion" + 0.034*"zusammenhang" + 0.027*"kontakt" + 0.023*"infektionsketten"
+2021-09-28 16:41:39,914:INFO:topic diff=0.090793, rho=0.316228
+2021-09-28 16:41:39,914:INFO:PROGRESS: pass 9, at document #837/837
+2021-09-28 16:41:39,957:INFO:optimized alpha [0.20207848, 0.20125285, 0.18439472, 0.2103209, 0.20254427]
+2021-09-28 16:41:39,957:INFO:topic #0 (0.202): 0.163*"zahl" + 0.105*"herr" + 0.094*"drosten" + 0.075*"verlauf" + 0.054*"tag" + 0.048*"hörer" + 0.048*"zeit" + 0.047*"impfstoff" + 0.042*"erklärung" + 0.038*"sinn"
+2021-09-28 16:41:39,957:INFO:topic #1 (0.201): 0.096*"patient" + 0.071*"infektion" + 0.067*"woche" + 0.061*"maßnahme" + 0.061*"weg" + 0.061*"datum" + 0.060*"fall" + 0.060*"antikörper" + 0.054*"erkrankung" + 0.049*"schule"
+2021-09-28 16:41:39,957:INFO:topic #2 (0.184): 0.257*"frage" + 0.127*"beispiel" + 0.104*"test" + 0.098*"land" + 0.039*"blick" + 0.037*"mensch" + 0.036*"maske" + 0.036*"variante" + 0.036*"lage" + 0.030*"fall"
+2021-09-28 16:41:39,957:INFO:topic #3 (0.210): 0.112*"mensch" + 0.107*"erkenntnis" + 0.077*"kind" + 0.074*"rolle" + 0.071*"studie" + 0.063*"symptom" + 0.051*"coronavirus" + 0.051*"forschung" + 0.046*"ergebnis" + 0.040*"bisschen"
+2021-09-28 16:41:39,957:INFO:topic #4 (0.203): 0.390*"virus" + 0.138*"sicht" + 0.078*"moment" + 0.048*"situation" + 0.041*"abstand" + 0.041*"labor" + 0.036*"infektion" + 0.034*"zusammenhang" + 0.027*"kontakt" + 0.024*"infektionsketten"
+2021-09-28 16:41:39,957:INFO:topic diff=0.073583, rho=0.301511
+2021-09-28 16:41:39,957:INFO:PROGRESS: pass 10, at document #837/837
+2021-09-28 16:41:39,999:INFO:optimized alpha [0.20216736, 0.20176218, 0.18432601, 0.21131243, 0.20263624]
+2021-09-28 16:41:39,999:INFO:topic #0 (0.202): 0.164*"zahl" + 0.106*"herr" + 0.094*"drosten" + 0.075*"verlauf" + 0.054*"tag" + 0.048*"hörer" + 0.048*"zeit" + 0.047*"impfstoff" + 0.042*"erklärung" + 0.039*"sinn"
+2021-09-28 16:41:39,999:INFO:topic #1 (0.202): 0.096*"patient" + 0.072*"infektion" + 0.067*"woche" + 0.061*"maßnahme" + 0.061*"weg" + 0.061*"datum" + 0.061*"fall" + 0.060*"antikörper" + 0.054*"erkrankung" + 0.049*"schule"
+2021-09-28 16:41:39,999:INFO:topic #2 (0.184): 0.260*"frage" + 0.130*"beispiel" + 0.104*"test" + 0.098*"land" + 0.039*"blick" + 0.037*"mensch" + 0.036*"variante" + 0.036*"maske" + 0.036*"lage" + 0.029*"fall"
+2021-09-28 16:41:39,999:INFO:topic #3 (0.211): 0.112*"mensch" + 0.107*"erkenntnis" + 0.079*"kind" + 0.074*"rolle" + 0.071*"studie" + 0.063*"symptom" + 0.051*"forschung" + 0.051*"coronavirus" + 0.046*"ergebnis" + 0.040*"bisschen"
+2021-09-28 16:41:40,000:INFO:topic #4 (0.203): 0.393*"virus" + 0.138*"sicht" + 0.079*"moment" + 0.048*"situation" + 0.041*"abstand" + 0.041*"labor" + 0.036*"infektion" + 0.034*"zusammenhang" + 0.027*"kontakt" + 0.024*"infektionsketten"
+2021-09-28 16:41:40,000:INFO:topic diff=0.061077, rho=0.288675
+2021-09-28 16:41:40,000:INFO:PROGRESS: pass 11, at document #837/837
+2021-09-28 16:41:40,042:INFO:optimized alpha [0.20225799, 0.20230882, 0.18421835, 0.21224678, 0.2027301]
+2021-09-28 16:41:40,042:INFO:topic #0 (0.202): 0.165*"zahl" + 0.106*"herr" + 0.095*"drosten" + 0.076*"verlauf" + 0.054*"tag" + 0.048*"hörer" + 0.048*"zeit" + 0.047*"impfstoff" + 0.042*"erklärung" + 0.040*"sinn"
+2021-09-28 16:41:40,042:INFO:topic #1 (0.202): 0.096*"patient" + 0.073*"infektion" + 0.066*"woche" + 0.061*"maßnahme" + 0.061*"weg" + 0.061*"datum" + 0.060*"fall" + 0.060*"antikörper" + 0.054*"erkrankung" + 0.049*"schule"
+2021-09-28 16:41:40,042:INFO:topic #2 (0.184): 0.263*"frage" + 0.133*"beispiel" + 0.104*"test" + 0.098*"land" + 0.039*"blick" + 0.037*"mensch" + 0.036*"variante" + 0.036*"maske" + 0.036*"lage" + 0.029*"fall"
+2021-09-28 16:41:40,042:INFO:topic #3 (0.212): 0.112*"mensch" + 0.107*"erkenntnis" + 0.081*"kind" + 0.074*"rolle" + 0.071*"studie" + 0.063*"symptom" + 0.051*"forschung" + 0.051*"coronavirus" + 0.046*"ergebnis" + 0.040*"bisschen"
+2021-09-28 16:41:40,042:INFO:topic #4 (0.203): 0.395*"virus" + 0.139*"sicht" + 0.079*"moment" + 0.048*"situation" + 0.041*"abstand" + 0.041*"labor" + 0.036*"infektion" + 0.034*"zusammenhang" + 0.027*"kontakt" + 0.024*"infektionsketten"
+2021-09-28 16:41:40,043:INFO:topic diff=0.051321, rho=0.277350
+2021-09-28 16:41:40,043:INFO:PROGRESS: pass 12, at document #837/837
+2021-09-28 16:41:40,083:INFO:optimized alpha [0.20235159, 0.20284785, 0.18431644, 0.2131948, 0.20283914]
+2021-09-28 16:41:40,083:INFO:topic #0 (0.202): 0.166*"zahl" + 0.107*"herr" + 0.095*"drosten" + 0.077*"verlauf" + 0.054*"tag" + 0.048*"hörer" + 0.048*"zeit" + 0.047*"impfstoff" + 0.042*"erklärung" + 0.041*"sinn"
+2021-09-28 16:41:40,083:INFO:topic #1 (0.203): 0.096*"patient" + 0.074*"infektion" + 0.066*"woche" + 0.060*"maßnahme" + 0.060*"weg" + 0.060*"datum" + 0.060*"fall" + 0.060*"antikörper" + 0.054*"erkrankung" + 0.049*"schule"
+2021-09-28 16:41:40,083:INFO:topic #2 (0.184): 0.264*"frage" + 0.139*"beispiel" + 0.104*"test" + 0.098*"land" + 0.039*"blick" + 0.036*"mensch" + 0.036*"variante" + 0.036*"maske" + 0.036*"lage" + 0.029*"fall"
+2021-09-28 16:41:40,084:INFO:topic #3 (0.213): 0.112*"mensch" + 0.107*"erkenntnis" + 0.081*"kind" + 0.074*"rolle" + 0.071*"studie" + 0.063*"symptom" + 0.051*"forschung" + 0.051*"coronavirus" + 0.046*"ergebnis" + 0.040*"bisschen"
+2021-09-28 16:41:40,084:INFO:topic #4 (0.203): 0.397*"virus" + 0.140*"sicht" + 0.080*"moment" + 0.048*"situation" + 0.041*"abstand" + 0.041*"labor" + 0.036*"infektion" + 0.034*"zusammenhang" + 0.028*"kontakt" + 0.024*"infektionsketten"
+2021-09-28 16:41:40,084:INFO:topic diff=0.044382, rho=0.267261
+2021-09-28 16:41:40,084:INFO:PROGRESS: pass 13, at document #837/837
+2021-09-28 16:41:40,124:INFO:optimized alpha [0.20244113, 0.2033648, 0.18443596, 0.21410085, 0.20294958]
+2021-09-28 16:41:40,124:INFO:topic #0 (0.202): 0.166*"zahl" + 0.107*"herr" + 0.096*"drosten" + 0.077*"verlauf" + 0.054*"tag" + 0.048*"hörer" + 0.048*"zeit" + 0.047*"impfstoff" + 0.043*"erklärung" + 0.041*"sinn"
+2021-09-28 16:41:40,124:INFO:topic #1 (0.203): 0.096*"patient" + 0.074*"infektion" + 0.066*"woche" + 0.060*"maßnahme" + 0.060*"weg" + 0.060*"datum" + 0.060*"fall" + 0.060*"antikörper" + 0.054*"erkrankung" + 0.048*"schule"
+2021-09-28 16:41:40,124:INFO:topic #2 (0.184): 0.264*"frage" + 0.144*"beispiel" + 0.104*"test" + 0.097*"land" + 0.039*"blick" + 0.036*"mensch" + 0.036*"variante" + 0.036*"maske" + 0.036*"lage" + 0.029*"fall"
+2021-09-28 16:41:40,124:INFO:topic #3 (0.214): 0.112*"mensch" + 0.107*"erkenntnis" + 0.082*"kind" + 0.074*"rolle" + 0.072*"studie" + 0.063*"symptom" + 0.051*"forschung" + 0.051*"coronavirus" + 0.046*"ergebnis" + 0.040*"bisschen"
+2021-09-28 16:41:40,124:INFO:topic #4 (0.203): 0.398*"virus" + 0.140*"sicht" + 0.080*"moment" + 0.048*"situation" + 0.041*"abstand" + 0.041*"labor" + 0.036*"infektion" + 0.035*"zusammenhang" + 0.028*"kontakt" + 0.024*"infektionsketten"
+2021-09-28 16:41:40,124:INFO:topic diff=0.037730, rho=0.258199
+2021-09-28 16:41:40,124:INFO:PROGRESS: pass 14, at document #837/837
+2021-09-28 16:41:40,164:INFO:optimized alpha [0.20253016, 0.20386244, 0.18456553, 0.21496737, 0.20306173]
+2021-09-28 16:41:40,164:INFO:topic #0 (0.203): 0.167*"zahl" + 0.108*"herr" + 0.096*"drosten" + 0.078*"verlauf" + 0.055*"tag" + 0.049*"hörer" + 0.049*"zeit" + 0.048*"impfstoff" + 0.043*"erklärung" + 0.042*"sinn"
+2021-09-28 16:41:40,164:INFO:topic #1 (0.204): 0.096*"patient" + 0.075*"infektion" + 0.066*"woche" + 0.060*"maßnahme" + 0.060*"weg" + 0.060*"datum" + 0.060*"fall" + 0.060*"antikörper" + 0.054*"erkrankung" + 0.048*"schule"
+2021-09-28 16:41:40,164:INFO:topic #2 (0.185): 0.264*"frage" + 0.149*"beispiel" + 0.104*"test" + 0.097*"land" + 0.039*"blick" + 0.036*"mensch" + 0.036*"variante" + 0.036*"maske" + 0.035*"lage" + 0.029*"fall"
+2021-09-28 16:41:40,164:INFO:topic #3 (0.215): 0.112*"mensch" + 0.107*"erkenntnis" + 0.083*"kind" + 0.074*"rolle" + 0.073*"studie" + 0.062*"symptom" + 0.051*"forschung" + 0.051*"coronavirus" + 0.046*"ergebnis" + 0.040*"bisschen"
+2021-09-28 16:41:40,164:INFO:topic #4 (0.203): 0.400*"virus" + 0.141*"sicht" + 0.081*"moment" + 0.048*"situation" + 0.041*"abstand" + 0.041*"labor" + 0.036*"infektion" + 0.035*"zusammenhang" + 0.028*"kontakt" + 0.024*"infektionsketten"
+2021-09-28 16:41:40,165:INFO:topic diff=0.032026, rho=0.250000
+2021-09-28 16:41:40,165:INFO:PROGRESS: pass 15, at document #837/837
+2021-09-28 16:41:40,203:INFO:optimized alpha [0.20261724, 0.204395, 0.18475504, 0.21580562, 0.20318337]
+2021-09-28 16:41:40,203:INFO:topic #0 (0.203): 0.168*"zahl" + 0.109*"herr" + 0.097*"drosten" + 0.078*"verlauf" + 0.055*"tag" + 0.049*"hörer" + 0.049*"zeit" + 0.048*"impfstoff" + 0.043*"erklärung" + 0.042*"sinn"
+2021-09-28 16:41:40,203:INFO:topic #1 (0.204): 0.095*"patient" + 0.075*"infektion" + 0.066*"woche" + 0.060*"maßnahme" + 0.060*"weg" + 0.060*"datum" + 0.060*"fall" + 0.060*"antikörper" + 0.054*"erkrankung" + 0.049*"schule"
+2021-09-28 16:41:40,203:INFO:topic #2 (0.185): 0.264*"frage" + 0.153*"beispiel" + 0.103*"test" + 0.097*"land" + 0.039*"blick" + 0.036*"mensch" + 0.035*"variante" + 0.035*"maske" + 0.035*"lage" + 0.029*"fall"
+2021-09-28 16:41:40,203:INFO:topic #3 (0.216): 0.112*"mensch" + 0.107*"erkenntnis" + 0.083*"kind" + 0.074*"rolle" + 0.073*"studie" + 0.062*"symptom" + 0.051*"forschung" + 0.051*"coronavirus" + 0.046*"ergebnis" + 0.040*"bisschen"
+2021-09-28 16:41:40,203:INFO:topic #4 (0.203): 0.401*"virus" + 0.141*"sicht" + 0.081*"moment" + 0.048*"situation" + 0.041*"abstand" + 0.041*"labor" + 0.036*"infektion" + 0.035*"zusammenhang" + 0.028*"kontakt" + 0.024*"infektionsketten"
+2021-09-28 16:41:40,203:INFO:topic diff=0.028433, rho=0.242536
+2021-09-28 16:41:40,204:INFO:PROGRESS: pass 16, at document #837/837
+2021-09-28 16:41:40,243:INFO:optimized alpha [0.20270067, 0.20491305, 0.18494855, 0.21661155, 0.20330708]
+2021-09-28 16:41:40,243:INFO:topic #0 (0.203): 0.169*"zahl" + 0.109*"herr" + 0.097*"drosten" + 0.079*"verlauf" + 0.055*"tag" + 0.049*"zeit" + 0.049*"hörer" + 0.048*"impfstoff" + 0.043*"erklärung" + 0.043*"sinn"
+2021-09-28 16:41:40,243:INFO:topic #1 (0.205): 0.095*"patient" + 0.075*"infektion" + 0.066*"woche" + 0.060*"maßnahme" + 0.060*"weg" + 0.060*"datum" + 0.060*"fall" + 0.060*"antikörper" + 0.054*"erkrankung" + 0.050*"schule"
+2021-09-28 16:41:40,243:INFO:topic #2 (0.185): 0.264*"frage" + 0.157*"beispiel" + 0.103*"test" + 0.096*"land" + 0.038*"blick" + 0.036*"mensch" + 0.035*"variante" + 0.035*"maske" + 0.035*"lage" + 0.029*"fall"
+2021-09-28 16:41:40,243:INFO:topic #3 (0.217): 0.112*"mensch" + 0.107*"erkenntnis" + 0.083*"kind" + 0.074*"studie" + 0.074*"rolle" + 0.062*"symptom" + 0.051*"forschung" + 0.051*"coronavirus" + 0.046*"ergebnis" + 0.040*"bisschen"
+2021-09-28 16:41:40,243:INFO:topic #4 (0.203): 0.401*"virus" + 0.141*"sicht" + 0.081*"moment" + 0.048*"situation" + 0.041*"abstand" + 0.041*"labor" + 0.036*"infektion" + 0.035*"zusammenhang" + 0.028*"kontakt" + 0.024*"infektionsketten"
+2021-09-28 16:41:40,243:INFO:topic diff=0.024526, rho=0.235702
+2021-09-28 16:41:40,243:INFO:PROGRESS: pass 17, at document #837/837
+2021-09-28 16:41:40,283:INFO:optimized alpha [0.20273349, 0.20541397, 0.1851441, 0.21738279, 0.20342864]
+2021-09-28 16:41:40,283:INFO:topic #0 (0.203): 0.170*"zahl" + 0.110*"herr" + 0.098*"drosten" + 0.079*"verlauf" + 0.055*"tag" + 0.049*"zeit" + 0.049*"hörer" + 0.048*"impfstoff" + 0.043*"erklärung" + 0.043*"sinn"
+2021-09-28 16:41:40,283:INFO:topic #1 (0.205): 0.095*"patient" + 0.075*"infektion" + 0.066*"woche" + 0.060*"maßnahme" + 0.060*"weg" + 0.060*"fall" + 0.060*"datum" + 0.060*"antikörper" + 0.054*"erkrankung" + 0.051*"schule"
+2021-09-28 16:41:40,283:INFO:topic #2 (0.185): 0.263*"frage" + 0.160*"beispiel" + 0.103*"test" + 0.096*"land" + 0.038*"blick" + 0.035*"mensch" + 0.035*"variante" + 0.035*"maske" + 0.035*"lage" + 0.028*"fall"
+2021-09-28 16:41:40,283:INFO:topic #3 (0.217): 0.112*"mensch" + 0.107*"erkenntnis" + 0.084*"kind" + 0.074*"studie" + 0.074*"rolle" + 0.062*"symptom" + 0.051*"forschung" + 0.051*"coronavirus" + 0.046*"ergebnis" + 0.040*"bisschen"
+2021-09-28 16:41:40,283:INFO:topic #4 (0.203): 0.402*"virus" + 0.142*"sicht" + 0.081*"moment" + 0.048*"situation" + 0.041*"abstand" + 0.041*"labor" + 0.036*"infektion" + 0.035*"zusammenhang" + 0.028*"kontakt" + 0.024*"infektionsketten"
+2021-09-28 16:41:40,283:INFO:topic diff=0.021730, rho=0.229416
+2021-09-28 16:41:40,283:INFO:PROGRESS: pass 18, at document #837/837
+2021-09-28 16:41:40,322:INFO:optimized alpha [0.2027724, 0.20590192, 0.18534125, 0.21816297, 0.20355248]
+2021-09-28 16:41:40,323:INFO:topic #0 (0.203): 0.171*"zahl" + 0.110*"herr" + 0.098*"drosten" + 0.080*"verlauf" + 0.056*"tag" + 0.050*"zeit" + 0.050*"hörer" + 0.049*"impfstoff" + 0.044*"erklärung" + 0.043*"sinn"
+2021-09-28 16:41:40,323:INFO:topic #1 (0.206): 0.095*"patient" + 0.075*"infektion" + 0.066*"woche" + 0.060*"maßnahme" + 0.060*"fall" + 0.060*"weg" + 0.060*"datum" + 0.060*"antikörper" + 0.054*"erkrankung" + 0.052*"schule"
+2021-09-28 16:41:40,323:INFO:topic #2 (0.185): 0.262*"frage" + 0.163*"beispiel" + 0.102*"test" + 0.096*"land" + 0.038*"blick" + 0.035*"mensch" + 0.035*"variante" + 0.035*"maske" + 0.035*"lage" + 0.028*"fall"
+2021-09-28 16:41:40,323:INFO:topic #3 (0.218): 0.112*"mensch" + 0.107*"erkenntnis" + 0.084*"kind" + 0.075*"studie" + 0.073*"rolle" + 0.062*"symptom" + 0.051*"forschung" + 0.051*"coronavirus" + 0.046*"ergebnis" + 0.040*"bisschen"
+2021-09-28 16:41:40,323:INFO:topic #4 (0.204): 0.403*"virus" + 0.142*"sicht" + 0.081*"moment" + 0.048*"situation" + 0.042*"abstand" + 0.042*"labor" + 0.036*"infektion" + 0.035*"zusammenhang" + 0.028*"kontakt" + 0.024*"infektionsketten"
+2021-09-28 16:41:40,323:INFO:topic diff=0.018806, rho=0.223607
+2021-09-28 16:41:40,323:INFO:PROGRESS: pass 19, at document #837/837
+2021-09-28 16:41:40,362:INFO:optimized alpha [0.20281652, 0.20641074, 0.1855398, 0.21892224, 0.20368]
+2021-09-28 16:41:40,362:INFO:topic #0 (0.203): 0.171*"zahl" + 0.111*"herr" + 0.098*"drosten" + 0.080*"verlauf" + 0.056*"tag" + 0.050*"zeit" + 0.050*"hörer" + 0.049*"impfstoff" + 0.044*"erklärung" + 0.044*"sinn"
+2021-09-28 16:41:40,362:INFO:topic #1 (0.206): 0.095*"patient" + 0.075*"infektion" + 0.066*"woche" + 0.060*"fall" + 0.060*"maßnahme" + 0.060*"weg" + 0.060*"datum" + 0.060*"antikörper" + 0.054*"erkrankung" + 0.053*"schule"
+2021-09-28 16:41:40,362:INFO:topic #2 (0.186): 0.262*"frage" + 0.165*"beispiel" + 0.102*"test" + 0.095*"land" + 0.038*"blick" + 0.035*"mensch" + 0.035*"variante" + 0.035*"maske" + 0.035*"lage" + 0.028*"kapazität"
+2021-09-28 16:41:40,362:INFO:topic #3 (0.219): 0.112*"mensch" + 0.107*"erkenntnis" + 0.084*"kind" + 0.076*"studie" + 0.073*"rolle" + 0.062*"symptom" + 0.051*"forschung" + 0.051*"coronavirus" + 0.046*"ergebnis" + 0.040*"bisschen"
+2021-09-28 16:41:40,363:INFO:topic #4 (0.204): 0.404*"virus" + 0.142*"sicht" + 0.082*"moment" + 0.048*"situation" + 0.042*"abstand" + 0.042*"labor" + 0.036*"infektion" + 0.035*"zusammenhang" + 0.028*"kontakt" + 0.024*"infektionsketten"
+2021-09-28 16:41:40,363:INFO:topic diff=0.016536, rho=0.218218
+2021-09-28 16:41:40,363:INFO:LdaModel lifecycle event {'msg': 'trained LdaModel(num_terms=67, num_topics=5, decay=0.5, chunksize=2000) in 0.89s', 'datetime': '2021-09-28T16:41:40.363542', 'gensim': '4.1.2', 'python': '3.9.5 (tags/v3.9.5:0a7dcbd, May  3 2021, 17:27:52) [MSC v.1928 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19043-SP0', 'event': 'created'}
+2021-09-28 16:41:40,368:INFO:
 
 ******************************** The program finished. ********************************
 

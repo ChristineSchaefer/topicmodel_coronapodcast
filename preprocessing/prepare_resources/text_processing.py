@@ -50,7 +50,7 @@ def tokenize(questions: list) -> list:
         sentence = nlp(q)
         pre_token = list()
         for token in sentence:
-            if len(token.text) > 1 and not token.text.isnumeric():
+            if len(token.text) > 1 and not token.text.isnumeric() and token.pos_ == 'NOUN':
                 pre_token.append(token.text.lower())
         tokens.append(pre_token)
 
@@ -64,10 +64,12 @@ def lemmatizer(questions: list) -> list:
         sentence = nlp(q)
         pre_lemma = list()
         for token in sentence:
-            if len(token.text) > 1 and not token.text.isnumeric():
-                pre_lemma.append(token.lemma_.lower())
+            if len(token.text) > 1 and not token.text.isnumeric() and token.pos_ == 'NOUN':
+                pre_lemma.append(token.lemma_.lower().strip())
         lemmas.append(pre_lemma)
-
+    for lemma in lemmas:
+        if not lemma:
+            lemmas.remove(lemma)
     return lemmas
 
 
