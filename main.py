@@ -3,6 +3,10 @@
 # ##imports
 import logging
 import sys
+
+from IPython import get_ipython
+from gensim.models import LdaMulticore
+
 from preprocessing import initialize_corpus, get_lemmas, get_tokens
 from training import train_lda
 from gensim.corpora import Dictionary
@@ -28,12 +32,18 @@ def start_lda():
     logging.info(f'\n\n**************TOPIC MODELING SANDRA CIESEK**************')
 
     # compute dictionary representation of data
+    # mapping between the questions and ids
     ciesek_dict = Dictionary(get_lemmas('SC'))
+    # print mapping
+    print(ciesek_dict.token2id)
+    print(len(ciesek_dict))
     # filter out words that occur less than 5 documents, or more than 50% of the documents
     # change values for larger corpora
     ciesek_dict.filter_extremes(no_below=5, no_above=0.5)
+    ciesek_dict.compactify()
     # bag-of-words representation of the documents
     c_corpus = [ciesek_dict.doc2bow(question) for question in get_lemmas('SC')]
+    print(c_corpus)
 
     print('Number of unique tokens: %d' % len(ciesek_dict))
     print('Number of documents: %d' % len(c_corpus))
@@ -51,6 +61,7 @@ def start_lda():
     # filter out words that occur less than 5 documents, or more than 50% of the documents
     # change values for larger corpora
     drosten_dict.filter_extremes(no_below=5, no_above=0.5)
+    drosten_dict.compactify()
     # bag-of-words representation of the documents
     d_corpus = [drosten_dict.doc2bow(question) for question in get_lemmas('CD')]
 

@@ -26,6 +26,7 @@ def train_lda(dictionary, corpus) -> None:
     id2word = dictionary.id2token
 
     # set model parameters
+    # Initialisierung (Training) des Transformationsmodells (LdaModel)
     model = LdaModel(
         corpus=corpus,
         id2word=id2word,

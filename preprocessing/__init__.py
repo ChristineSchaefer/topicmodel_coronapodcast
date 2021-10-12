@@ -27,6 +27,9 @@ def initialize_corpus() -> None:
     drosten_questions = remove_stopwords(drosten_questions)
     ciesek_questions = remove_stopwords(ciesek_questions)
 
+    print('Number of questions to Drosten: ', len(drosten_questions))
+    print('Number of questions to Ciesek: ', len(ciesek_questions))
+
     # Step 3: Tokenize and lemmatize list with questions.
     ciesek_token = tokenize(ciesek_questions)
     ciesek_lemma = lemmatizer(ciesek_questions)

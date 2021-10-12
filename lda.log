@@ -1,394 +1,394 @@
-2021-09-29 12:45:53,411:INFO:
+2021-10-11 15:25:05,675:INFO:
 
 ******************************** The program started. ********************************
 
-2021-09-29 12:46:03,871:INFO:
+2021-10-11 15:25:16,748:INFO:
 
 **************TOPIC MODELING SANDRA CIESEK**************
-2021-09-29 12:46:03,871:INFO:adding document #0 to Dictionary(0 unique tokens: [])
-2021-09-29 12:46:03,872:INFO:built Dictionary(288 unique tokens: ['zeitpunkt', 'möglichkeit', 'abnahme', 'abstrich', 'angabe']...) from 219 documents (total 456 corpus positions)
-2021-09-29 12:46:03,884:INFO:Dictionary lifecycle event {'msg': "built Dictionary(288 unique tokens: ['zeitpunkt', 'möglichkeit', 'abnahme', 'abstrich', 'angabe']...) from 219 documents (total 456 corpus positions)", 'datetime': '2021-09-29T12:46:03.872700', 'gensim': '4.1.2', 'python': '3.9.5 (tags/v3.9.5:0a7dcbd, May  3 2021, 17:27:52) [MSC v.1928 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19043-SP0', 'event': 'created'}
-2021-09-29 12:46:03,884:INFO:discarding 271 tokens: [('zeitpunkt', 2), ('möglichkeit', 1), ('abnahme', 1), ('abstrich', 4), ('angabe', 1), ('fehler', 1), ('pcr-tests', 1), ('sensitivität', 2), ('blut', 1), ('direktnachweis', 1)]...
-2021-09-29 12:46:03,884:INFO:keeping 17 tokens which were in no less than 5 and no more than 109 (=50.0%) documents
-2021-09-29 12:46:03,884:INFO:resulting dictionary: Dictionary(17 unique tokens: ['frage', 'test', 'virus', 'symptom', 'frau']...)
-2021-09-29 12:46:03,884:INFO:using autotuned alpha, starting with [0.2, 0.2, 0.2, 0.2, 0.2]
-2021-09-29 12:46:03,884:INFO:using serial LDA version on this node
-2021-09-29 12:46:03,897:INFO:running online (multi-pass) LDA training, 5 topics, 20 passes over the supplied corpus of 219 documents, updating model once every 219 documents, evaluating perplexity every 219 documents, iterating 400x with a convergence threshold of 0.001000
-2021-09-29 12:46:03,919:INFO:-4.993 per-word bound, 31.8 perplexity estimate based on a held-out corpus of 219 documents with 115 words
-2021-09-29 12:46:03,919:INFO:PROGRESS: pass 0, at document #219/219
-2021-09-29 12:46:03,936:INFO:optimized alpha [0.19759677, 0.19637513, 0.20355248, 0.19371995, 0.2119293]
-2021-09-29 12:46:03,936:INFO:topic #0 (0.198): 0.238*"woche" + 0.146*"zahl" + 0.104*"frau" + 0.101*"mensch" + 0.100*"rolle" + 0.057*"forschung" + 0.057*"test" + 0.056*"symptom" + 0.055*"patient" + 0.012*"herr"
-2021-09-29 12:46:03,936:INFO:topic #1 (0.196): 0.345*"herr" + 0.234*"test" + 0.073*"frau" + 0.070*"frage" + 0.069*"symptom" + 0.069*"virus" + 0.014*"kind" + 0.013*"rolle" + 0.013*"forschung" + 0.013*"mensch"
-2021-09-29 12:46:03,936:INFO:topic #2 (0.204): 0.201*"forschung" + 0.169*"verlauf" + 0.168*"frage" + 0.073*"patient" + 0.071*"rolle" + 0.071*"virus" + 0.042*"frau" + 0.040*"woche" + 0.040*"intensivstation" + 0.040*"winter"
-2021-09-29 12:46:03,936:INFO:topic #3 (0.194): 0.304*"frau" + 0.230*"mensch" + 0.160*"herr" + 0.089*"virus" + 0.018*"kind" + 0.017*"rolle" + 0.017*"symptom" + 0.017*"frage" + 0.017*"test" + 0.017*"forschung"
-2021-09-29 12:46:03,936:INFO:topic #4 (0.212): 0.164*"kind" + 0.125*"symptom" + 0.124*"frau" + 0.105*"herbst" + 0.105*"winter" + 0.085*"virus" + 0.085*"intensivstation" + 0.065*"patient" + 0.045*"rolle" + 0.045*"zahl"
-2021-09-29 12:46:03,936:INFO:topic diff=2.572170, rho=1.000000
-2021-09-29 12:46:03,953:INFO:-3.808 per-word bound, 14.0 perplexity estimate based on a held-out corpus of 219 documents with 115 words
-2021-09-29 12:46:03,954:INFO:PROGRESS: pass 1, at document #219/219
-2021-09-29 12:46:03,965:INFO:optimized alpha [0.1941155, 0.19321983, 0.203987, 0.19312553, 0.21828915]
-2021-09-29 12:46:03,965:INFO:topic #0 (0.194): 0.303*"woche" + 0.178*"rolle" + 0.171*"zahl" + 0.058*"frau" + 0.056*"mensch" + 0.041*"test" + 0.034*"forschung" + 0.034*"symptom" + 0.033*"patient" + 0.012*"herr"
-2021-09-29 12:46:03,965:INFO:topic #1 (0.193): 0.434*"herr" + 0.274*"test" + 0.040*"frau" + 0.038*"frage" + 0.038*"virus" + 0.038*"symptom" + 0.013*"kind" + 0.013*"rolle" + 0.013*"forschung" + 0.013*"woche"
-2021-09-29 12:46:03,965:INFO:topic #2 (0.204): 0.228*"forschung" + 0.213*"frage" + 0.175*"verlauf" + 0.094*"patient" + 0.074*"virus" + 0.041*"intensivstation" + 0.036*"rolle" + 0.029*"frau" + 0.024*"woche" + 0.021*"winter"
-2021-09-29 12:46:03,965:INFO:topic #3 (0.193): 0.510*"frau" + 0.242*"mensch" + 0.059*"herr" + 0.036*"virus" + 0.012*"kind" + 0.012*"symptom" + 0.012*"frage" + 0.012*"forschung" + 0.012*"rolle" + 0.012*"test"
-2021-09-29 12:46:03,965:INFO:topic #4 (0.218): 0.165*"kind" + 0.148*"symptom" + 0.117*"herbst" + 0.117*"winter" + 0.108*"virus" + 0.085*"intensivstation" + 0.067*"frau" + 0.065*"patient" + 0.045*"rolle" + 0.045*"zahl"
-2021-09-29 12:46:03,965:INFO:topic diff=0.466126, rho=0.577350
-2021-09-29 12:46:03,982:INFO:-3.598 per-word bound, 12.1 perplexity estimate based on a held-out corpus of 219 documents with 115 words
-2021-09-29 12:46:03,982:INFO:PROGRESS: pass 2, at document #219/219
-2021-09-29 12:46:03,992:INFO:optimized alpha [0.19226335, 0.1906409, 0.20428556, 0.19304512, 0.22347756]
-2021-09-29 12:46:03,992:INFO:topic #0 (0.192): 0.321*"woche" + 0.237*"rolle" + 0.186*"zahl" + 0.035*"frau" + 0.034*"mensch" + 0.029*"test" + 0.024*"symptom" + 0.023*"forschung" + 0.022*"patient" + 0.011*"herr"
-2021-09-29 12:46:03,992:INFO:topic #1 (0.191): 0.468*"herr" + 0.293*"test" + 0.026*"frau" + 0.026*"virus" + 0.025*"frage" + 0.025*"symptom" + 0.013*"kind" + 0.013*"rolle" + 0.012*"forschung" + 0.012*"woche"
-2021-09-29 12:46:03,992:INFO:topic #2 (0.204): 0.240*"forschung" + 0.232*"frage" + 0.179*"verlauf" + 0.103*"patient" + 0.076*"virus" + 0.041*"intensivstation" + 0.022*"rolle" + 0.020*"frau" + 0.016*"woche" + 0.014*"winter"
-2021-09-29 12:46:03,993:INFO:topic #3 (0.193): 0.576*"frau" + 0.238*"mensch" + 0.031*"herr" + 0.021*"virus" + 0.011*"kind" + 0.011*"symptom" + 0.010*"forschung" + 0.010*"frage" + 0.010*"rolle" + 0.010*"test"
-2021-09-29 12:46:03,993:INFO:topic #4 (0.223): 0.170*"kind" + 0.161*"symptom" + 0.125*"herbst" + 0.124*"winter" + 0.120*"virus" + 0.087*"intensivstation" + 0.067*"patient" + 0.041*"zahl" + 0.038*"frau" + 0.033*"rolle"
-2021-09-29 12:46:03,993:INFO:topic diff=0.319146, rho=0.500000
-2021-09-29 12:46:04,009:INFO:-3.518 per-word bound, 11.5 perplexity estimate based on a held-out corpus of 219 documents with 115 words
-2021-09-29 12:46:04,009:INFO:PROGRESS: pass 3, at document #219/219
-2021-09-29 12:46:04,018:INFO:optimized alpha [0.1907819, 0.18845528, 0.20452976, 0.1929921, 0.22793709]
-2021-09-29 12:46:04,018:INFO:topic #0 (0.191): 0.324*"woche" + 0.272*"rolle" + 0.195*"zahl" + 0.024*"frau" + 0.023*"mensch" + 0.021*"test" + 0.019*"symptom" + 0.017*"forschung" + 0.017*"patient" + 0.011*"virus"
-2021-09-29 12:46:04,019:INFO:topic #1 (0.188): 0.482*"herr" + 0.303*"test" + 0.020*"frau" + 0.020*"virus" + 0.020*"frage" + 0.020*"symptom" + 0.012*"kind" + 0.012*"rolle" + 0.012*"woche" + 0.012*"forschung"
-2021-09-29 12:46:04,019:INFO:topic #2 (0.205): 0.246*"forschung" + 0.241*"frage" + 0.180*"verlauf" + 0.107*"patient" + 0.077*"virus" + 0.042*"intensivstation" + 0.015*"rolle" + 0.015*"frau" + 0.012*"woche" + 0.011*"winter"
-2021-09-29 12:46:04,019:INFO:topic #3 (0.193): 0.602*"frau" + 0.235*"mensch" + 0.021*"herr" + 0.015*"virus" + 0.010*"symptom" + 0.010*"kind" + 0.010*"forschung" + 0.010*"frage" + 0.010*"rolle" + 0.010*"test"
-2021-09-29 12:46:04,019:INFO:topic #4 (0.228): 0.174*"kind" + 0.168*"symptom" + 0.129*"herbst" + 0.129*"winter" + 0.126*"virus" + 0.089*"intensivstation" + 0.068*"patient" + 0.037*"zahl" + 0.024*"frau" + 0.023*"rolle"
-2021-09-29 12:46:04,019:INFO:topic diff=0.239714, rho=0.447214
-2021-09-29 12:46:04,035:INFO:-3.481 per-word bound, 11.2 perplexity estimate based on a held-out corpus of 219 documents with 115 words
-2021-09-29 12:46:04,035:INFO:PROGRESS: pass 4, at document #219/219
-2021-09-29 12:46:04,045:INFO:optimized alpha [0.18951802, 0.18656173, 0.2047488, 0.19295907, 0.23190711]
-2021-09-29 12:46:04,045:INFO:topic #0 (0.190): 0.324*"woche" + 0.291*"rolle" + 0.201*"zahl" + 0.018*"frau" + 0.018*"mensch" + 0.017*"test" + 0.016*"symptom" + 0.014*"forschung" + 0.014*"patient" + 0.011*"virus"
-2021-09-29 12:46:04,045:INFO:topic #1 (0.187): 0.490*"herr" + 0.308*"test" + 0.017*"frau" + 0.017*"virus" + 0.017*"frage" + 0.017*"symptom" + 0.012*"kind" + 0.012*"woche" + 0.012*"rolle" + 0.012*"forschung"
-2021-09-29 12:46:04,046:INFO:topic #2 (0.205): 0.249*"forschung" + 0.246*"frage" + 0.181*"verlauf" + 0.109*"patient" + 0.077*"virus" + 0.042*"intensivstation" + 0.012*"rolle" + 0.012*"frau" + 0.010*"woche" + 0.009*"winter"
-2021-09-29 12:46:04,046:INFO:topic #3 (0.193): 0.615*"frau" + 0.234*"mensch" + 0.016*"herr" + 0.013*"virus" + 0.010*"forschung" + 0.009*"symptom" + 0.009*"kind" + 0.009*"frage" + 0.009*"rolle" + 0.009*"test"
-2021-09-29 12:46:04,046:INFO:topic #4 (0.232): 0.176*"kind" + 0.172*"symptom" + 0.132*"herbst" + 0.132*"winter" + 0.130*"virus" + 0.090*"intensivstation" + 0.069*"patient" + 0.035*"zahl" + 0.017*"rolle" + 0.016*"frau"
-2021-09-29 12:46:04,046:INFO:topic diff=0.180982, rho=0.408248
-2021-09-29 12:46:04,062:INFO:-3.461 per-word bound, 11.0 perplexity estimate based on a held-out corpus of 219 documents with 115 words
-2021-09-29 12:46:04,062:INFO:PROGRESS: pass 5, at document #219/219
-2021-09-29 12:46:04,072:INFO:optimized alpha [0.1884125, 0.18489172, 0.2049537, 0.19294125, 0.23551048]
-2021-09-29 12:46:04,072:INFO:topic #0 (0.188): 0.324*"woche" + 0.302*"rolle" + 0.204*"zahl" + 0.015*"frau" + 0.015*"mensch" + 0.015*"test" + 0.014*"symptom" + 0.013*"forschung" + 0.013*"patient" + 0.011*"virus"
-2021-09-29 12:46:04,072:INFO:topic #1 (0.185): 0.494*"herr" + 0.312*"test" + 0.015*"frau" + 0.015*"virus" + 0.015*"frage" + 0.015*"symptom" + 0.012*"woche" + 0.012*"kind" + 0.012*"rolle" + 0.012*"forschung"
-2021-09-29 12:46:04,073:INFO:topic #2 (0.205): 0.250*"forschung" + 0.249*"frage" + 0.182*"verlauf" + 0.111*"patient" + 0.077*"virus" + 0.042*"intensivstation" + 0.010*"frau" + 0.010*"rolle" + 0.009*"woche" + 0.009*"winter"
-2021-09-29 12:46:04,073:INFO:topic #3 (0.193): 0.622*"frau" + 0.233*"mensch" + 0.013*"herr" + 0.011*"virus" + 0.009*"forschung" + 0.009*"symptom" + 0.009*"kind" + 0.009*"frage" + 0.009*"rolle" + 0.009*"test"
-2021-09-29 12:46:04,073:INFO:topic #4 (0.236): 0.177*"kind" + 0.175*"symptom" + 0.133*"herbst" + 0.133*"winter" + 0.132*"virus" + 0.091*"intensivstation" + 0.069*"patient" + 0.033*"zahl" + 0.013*"rolle" + 0.012*"frau"
-2021-09-29 12:46:04,073:INFO:topic diff=0.134624, rho=0.377964
-2021-09-29 12:46:04,089:INFO:-3.450 per-word bound, 10.9 perplexity estimate based on a held-out corpus of 219 documents with 115 words
-2021-09-29 12:46:04,089:INFO:PROGRESS: pass 6, at document #219/219
-2021-09-29 12:46:04,099:INFO:optimized alpha [0.18766147, 0.18341374, 0.20516916, 0.19295213, 0.23883179]
-2021-09-29 12:46:04,099:INFO:topic #0 (0.188): 0.320*"woche" + 0.306*"rolle" + 0.213*"zahl" + 0.013*"frau" + 0.013*"mensch" + 0.013*"test" + 0.013*"symptom" + 0.012*"forschung" + 0.012*"patient" + 0.011*"virus"
-2021-09-29 12:46:04,099:INFO:topic #1 (0.183): 0.496*"herr" + 0.313*"test" + 0.014*"frau" + 0.014*"virus" + 0.014*"frage" + 0.014*"symptom" + 0.012*"woche" + 0.012*"kind" + 0.012*"rolle" + 0.012*"forschung"
-2021-09-29 12:46:04,099:INFO:topic #2 (0.205): 0.252*"forschung" + 0.251*"frage" + 0.182*"verlauf" + 0.111*"patient" + 0.077*"virus" + 0.042*"intensivstation" + 0.009*"frau" + 0.009*"rolle" + 0.008*"woche" + 0.008*"winter"
-2021-09-29 12:46:04,099:INFO:topic #3 (0.193): 0.626*"frau" + 0.233*"mensch" + 0.012*"herr" + 0.010*"virus" + 0.009*"forschung" + 0.009*"symptom" + 0.009*"kind" + 0.009*"frage" + 0.009*"rolle" + 0.009*"test"
-2021-09-29 12:46:04,100:INFO:topic #4 (0.239): 0.179*"kind" + 0.177*"symptom" + 0.135*"herbst" + 0.135*"winter" + 0.134*"virus" + 0.092*"intensivstation" + 0.070*"patient" + 0.028*"zahl" + 0.010*"rolle" + 0.009*"frau"
-2021-09-29 12:46:04,100:INFO:topic diff=0.102759, rho=0.353553
-2021-09-29 12:46:04,116:INFO:-3.441 per-word bound, 10.9 perplexity estimate based on a held-out corpus of 219 documents with 115 words
-2021-09-29 12:46:04,116:INFO:PROGRESS: pass 7, at document #219/219
-2021-09-29 12:46:04,126:INFO:optimized alpha [0.18701404, 0.18207917, 0.2053781, 0.19297329, 0.24190551]
-2021-09-29 12:46:04,126:INFO:topic #0 (0.187): 0.317*"woche" + 0.307*"rolle" + 0.222*"zahl" + 0.012*"frau" + 0.012*"mensch" + 0.012*"test" + 0.012*"symptom" + 0.011*"patient" + 0.011*"forschung" + 0.010*"virus"
-2021-09-29 12:46:04,126:INFO:topic #1 (0.182): 0.497*"herr" + 0.315*"test" + 0.013*"frau" + 0.013*"virus" + 0.013*"frage" + 0.013*"symptom" + 0.012*"woche" + 0.012*"kind" + 0.012*"rolle" + 0.012*"forschung"
-2021-09-29 12:46:04,126:INFO:topic #2 (0.205): 0.252*"forschung" + 0.252*"frage" + 0.183*"verlauf" + 0.112*"patient" + 0.077*"virus" + 0.042*"intensivstation" + 0.008*"frau" + 0.008*"rolle" + 0.008*"woche" + 0.008*"winter"
-2021-09-29 12:46:04,126:INFO:topic #3 (0.193): 0.629*"frau" + 0.233*"mensch" + 0.011*"herr" + 0.010*"virus" + 0.009*"forschung" + 0.009*"symptom" + 0.009*"kind" + 0.009*"frage" + 0.009*"rolle" + 0.009*"test"
-2021-09-29 12:46:04,126:INFO:topic #4 (0.242): 0.180*"kind" + 0.179*"symptom" + 0.136*"herbst" + 0.136*"winter" + 0.135*"virus" + 0.092*"intensivstation" + 0.070*"patient" + 0.024*"zahl" + 0.008*"rolle" + 0.008*"frau"
-2021-09-29 12:46:04,127:INFO:topic diff=0.076905, rho=0.333333
-2021-09-29 12:46:04,143:INFO:-3.434 per-word bound, 10.8 perplexity estimate based on a held-out corpus of 219 documents with 115 words
-2021-09-29 12:46:04,143:INFO:PROGRESS: pass 8, at document #219/219
-2021-09-29 12:46:04,153:INFO:optimized alpha [0.186439, 0.18086286, 0.20558149, 0.1930022, 0.24477333]
-2021-09-29 12:46:04,153:INFO:topic #0 (0.186): 0.314*"woche" + 0.307*"rolle" + 0.229*"zahl" + 0.012*"frau" + 0.011*"test" + 0.011*"mensch" + 0.011*"symptom" + 0.011*"patient" + 0.011*"forschung" + 0.010*"virus"
-2021-09-29 12:46:04,153:INFO:topic #1 (0.181): 0.498*"herr" + 0.315*"test" + 0.013*"frau" + 0.013*"virus" + 0.013*"frage" + 0.013*"symptom" + 0.012*"woche" + 0.012*"kind" + 0.012*"rolle" + 0.012*"forschung"
-2021-09-29 12:46:04,153:INFO:topic #2 (0.206): 0.253*"forschung" + 0.252*"frage" + 0.183*"verlauf" + 0.112*"patient" + 0.077*"virus" + 0.042*"intensivstation" + 0.008*"frau" + 0.008*"rolle" + 0.008*"woche" + 0.007*"winter"
-2021-09-29 12:46:04,153:INFO:topic #3 (0.193): 0.630*"frau" + 0.233*"mensch" + 0.010*"herr" + 0.010*"virus" + 0.009*"forschung" + 0.009*"symptom" + 0.009*"kind" + 0.009*"frage" + 0.009*"rolle" + 0.009*"test"
-2021-09-29 12:46:04,153:INFO:topic #4 (0.245): 0.181*"kind" + 0.180*"symptom" + 0.137*"herbst" + 0.137*"winter" + 0.136*"virus" + 0.093*"intensivstation" + 0.071*"patient" + 0.020*"zahl" + 0.007*"rolle" + 0.007*"frau"
-2021-09-29 12:46:04,153:INFO:topic diff=0.057581, rho=0.316228
-2021-09-29 12:46:04,170:INFO:-3.429 per-word bound, 10.8 perplexity estimate based on a held-out corpus of 219 documents with 115 words
-2021-09-29 12:46:04,170:INFO:PROGRESS: pass 9, at document #219/219
-2021-09-29 12:46:04,180:INFO:optimized alpha [0.18592039, 0.17974612, 0.20578012, 0.1930373, 0.24746738]
-2021-09-29 12:46:04,180:INFO:topic #0 (0.186): 0.312*"woche" + 0.307*"rolle" + 0.235*"zahl" + 0.011*"frau" + 0.011*"test" + 0.011*"mensch" + 0.011*"symptom" + 0.011*"patient" + 0.011*"forschung" + 0.010*"virus"
-2021-09-29 12:46:04,180:INFO:topic #1 (0.180): 0.499*"herr" + 0.316*"test" + 0.013*"frau" + 0.013*"virus" + 0.013*"frage" + 0.013*"symptom" + 0.012*"woche" + 0.012*"kind" + 0.012*"rolle" + 0.012*"forschung"
-2021-09-29 12:46:04,180:INFO:topic #2 (0.206): 0.253*"forschung" + 0.253*"frage" + 0.183*"verlauf" + 0.112*"patient" + 0.077*"virus" + 0.042*"intensivstation" + 0.008*"frau" + 0.008*"rolle" + 0.008*"woche" + 0.007*"winter"
-2021-09-29 12:46:04,180:INFO:topic #3 (0.193): 0.631*"frau" + 0.232*"mensch" + 0.010*"herr" + 0.009*"virus" + 0.009*"forschung" + 0.009*"symptom" + 0.009*"kind" + 0.009*"frage" + 0.009*"rolle" + 0.009*"test"
-2021-09-29 12:46:04,180:INFO:topic #4 (0.247): 0.182*"kind" + 0.181*"symptom" + 0.137*"herbst" + 0.137*"winter" + 0.137*"virus" + 0.093*"intensivstation" + 0.071*"patient" + 0.016*"zahl" + 0.006*"rolle" + 0.006*"frau"
-2021-09-29 12:46:04,180:INFO:topic diff=0.043428, rho=0.301511
-2021-09-29 12:46:04,197:INFO:-3.425 per-word bound, 10.7 perplexity estimate based on a held-out corpus of 219 documents with 115 words
-2021-09-29 12:46:04,197:INFO:PROGRESS: pass 10, at document #219/219
-2021-09-29 12:46:04,207:INFO:optimized alpha [0.18544781, 0.17871432, 0.20597346, 0.19307749, 0.25001]
-2021-09-29 12:46:04,207:INFO:topic #0 (0.185): 0.310*"woche" + 0.307*"rolle" + 0.239*"zahl" + 0.011*"test" + 0.011*"frau" + 0.011*"mensch" + 0.011*"symptom" + 0.010*"patient" + 0.010*"forschung" + 0.010*"virus"
-2021-09-29 12:46:04,207:INFO:topic #1 (0.179): 0.499*"herr" + 0.316*"test" + 0.013*"frau" + 0.013*"virus" + 0.013*"frage" + 0.013*"symptom" + 0.012*"woche" + 0.012*"kind" + 0.012*"rolle" + 0.012*"forschung"
-2021-09-29 12:46:04,207:INFO:topic #2 (0.206): 0.253*"forschung" + 0.253*"frage" + 0.183*"verlauf" + 0.112*"patient" + 0.077*"virus" + 0.042*"intensivstation" + 0.008*"frau" + 0.007*"rolle" + 0.007*"woche" + 0.007*"winter"
-2021-09-29 12:46:04,207:INFO:topic #3 (0.193): 0.632*"frau" + 0.232*"mensch" + 0.010*"herr" + 0.009*"virus" + 0.009*"forschung" + 0.009*"symptom" + 0.009*"kind" + 0.009*"frage" + 0.009*"rolle" + 0.009*"test"
-2021-09-29 12:46:04,207:INFO:topic #4 (0.250): 0.183*"kind" + 0.182*"symptom" + 0.138*"herbst" + 0.138*"winter" + 0.138*"virus" + 0.094*"intensivstation" + 0.071*"patient" + 0.014*"zahl" + 0.006*"rolle" + 0.006*"frau"
-2021-09-29 12:46:04,207:INFO:topic diff=0.033104, rho=0.288675
-2021-09-29 12:46:04,223:INFO:-3.422 per-word bound, 10.7 perplexity estimate based on a held-out corpus of 219 documents with 115 words
-2021-09-29 12:46:04,223:INFO:PROGRESS: pass 11, at document #219/219
-2021-09-29 12:46:04,233:INFO:optimized alpha [0.18501368, 0.1777559, 0.20616138, 0.193122, 0.2524208]
-2021-09-29 12:46:04,233:INFO:topic #0 (0.185): 0.309*"woche" + 0.306*"rolle" + 0.243*"zahl" + 0.010*"test" + 0.010*"frau" + 0.010*"mensch" + 0.010*"symptom" + 0.010*"patient" + 0.010*"forschung" + 0.010*"virus"
-2021-09-29 12:46:04,233:INFO:topic #1 (0.178): 0.499*"herr" + 0.316*"test" + 0.013*"frau" + 0.012*"virus" + 0.012*"frage" + 0.012*"symptom" + 0.012*"woche" + 0.012*"kind" + 0.012*"rolle" + 0.012*"forschung"
-2021-09-29 12:46:04,233:INFO:topic #2 (0.206): 0.253*"forschung" + 0.253*"frage" + 0.183*"verlauf" + 0.112*"patient" + 0.077*"virus" + 0.042*"intensivstation" + 0.007*"frau" + 0.007*"rolle" + 0.007*"woche" + 0.007*"winter"
-2021-09-29 12:46:04,233:INFO:topic #3 (0.193): 0.633*"frau" + 0.232*"mensch" + 0.009*"herr" + 0.009*"virus" + 0.009*"forschung" + 0.009*"symptom" + 0.009*"kind" + 0.009*"frage" + 0.009*"rolle" + 0.009*"test"
-2021-09-29 12:46:04,233:INFO:topic #4 (0.252): 0.183*"kind" + 0.183*"symptom" + 0.138*"virus" + 0.138*"herbst" + 0.138*"winter" + 0.094*"intensivstation" + 0.071*"patient" + 0.012*"zahl" + 0.006*"rolle" + 0.005*"frau"
-2021-09-29 12:46:04,233:INFO:topic diff=0.025559, rho=0.277350
-2021-09-29 12:46:04,250:INFO:-3.420 per-word bound, 10.7 perplexity estimate based on a held-out corpus of 219 documents with 115 words
-2021-09-29 12:46:04,250:INFO:PROGRESS: pass 12, at document #219/219
-2021-09-29 12:46:04,259:INFO:optimized alpha [0.18462856, 0.17687638, 0.20634869, 0.19318737, 0.254964]
-2021-09-29 12:46:04,260:INFO:topic #0 (0.185): 0.308*"woche" + 0.306*"rolle" + 0.246*"zahl" + 0.010*"test" + 0.010*"frau" + 0.010*"symptom" + 0.010*"mensch" + 0.010*"patient" + 0.010*"forschung" + 0.010*"virus"
-2021-09-29 12:46:04,260:INFO:topic #1 (0.177): 0.500*"herr" + 0.317*"test" + 0.012*"frau" + 0.012*"virus" + 0.012*"frage" + 0.012*"symptom" + 0.012*"woche" + 0.012*"kind" + 0.012*"rolle" + 0.012*"forschung"
-2021-09-29 12:46:04,260:INFO:topic #2 (0.206): 0.255*"forschung" + 0.255*"frage" + 0.185*"verlauf" + 0.113*"patient" + 0.070*"virus" + 0.042*"intensivstation" + 0.007*"frau" + 0.007*"rolle" + 0.007*"woche" + 0.007*"winter"
-2021-09-29 12:46:04,260:INFO:topic #3 (0.193): 0.633*"frau" + 0.232*"mensch" + 0.009*"herr" + 0.009*"virus" + 0.009*"forschung" + 0.009*"symptom" + 0.009*"kind" + 0.009*"frage" + 0.009*"rolle" + 0.009*"test"
-2021-09-29 12:46:04,260:INFO:topic #4 (0.255): 0.182*"kind" + 0.182*"symptom" + 0.143*"virus" + 0.138*"herbst" + 0.138*"winter" + 0.094*"intensivstation" + 0.071*"patient" + 0.010*"zahl" + 0.005*"rolle" + 0.005*"frau"
-2021-09-29 12:46:04,260:INFO:topic diff=0.022643, rho=0.267261
-2021-09-29 12:46:04,275:INFO:-3.416 per-word bound, 10.7 perplexity estimate based on a held-out corpus of 219 documents with 115 words
-2021-09-29 12:46:04,275:INFO:PROGRESS: pass 13, at document #219/219
-2021-09-29 12:46:04,285:INFO:optimized alpha [0.18427384, 0.17605497, 0.20651759, 0.19325787, 0.25743285]
-2021-09-29 12:46:04,285:INFO:topic #0 (0.184): 0.307*"woche" + 0.305*"rolle" + 0.248*"zahl" + 0.010*"test" + 0.010*"symptom" + 0.010*"frau" + 0.010*"mensch" + 0.010*"patient" + 0.010*"forschung" + 0.010*"virus"
-2021-09-29 12:46:04,285:INFO:topic #1 (0.176): 0.500*"herr" + 0.317*"test" + 0.012*"frau" + 0.012*"virus" + 0.012*"symptom" + 0.012*"frage" + 0.012*"woche" + 0.012*"kind" + 0.012*"rolle" + 0.012*"forschung"
-2021-09-29 12:46:04,285:INFO:topic #2 (0.207): 0.258*"forschung" + 0.258*"frage" + 0.186*"verlauf" + 0.114*"patient" + 0.061*"virus" + 0.043*"intensivstation" + 0.007*"frau" + 0.007*"rolle" + 0.007*"woche" + 0.007*"winter"
-2021-09-29 12:46:04,285:INFO:topic #3 (0.193): 0.633*"frau" + 0.232*"mensch" + 0.009*"herr" + 0.009*"virus" + 0.009*"forschung" + 0.009*"symptom" + 0.009*"kind" + 0.009*"frage" + 0.009*"rolle" + 0.009*"test"
-2021-09-29 12:46:04,285:INFO:topic #4 (0.257): 0.182*"kind" + 0.181*"symptom" + 0.148*"virus" + 0.137*"herbst" + 0.137*"winter" + 0.093*"intensivstation" + 0.071*"patient" + 0.009*"zahl" + 0.005*"rolle" + 0.005*"frau"
-2021-09-29 12:46:04,285:INFO:topic diff=0.019955, rho=0.258199
-2021-09-29 12:46:04,300:INFO:-3.412 per-word bound, 10.6 perplexity estimate based on a held-out corpus of 219 documents with 115 words
-2021-09-29 12:46:04,301:INFO:PROGRESS: pass 14, at document #219/219
-2021-09-29 12:46:04,310:INFO:optimized alpha [0.1839445, 0.17528397, 0.2066726, 0.19333132, 0.25980902]
-2021-09-29 12:46:04,310:INFO:topic #0 (0.184): 0.306*"woche" + 0.305*"rolle" + 0.249*"zahl" + 0.010*"test" + 0.010*"symptom" + 0.010*"frau" + 0.010*"mensch" + 0.010*"patient" + 0.010*"virus" + 0.010*"forschung"
-2021-09-29 12:46:04,310:INFO:topic #1 (0.175): 0.500*"herr" + 0.317*"test" + 0.012*"frau" + 0.012*"virus" + 0.012*"symptom" + 0.012*"frage" + 0.012*"woche" + 0.012*"kind" + 0.012*"rolle" + 0.012*"forschung"
-2021-09-29 12:46:04,310:INFO:topic #2 (0.207): 0.260*"forschung" + 0.260*"frage" + 0.188*"verlauf" + 0.116*"patient" + 0.052*"virus" + 0.043*"intensivstation" + 0.007*"frau" + 0.007*"rolle" + 0.007*"woche" + 0.007*"winter"
-2021-09-29 12:46:04,310:INFO:topic #3 (0.193): 0.633*"frau" + 0.232*"mensch" + 0.009*"herr" + 0.009*"forschung" + 0.009*"virus" + 0.009*"symptom" + 0.009*"kind" + 0.009*"frage" + 0.009*"rolle" + 0.009*"patient"
-2021-09-29 12:46:04,310:INFO:topic #4 (0.260): 0.181*"kind" + 0.181*"symptom" + 0.153*"virus" + 0.137*"herbst" + 0.137*"winter" + 0.093*"intensivstation" + 0.071*"patient" + 0.008*"zahl" + 0.005*"rolle" + 0.005*"frau"
-2021-09-29 12:46:04,310:INFO:topic diff=0.017147, rho=0.250000
-2021-09-29 12:46:04,327:INFO:-3.408 per-word bound, 10.6 perplexity estimate based on a held-out corpus of 219 documents with 115 words
-2021-09-29 12:46:04,327:INFO:PROGRESS: pass 15, at document #219/219
-2021-09-29 12:46:04,337:INFO:optimized alpha [0.18363741, 0.17455785, 0.20681743, 0.1934072, 0.26209432]
-2021-09-29 12:46:04,337:INFO:topic #0 (0.184): 0.306*"woche" + 0.305*"rolle" + 0.250*"zahl" + 0.010*"test" + 0.010*"symptom" + 0.010*"patient" + 0.010*"frau" + 0.010*"mensch" + 0.010*"virus" + 0.010*"verlauf"
-2021-09-29 12:46:04,337:INFO:topic #1 (0.175): 0.500*"herr" + 0.317*"test" + 0.012*"frau" + 0.012*"virus" + 0.012*"symptom" + 0.012*"frage" + 0.012*"woche" + 0.012*"kind" + 0.012*"forschung" + 0.012*"rolle"
-2021-09-29 12:46:04,337:INFO:topic #2 (0.207): 0.263*"forschung" + 0.263*"frage" + 0.190*"verlauf" + 0.117*"patient" + 0.044*"virus" + 0.043*"intensivstation" + 0.007*"frau" + 0.007*"rolle" + 0.007*"woche" + 0.007*"winter"
-2021-09-29 12:46:04,337:INFO:topic #3 (0.193): 0.633*"frau" + 0.232*"mensch" + 0.009*"herr" + 0.009*"forschung" + 0.009*"virus" + 0.009*"symptom" + 0.009*"kind" + 0.009*"frage" + 0.009*"rolle" + 0.009*"patient"
-2021-09-29 12:46:04,337:INFO:topic #4 (0.262): 0.180*"kind" + 0.180*"symptom" + 0.158*"virus" + 0.136*"herbst" + 0.136*"winter" + 0.092*"intensivstation" + 0.070*"patient" + 0.007*"zahl" + 0.005*"rolle" + 0.005*"frau"
-2021-09-29 12:46:04,337:INFO:topic diff=0.014741, rho=0.242536
-2021-09-29 12:46:04,353:INFO:-3.405 per-word bound, 10.6 perplexity estimate based on a held-out corpus of 219 documents with 115 words
-2021-09-29 12:46:04,353:INFO:PROGRESS: pass 16, at document #219/219
-2021-09-29 12:46:04,362:INFO:optimized alpha [0.18335019, 0.17387196, 0.20695505, 0.19348496, 0.26429313]
-2021-09-29 12:46:04,362:INFO:topic #0 (0.183): 0.305*"woche" + 0.305*"rolle" + 0.251*"zahl" + 0.010*"symptom" + 0.010*"test" + 0.010*"patient" + 0.010*"frau" + 0.010*"mensch" + 0.010*"virus" + 0.010*"verlauf"
-2021-09-29 12:46:04,362:INFO:topic #1 (0.174): 0.500*"herr" + 0.317*"test" + 0.012*"frau" + 0.012*"virus" + 0.012*"symptom" + 0.012*"frage" + 0.012*"woche" + 0.012*"kind" + 0.012*"forschung" + 0.012*"rolle"
-2021-09-29 12:46:04,362:INFO:topic #2 (0.207): 0.265*"forschung" + 0.264*"frage" + 0.191*"verlauf" + 0.117*"patient" + 0.044*"intensivstation" + 0.038*"virus" + 0.007*"frau" + 0.007*"woche" + 0.007*"rolle" + 0.007*"winter"
-2021-09-29 12:46:04,362:INFO:topic #3 (0.193): 0.633*"frau" + 0.232*"mensch" + 0.009*"herr" + 0.009*"forschung" + 0.009*"symptom" + 0.009*"kind" + 0.009*"virus" + 0.009*"frage" + 0.009*"patient" + 0.009*"rolle"
-2021-09-29 12:46:04,363:INFO:topic #4 (0.264): 0.179*"kind" + 0.179*"symptom" + 0.161*"virus" + 0.136*"herbst" + 0.136*"winter" + 0.092*"intensivstation" + 0.070*"patient" + 0.007*"zahl" + 0.005*"rolle" + 0.005*"frau"
-2021-09-29 12:46:04,363:INFO:topic diff=0.012745, rho=0.235702
-2021-09-29 12:46:04,378:INFO:-3.402 per-word bound, 10.6 perplexity estimate based on a held-out corpus of 219 documents with 115 words
-2021-09-29 12:46:04,378:INFO:PROGRESS: pass 17, at document #219/219
-2021-09-29 12:46:04,387:INFO:optimized alpha [0.18308102, 0.17322272, 0.20708741, 0.19356446, 0.26641226]
-2021-09-29 12:46:04,387:INFO:topic #0 (0.183): 0.305*"woche" + 0.304*"rolle" + 0.252*"zahl" + 0.010*"symptom" + 0.010*"patient" + 0.010*"test" + 0.010*"virus" + 0.010*"frau" + 0.010*"mensch" + 0.010*"verlauf"
-2021-09-29 12:46:04,387:INFO:topic #1 (0.173): 0.500*"herr" + 0.317*"test" + 0.012*"woche" + 0.012*"frau" + 0.012*"virus" + 0.012*"symptom" + 0.012*"frage" + 0.012*"kind" + 0.012*"forschung" + 0.012*"patient"
-2021-09-29 12:46:04,387:INFO:topic #2 (0.207): 0.266*"forschung" + 0.266*"frage" + 0.192*"verlauf" + 0.118*"patient" + 0.044*"intensivstation" + 0.032*"virus" + 0.008*"frau" + 0.007*"woche" + 0.007*"rolle" + 0.007*"winter"
-2021-09-29 12:46:04,387:INFO:topic #3 (0.194): 0.634*"frau" + 0.232*"mensch" + 0.009*"forschung" + 0.009*"herr" + 0.009*"symptom" + 0.009*"kind" + 0.009*"frage" + 0.009*"virus" + 0.009*"patient" + 0.009*"rolle"
-2021-09-29 12:46:04,388:INFO:topic #4 (0.266): 0.179*"kind" + 0.179*"symptom" + 0.164*"virus" + 0.135*"herbst" + 0.135*"winter" + 0.092*"intensivstation" + 0.070*"patient" + 0.006*"zahl" + 0.005*"rolle" + 0.005*"frau"
-2021-09-29 12:46:04,388:INFO:topic diff=0.011107, rho=0.229416
-2021-09-29 12:46:04,403:INFO:-3.400 per-word bound, 10.6 perplexity estimate based on a held-out corpus of 219 documents with 115 words
-2021-09-29 12:46:04,403:INFO:PROGRESS: pass 18, at document #219/219
-2021-09-29 12:46:04,413:INFO:optimized alpha [0.18282816, 0.17260674, 0.20721662, 0.19364545, 0.26845694]
-2021-09-29 12:46:04,413:INFO:topic #0 (0.183): 0.305*"woche" + 0.304*"rolle" + 0.253*"zahl" + 0.010*"symptom" + 0.010*"patient" + 0.010*"test" + 0.010*"virus" + 0.010*"verlauf" + 0.010*"kind" + 0.010*"frau"
-2021-09-29 12:46:04,414:INFO:topic #1 (0.173): 0.500*"herr" + 0.317*"test" + 0.012*"woche" + 0.012*"frau" + 0.012*"virus" + 0.012*"symptom" + 0.012*"frage" + 0.012*"kind" + 0.012*"patient" + 0.012*"forschung"
-2021-09-29 12:46:04,414:INFO:topic #2 (0.207): 0.267*"forschung" + 0.267*"frage" + 0.193*"verlauf" + 0.119*"patient" + 0.044*"intensivstation" + 0.028*"virus" + 0.008*"frau" + 0.007*"woche" + 0.007*"rolle" + 0.007*"winter"
-2021-09-29 12:46:04,414:INFO:topic #3 (0.194): 0.634*"frau" + 0.232*"mensch" + 0.009*"forschung" + 0.009*"symptom" + 0.009*"kind" + 0.009*"herr" + 0.009*"frage" + 0.009*"virus" + 0.009*"patient" + 0.009*"intensivstation"
-2021-09-29 12:46:04,414:INFO:topic #4 (0.268): 0.178*"kind" + 0.178*"symptom" + 0.167*"virus" + 0.135*"herbst" + 0.135*"winter" + 0.092*"intensivstation" + 0.070*"patient" + 0.006*"zahl" + 0.005*"rolle" + 0.004*"frau"
-2021-09-29 12:46:04,414:INFO:topic diff=0.009764, rho=0.223607
-2021-09-29 12:46:04,429:INFO:-3.397 per-word bound, 10.5 perplexity estimate based on a held-out corpus of 219 documents with 115 words
-2021-09-29 12:46:04,429:INFO:PROGRESS: pass 19, at document #219/219
-2021-09-29 12:46:04,439:INFO:optimized alpha [0.1825902, 0.17202112, 0.20734306, 0.19372775, 0.27043125]
-2021-09-29 12:46:04,439:INFO:topic #0 (0.183): 0.304*"woche" + 0.304*"rolle" + 0.253*"zahl" + 0.010*"patient" + 0.010*"symptom" + 0.010*"test" + 0.010*"virus" + 0.010*"verlauf" + 0.010*"kind" + 0.010*"intensivstation"
-2021-09-29 12:46:04,439:INFO:topic #1 (0.172): 0.500*"herr" + 0.317*"test" + 0.012*"woche" + 0.012*"virus" + 0.012*"frau" + 0.012*"symptom" + 0.012*"frage" + 0.012*"kind" + 0.012*"patient" + 0.012*"forschung"
-2021-09-29 12:46:04,439:INFO:topic #2 (0.207): 0.268*"forschung" + 0.268*"frage" + 0.194*"verlauf" + 0.119*"patient" + 0.044*"intensivstation" + 0.024*"virus" + 0.008*"frau" + 0.008*"woche" + 0.007*"rolle" + 0.007*"winter"
-2021-09-29 12:46:04,439:INFO:topic #3 (0.194): 0.634*"frau" + 0.232*"mensch" + 0.009*"forschung" + 0.009*"symptom" + 0.009*"kind" + 0.009*"herr" + 0.009*"frage" + 0.009*"virus" + 0.009*"patient" + 0.009*"intensivstation"
-2021-09-29 12:46:04,439:INFO:topic #4 (0.270): 0.178*"kind" + 0.178*"symptom" + 0.168*"virus" + 0.135*"herbst" + 0.135*"winter" + 0.092*"intensivstation" + 0.070*"patient" + 0.005*"zahl" + 0.004*"rolle" + 0.004*"frau"
-2021-09-29 12:46:04,439:INFO:topic diff=0.008673, rho=0.218218
-2021-09-29 12:46:04,439:INFO:LdaModel lifecycle event {'msg': 'trained LdaModel(num_terms=17, num_topics=5, decay=0.5, chunksize=2000) in 0.54s', 'datetime': '2021-09-29T12:46:04.439180', 'gensim': '4.1.2', 'python': '3.9.5 (tags/v3.9.5:0a7dcbd, May  3 2021, 17:27:52) [MSC v.1928 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19043-SP0', 'event': 'created'}
-2021-09-29 12:46:04,443:INFO:
+2021-10-11 15:25:16,748:INFO:adding document #0 to Dictionary(0 unique tokens: [])
+2021-10-11 15:25:16,749:INFO:built Dictionary(288 unique tokens: ['zeitpunkt', 'möglichkeit', 'abnahme', 'abstrich', 'angabe']...) from 219 documents (total 456 corpus positions)
+2021-10-11 15:25:16,761:INFO:Dictionary lifecycle event {'msg': "built Dictionary(288 unique tokens: ['zeitpunkt', 'möglichkeit', 'abnahme', 'abstrich', 'angabe']...) from 219 documents (total 456 corpus positions)", 'datetime': '2021-10-11T15:25:16.749489', 'gensim': '4.1.2', 'python': '3.9.5 (tags/v3.9.5:0a7dcbd, May  3 2021, 17:27:52) [MSC v.1928 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19043-SP0', 'event': 'created'}
+2021-10-11 15:25:16,764:INFO:discarding 271 tokens: [('zeitpunkt', 2), ('möglichkeit', 1), ('abnahme', 1), ('abstrich', 4), ('angabe', 1), ('fehler', 1), ('pcr-tests', 1), ('sensitivität', 2), ('blut', 1), ('direktnachweis', 1)]...
+2021-10-11 15:25:16,764:INFO:keeping 17 tokens which were in no less than 5 and no more than 109 (=50.0%) documents
+2021-10-11 15:25:16,764:INFO:resulting dictionary: Dictionary(17 unique tokens: ['frage', 'test', 'virus', 'symptom', 'frau']...)
+2021-10-11 15:25:16,764:INFO:using autotuned alpha, starting with [0.2, 0.2, 0.2, 0.2, 0.2]
+2021-10-11 15:25:16,765:INFO:using serial LDA version on this node
+2021-10-11 15:25:16,765:INFO:running online (multi-pass) LDA training, 5 topics, 20 passes over the supplied corpus of 219 documents, updating model once every 219 documents, evaluating perplexity every 219 documents, iterating 400x with a convergence threshold of 0.001000
+2021-10-11 15:25:16,787:INFO:-4.981 per-word bound, 31.6 perplexity estimate based on a held-out corpus of 219 documents with 115 words
+2021-10-11 15:25:16,787:INFO:PROGRESS: pass 0, at document #219/219
+2021-10-11 15:25:16,803:INFO:optimized alpha [0.21114483, 0.20028783, 0.19134419, 0.19563422, 0.20464893]
+2021-10-11 15:25:16,803:INFO:topic #0 (0.211): 0.136*"patient" + 0.135*"symptom" + 0.134*"herr" + 0.114*"intensivstation" + 0.114*"woche" + 0.114*"kind" + 0.114*"verlauf" + 0.049*"zahl" + 0.027*"rolle" + 0.027*"frage"
+2021-10-11 15:25:16,803:INFO:topic #1 (0.200): 0.280*"frau" + 0.277*"forschung" + 0.123*"rolle" + 0.086*"winter" + 0.086*"herbst" + 0.048*"frage" + 0.010*"herr" + 0.010*"kind" + 0.009*"symptom" + 0.009*"test"
+2021-10-11 15:25:16,803:INFO:topic #2 (0.191): 0.267*"test" + 0.187*"kind" + 0.186*"virus" + 0.107*"frau" + 0.022*"herr" + 0.021*"forschung" + 0.020*"symptom" + 0.020*"frage" + 0.020*"rolle" + 0.019*"mensch"
+2021-10-11 15:25:16,803:INFO:topic #3 (0.196): 0.234*"frage" + 0.125*"herbst" + 0.125*"herr" + 0.125*"winter" + 0.071*"frau" + 0.069*"symptom" + 0.068*"kind" + 0.068*"rolle" + 0.014*"forschung" + 0.013*"virus"
+2021-10-11 15:25:16,803:INFO:topic #4 (0.205): 0.190*"virus" + 0.159*"frau" + 0.158*"mensch" + 0.097*"zahl" + 0.068*"test" + 0.068*"winter" + 0.068*"herbst" + 0.038*"frage" + 0.038*"rolle" + 0.038*"symptom"
+2021-10-11 15:25:16,803:INFO:topic diff=2.716364, rho=1.000000
+2021-10-11 15:25:16,821:INFO:-3.758 per-word bound, 13.5 perplexity estimate based on a held-out corpus of 219 documents with 115 words
+2021-10-11 15:25:16,821:INFO:PROGRESS: pass 1, at document #219/219
+2021-10-11 15:25:16,832:INFO:optimized alpha [0.21678875, 0.20240982, 0.18768093, 0.1930561, 0.20235306]
+2021-10-11 15:25:16,832:INFO:topic #0 (0.217): 0.163*"herr" + 0.160*"symptom" + 0.138*"patient" + 0.129*"woche" + 0.116*"intensivstation" + 0.116*"verlauf" + 0.064*"kind" + 0.049*"zahl" + 0.017*"rolle" + 0.014*"frage"
+2021-10-11 15:25:16,832:INFO:topic #1 (0.202): 0.385*"frau" + 0.262*"forschung" + 0.165*"rolle" + 0.038*"winter" + 0.038*"herbst" + 0.026*"frage" + 0.008*"herr" + 0.008*"kind" + 0.008*"symptom" + 0.008*"virus"
+2021-10-11 15:25:16,832:INFO:topic #2 (0.188): 0.351*"kind" + 0.300*"test" + 0.084*"frau" + 0.073*"virus" + 0.016*"herr" + 0.015*"forschung" + 0.015*"symptom" + 0.015*"frage" + 0.015*"rolle" + 0.015*"woche"
+2021-10-11 15:25:16,832:INFO:topic #3 (0.193): 0.278*"frage" + 0.223*"herbst" + 0.222*"winter" + 0.053*"herr" + 0.037*"frau" + 0.031*"symptom" + 0.031*"rolle" + 0.031*"kind" + 0.011*"forschung" + 0.011*"virus"
+2021-10-11 15:25:16,832:INFO:topic #4 (0.202): 0.286*"virus" + 0.202*"mensch" + 0.124*"zahl" + 0.091*"frau" + 0.041*"winter" + 0.041*"test" + 0.041*"herbst" + 0.035*"rolle" + 0.034*"frage" + 0.031*"symptom"
+2021-10-11 15:25:16,832:INFO:topic diff=0.504249, rho=0.577350
+2021-10-11 15:25:16,849:INFO:-3.481 per-word bound, 11.2 perplexity estimate based on a held-out corpus of 219 documents with 115 words
+2021-10-11 15:25:16,849:INFO:PROGRESS: pass 2, at document #219/219
+2021-10-11 15:25:16,859:INFO:optimized alpha [0.22096196, 0.20459297, 0.18500629, 0.19082044, 0.20069234]
+2021-10-11 15:25:16,859:INFO:topic #0 (0.221): 0.178*"herr" + 0.175*"symptom" + 0.142*"patient" + 0.137*"woche" + 0.119*"intensivstation" + 0.119*"verlauf" + 0.039*"zahl" + 0.036*"kind" + 0.012*"rolle" + 0.010*"frage"
+2021-10-11 15:25:16,859:INFO:topic #1 (0.205): 0.427*"frau" + 0.250*"forschung" + 0.183*"rolle" + 0.022*"winter" + 0.022*"herbst" + 0.016*"frage" + 0.007*"herr" + 0.007*"kind" + 0.007*"symptom" + 0.007*"virus"
+2021-10-11 15:25:16,859:INFO:topic #2 (0.185): 0.427*"kind" + 0.307*"test" + 0.052*"frau" + 0.041*"virus" + 0.014*"herr" + 0.013*"woche" + 0.013*"forschung" + 0.013*"symptom" + 0.013*"frage" + 0.013*"rolle"
+2021-10-11 15:25:16,859:INFO:topic #3 (0.191): 0.296*"frage" + 0.252*"herbst" + 0.252*"winter" + 0.030*"herr" + 0.023*"frau" + 0.020*"symptom" + 0.020*"rolle" + 0.020*"kind" + 0.010*"forschung" + 0.010*"virus"
+2021-10-11 15:25:16,859:INFO:topic #4 (0.201): 0.334*"virus" + 0.223*"mensch" + 0.159*"zahl" + 0.055*"frau" + 0.027*"winter" + 0.027*"test" + 0.027*"herbst" + 0.027*"frage" + 0.027*"rolle" + 0.024*"symptom"
+2021-10-11 15:25:16,860:INFO:topic diff=0.332980, rho=0.500000
+2021-10-11 15:25:16,875:INFO:-3.381 per-word bound, 10.4 perplexity estimate based on a held-out corpus of 219 documents with 115 words
+2021-10-11 15:25:16,875:INFO:PROGRESS: pass 3, at document #219/219
+2021-10-11 15:25:16,885:INFO:optimized alpha [0.22456409, 0.20650269, 0.1827148, 0.18890497, 0.19923137]
+2021-10-11 15:25:16,885:INFO:topic #0 (0.225): 0.185*"herr" + 0.183*"symptom" + 0.144*"patient" + 0.141*"woche" + 0.121*"intensivstation" + 0.121*"verlauf" + 0.034*"zahl" + 0.022*"kind" + 0.009*"rolle" + 0.007*"frage"
+2021-10-11 15:25:16,885:INFO:topic #1 (0.207): 0.445*"frau" + 0.245*"forschung" + 0.192*"rolle" + 0.015*"winter" + 0.015*"herbst" + 0.012*"frage" + 0.007*"herr" + 0.007*"kind" + 0.007*"symptom" + 0.007*"virus"
+2021-10-11 15:25:16,885:INFO:topic #2 (0.183): 0.460*"kind" + 0.311*"test" + 0.036*"frau" + 0.028*"virus" + 0.013*"herr" + 0.013*"woche" + 0.013*"zahl" + 0.013*"forschung" + 0.013*"symptom" + 0.013*"frage"
+2021-10-11 15:25:16,885:INFO:topic #3 (0.189): 0.306*"frage" + 0.264*"herbst" + 0.264*"winter" + 0.020*"herr" + 0.017*"frau" + 0.015*"symptom" + 0.015*"rolle" + 0.015*"kind" + 0.009*"virus" + 0.009*"forschung"
+2021-10-11 15:25:16,885:INFO:topic #4 (0.199): 0.361*"virus" + 0.235*"mensch" + 0.177*"zahl" + 0.036*"frau" + 0.022*"frage" + 0.021*"rolle" + 0.020*"test" + 0.020*"winter" + 0.020*"herbst" + 0.019*"symptom"
+2021-10-11 15:25:16,885:INFO:topic diff=0.250618, rho=0.447214
+2021-10-11 15:25:16,901:INFO:-3.335 per-word bound, 10.1 perplexity estimate based on a held-out corpus of 219 documents with 115 words
+2021-10-11 15:25:16,901:INFO:PROGRESS: pass 4, at document #219/219
+2021-10-11 15:25:16,910:INFO:optimized alpha [0.22776344, 0.20820378, 0.18071744, 0.18723598, 0.19794914]
+2021-10-11 15:25:16,910:INFO:topic #0 (0.228): 0.188*"herr" + 0.187*"symptom" + 0.145*"patient" + 0.143*"woche" + 0.122*"intensivstation" + 0.122*"verlauf" + 0.032*"zahl" + 0.015*"kind" + 0.007*"rolle" + 0.006*"frage"
+2021-10-11 15:25:16,911:INFO:topic #1 (0.208): 0.454*"frau" + 0.242*"forschung" + 0.197*"rolle" + 0.011*"winter" + 0.011*"herbst" + 0.010*"frage" + 0.007*"herr" + 0.007*"symptom" + 0.007*"kind" + 0.007*"virus"
+2021-10-11 15:25:16,911:INFO:topic #2 (0.181): 0.476*"kind" + 0.313*"test" + 0.027*"frau" + 0.021*"virus" + 0.013*"woche" + 0.013*"zahl" + 0.013*"herr" + 0.013*"forschung" + 0.013*"symptom" + 0.013*"frage"
+2021-10-11 15:25:16,911:INFO:topic #3 (0.187): 0.312*"frage" + 0.269*"herbst" + 0.269*"winter" + 0.016*"herr" + 0.014*"frau" + 0.012*"symptom" + 0.012*"rolle" + 0.012*"kind" + 0.009*"virus" + 0.009*"forschung"
+2021-10-11 15:25:16,911:INFO:topic #4 (0.198): 0.376*"virus" + 0.242*"mensch" + 0.188*"zahl" + 0.026*"frau" + 0.018*"frage" + 0.017*"rolle" + 0.016*"symptom" + 0.016*"test" + 0.016*"winter" + 0.016*"herbst"
+2021-10-11 15:25:16,911:INFO:topic diff=0.196071, rho=0.408248
+2021-10-11 15:25:16,926:INFO:-3.310 per-word bound, 9.9 perplexity estimate based on a held-out corpus of 219 documents with 115 words
+2021-10-11 15:25:16,926:INFO:PROGRESS: pass 5, at document #219/219
+2021-10-11 15:25:16,934:INFO:optimized alpha [0.23066223, 0.20976321, 0.17896427, 0.18577474, 0.1970688]
+2021-10-11 15:25:16,935:INFO:topic #0 (0.231): 0.191*"herr" + 0.190*"symptom" + 0.146*"patient" + 0.145*"woche" + 0.123*"intensivstation" + 0.123*"verlauf" + 0.026*"zahl" + 0.011*"kind" + 0.006*"rolle" + 0.006*"frage"
+2021-10-11 15:25:16,935:INFO:topic #1 (0.210): 0.459*"frau" + 0.240*"forschung" + 0.199*"rolle" + 0.010*"winter" + 0.010*"herbst" + 0.009*"frage" + 0.007*"symptom" + 0.007*"herr" + 0.007*"kind" + 0.007*"virus"
+2021-10-11 15:25:16,935:INFO:topic #2 (0.179): 0.485*"kind" + 0.315*"test" + 0.021*"frau" + 0.018*"virus" + 0.013*"woche" + 0.013*"zahl" + 0.012*"herr" + 0.012*"forschung" + 0.012*"symptom" + 0.012*"rolle"
+2021-10-11 15:25:16,935:INFO:topic #3 (0.186): 0.315*"frage" + 0.272*"herbst" + 0.272*"winter" + 0.013*"herr" + 0.012*"frau" + 0.011*"symptom" + 0.011*"rolle" + 0.011*"kind" + 0.009*"virus" + 0.009*"forschung"
+2021-10-11 15:25:16,935:INFO:topic #4 (0.197): 0.381*"virus" + 0.244*"mensch" + 0.202*"zahl" + 0.020*"frau" + 0.015*"frage" + 0.015*"rolle" + 0.014*"symptom" + 0.013*"test" + 0.013*"winter" + 0.013*"herbst"
+2021-10-11 15:25:16,935:INFO:topic diff=0.155458, rho=0.377964
+2021-10-11 15:25:16,951:INFO:-3.294 per-word bound, 9.8 perplexity estimate based on a held-out corpus of 219 documents with 115 words
+2021-10-11 15:25:16,951:INFO:PROGRESS: pass 6, at document #219/219
+2021-10-11 15:25:16,961:INFO:optimized alpha [0.23330735, 0.21119185, 0.17739211, 0.18446428, 0.19630446]
+2021-10-11 15:25:16,961:INFO:topic #0 (0.233): 0.193*"herr" + 0.192*"symptom" + 0.147*"patient" + 0.146*"woche" + 0.123*"intensivstation" + 0.123*"verlauf" + 0.021*"zahl" + 0.009*"kind" + 0.006*"rolle" + 0.005*"frage"
+2021-10-11 15:25:16,961:INFO:topic #1 (0.211): 0.462*"frau" + 0.239*"forschung" + 0.201*"rolle" + 0.009*"winter" + 0.009*"herbst" + 0.008*"frage" + 0.007*"symptom" + 0.007*"herr" + 0.007*"kind" + 0.007*"virus"
+2021-10-11 15:25:16,961:INFO:topic #2 (0.177): 0.490*"kind" + 0.315*"test" + 0.018*"frau" + 0.016*"virus" + 0.012*"woche" + 0.012*"zahl" + 0.012*"herr" + 0.012*"symptom" + 0.012*"forschung" + 0.012*"rolle"
+2021-10-11 15:25:16,961:INFO:topic #3 (0.184): 0.317*"frage" + 0.274*"herbst" + 0.274*"winter" + 0.012*"herr" + 0.011*"frau" + 0.010*"symptom" + 0.010*"rolle" + 0.010*"kind" + 0.009*"virus" + 0.009*"forschung"
+2021-10-11 15:25:16,961:INFO:topic #4 (0.196): 0.383*"virus" + 0.245*"mensch" + 0.213*"zahl" + 0.016*"frau" + 0.013*"frage" + 0.013*"rolle" + 0.012*"symptom" + 0.012*"test" + 0.012*"winter" + 0.012*"herbst"
+2021-10-11 15:25:16,961:INFO:topic diff=0.119222, rho=0.353553
+2021-10-11 15:25:16,977:INFO:-3.282 per-word bound, 9.7 perplexity estimate based on a held-out corpus of 219 documents with 115 words
+2021-10-11 15:25:16,977:INFO:PROGRESS: pass 7, at document #219/219
+2021-10-11 15:25:16,987:INFO:optimized alpha [0.23574452, 0.21251126, 0.17596652, 0.18327548, 0.19562109]
+2021-10-11 15:25:16,987:INFO:topic #0 (0.236): 0.195*"herr" + 0.194*"symptom" + 0.148*"patient" + 0.147*"woche" + 0.124*"intensivstation" + 0.124*"verlauf" + 0.017*"zahl" + 0.008*"kind" + 0.006*"rolle" + 0.005*"frage"
+2021-10-11 15:25:16,987:INFO:topic #1 (0.213): 0.464*"frau" + 0.238*"forschung" + 0.202*"rolle" + 0.008*"winter" + 0.008*"herbst" + 0.008*"frage" + 0.007*"symptom" + 0.007*"kind" + 0.007*"herr" + 0.007*"virus"
+2021-10-11 15:25:16,987:INFO:topic #2 (0.176): 0.493*"kind" + 0.316*"test" + 0.016*"frau" + 0.015*"virus" + 0.012*"woche" + 0.012*"zahl" + 0.012*"herr" + 0.012*"symptom" + 0.012*"forschung" + 0.012*"rolle"
+2021-10-11 15:25:16,987:INFO:topic #3 (0.183): 0.318*"frage" + 0.275*"herbst" + 0.275*"winter" + 0.011*"herr" + 0.010*"frau" + 0.010*"symptom" + 0.010*"rolle" + 0.010*"kind" + 0.009*"virus" + 0.009*"forschung"
+2021-10-11 15:25:16,987:INFO:topic #4 (0.196): 0.384*"virus" + 0.245*"mensch" + 0.221*"zahl" + 0.014*"frau" + 0.012*"frage" + 0.012*"rolle" + 0.011*"symptom" + 0.011*"test" + 0.011*"winter" + 0.011*"herbst"
+2021-10-11 15:25:16,987:INFO:topic diff=0.089713, rho=0.333333
+2021-10-11 15:25:17,003:INFO:-3.275 per-word bound, 9.7 perplexity estimate based on a held-out corpus of 219 documents with 115 words
+2021-10-11 15:25:17,003:INFO:PROGRESS: pass 8, at document #219/219
+2021-10-11 15:25:17,012:INFO:optimized alpha [0.23800798, 0.21373817, 0.1746622, 0.1821873, 0.19500151]
+2021-10-11 15:25:17,012:INFO:topic #0 (0.238): 0.196*"herr" + 0.195*"symptom" + 0.148*"patient" + 0.148*"woche" + 0.124*"verlauf" + 0.124*"intensivstation" + 0.014*"zahl" + 0.007*"kind" + 0.005*"rolle" + 0.005*"frage"
+2021-10-11 15:25:17,012:INFO:topic #1 (0.214): 0.465*"frau" + 0.238*"forschung" + 0.202*"rolle" + 0.007*"winter" + 0.007*"herbst" + 0.007*"frage" + 0.007*"symptom" + 0.007*"kind" + 0.007*"virus" + 0.007*"herr"
+2021-10-11 15:25:17,012:INFO:topic #2 (0.175): 0.495*"kind" + 0.316*"test" + 0.015*"frau" + 0.014*"virus" + 0.012*"woche" + 0.012*"zahl" + 0.012*"herr" + 0.012*"symptom" + 0.012*"forschung" + 0.012*"rolle"
+2021-10-11 15:25:17,012:INFO:topic #3 (0.182): 0.319*"frage" + 0.276*"herbst" + 0.276*"winter" + 0.010*"herr" + 0.010*"frau" + 0.010*"symptom" + 0.010*"rolle" + 0.010*"kind" + 0.009*"virus" + 0.009*"forschung"
+2021-10-11 15:25:17,013:INFO:topic #4 (0.195): 0.384*"virus" + 0.244*"mensch" + 0.227*"zahl" + 0.012*"frau" + 0.011*"frage" + 0.011*"rolle" + 0.011*"symptom" + 0.011*"test" + 0.011*"winter" + 0.011*"herbst"
+2021-10-11 15:25:17,013:INFO:topic diff=0.066942, rho=0.316228
+2021-10-11 15:25:17,028:INFO:-3.269 per-word bound, 9.6 perplexity estimate based on a held-out corpus of 219 documents with 115 words
+2021-10-11 15:25:17,028:INFO:PROGRESS: pass 9, at document #219/219
+2021-10-11 15:25:17,038:INFO:optimized alpha [0.24012291, 0.21488586, 0.17346023, 0.18118422, 0.19443429]
+2021-10-11 15:25:17,038:INFO:topic #0 (0.240): 0.196*"herr" + 0.196*"symptom" + 0.149*"patient" + 0.148*"woche" + 0.125*"verlauf" + 0.125*"intensivstation" + 0.011*"zahl" + 0.006*"kind" + 0.005*"rolle" + 0.005*"frage"
+2021-10-11 15:25:17,038:INFO:topic #1 (0.215): 0.465*"frau" + 0.238*"forschung" + 0.203*"rolle" + 0.007*"winter" + 0.007*"herbst" + 0.007*"frage" + 0.007*"symptom" + 0.007*"kind" + 0.007*"virus" + 0.007*"herr"
+2021-10-11 15:25:17,038:INFO:topic #2 (0.173): 0.497*"kind" + 0.316*"test" + 0.014*"frau" + 0.013*"virus" + 0.012*"woche" + 0.012*"zahl" + 0.012*"herr" + 0.012*"symptom" + 0.012*"forschung" + 0.012*"rolle"
+2021-10-11 15:25:17,038:INFO:topic #3 (0.181): 0.320*"frage" + 0.276*"herbst" + 0.276*"winter" + 0.010*"herr" + 0.010*"frau" + 0.009*"symptom" + 0.009*"rolle" + 0.009*"kind" + 0.009*"virus" + 0.009*"forschung"
+2021-10-11 15:25:17,038:INFO:topic #4 (0.194): 0.384*"virus" + 0.244*"mensch" + 0.231*"zahl" + 0.012*"frau" + 0.011*"frage" + 0.011*"rolle" + 0.010*"symptom" + 0.010*"test" + 0.010*"winter" + 0.010*"herbst"
+2021-10-11 15:25:17,038:INFO:topic diff=0.049908, rho=0.301511
+2021-10-11 15:25:17,054:INFO:-3.265 per-word bound, 9.6 perplexity estimate based on a held-out corpus of 219 documents with 115 words
+2021-10-11 15:25:17,054:INFO:PROGRESS: pass 10, at document #219/219
+2021-10-11 15:25:17,065:INFO:optimized alpha [0.24210906, 0.2159646, 0.17234588, 0.1802538, 0.19391122]
+2021-10-11 15:25:17,065:INFO:topic #0 (0.242): 0.197*"herr" + 0.196*"symptom" + 0.149*"patient" + 0.149*"woche" + 0.125*"verlauf" + 0.125*"intensivstation" + 0.010*"zahl" + 0.006*"kind" + 0.005*"rolle" + 0.005*"frage"
+2021-10-11 15:25:17,065:INFO:topic #1 (0.216): 0.466*"frau" + 0.237*"forschung" + 0.203*"rolle" + 0.007*"winter" + 0.007*"herbst" + 0.007*"frage" + 0.007*"symptom" + 0.007*"virus" + 0.007*"kind" + 0.007*"herr"
+2021-10-11 15:25:17,065:INFO:topic #2 (0.172): 0.498*"kind" + 0.317*"test" + 0.014*"frau" + 0.013*"virus" + 0.012*"woche" + 0.012*"zahl" + 0.012*"herr" + 0.012*"symptom" + 0.012*"forschung" + 0.012*"rolle"
+2021-10-11 15:25:17,065:INFO:topic #3 (0.180): 0.320*"frage" + 0.276*"herbst" + 0.276*"winter" + 0.010*"herr" + 0.009*"frau" + 0.009*"symptom" + 0.009*"rolle" + 0.009*"kind" + 0.009*"virus" + 0.009*"forschung"
+2021-10-11 15:25:17,065:INFO:topic #4 (0.194): 0.384*"virus" + 0.244*"mensch" + 0.234*"zahl" + 0.011*"frau" + 0.010*"frage" + 0.010*"rolle" + 0.010*"symptom" + 0.010*"test" + 0.010*"winter" + 0.010*"herbst"
+2021-10-11 15:25:17,065:INFO:topic diff=0.037367, rho=0.288675
+2021-10-11 15:25:17,081:INFO:-3.262 per-word bound, 9.6 perplexity estimate based on a held-out corpus of 219 documents with 115 words
+2021-10-11 15:25:17,081:INFO:PROGRESS: pass 11, at document #219/219
+2021-10-11 15:25:17,091:INFO:optimized alpha [0.24398215, 0.21698248, 0.17130737, 0.1793864, 0.19342595]
+2021-10-11 15:25:17,091:INFO:topic #0 (0.244): 0.197*"herr" + 0.197*"symptom" + 0.149*"patient" + 0.149*"woche" + 0.125*"verlauf" + 0.125*"intensivstation" + 0.008*"zahl" + 0.006*"kind" + 0.005*"rolle" + 0.005*"frage"
+2021-10-11 15:25:17,091:INFO:topic #1 (0.217): 0.466*"frau" + 0.237*"forschung" + 0.203*"rolle" + 0.007*"winter" + 0.007*"herbst" + 0.007*"frage" + 0.007*"symptom" + 0.007*"virus" + 0.007*"kind" + 0.007*"herr"
+2021-10-11 15:25:17,091:INFO:topic #2 (0.171): 0.498*"kind" + 0.317*"test" + 0.013*"frau" + 0.013*"virus" + 0.012*"woche" + 0.012*"zahl" + 0.012*"herr" + 0.012*"symptom" + 0.012*"forschung" + 0.012*"rolle"
+2021-10-11 15:25:17,091:INFO:topic #3 (0.179): 0.321*"frage" + 0.276*"herbst" + 0.276*"winter" + 0.009*"herr" + 0.009*"frau" + 0.009*"symptom" + 0.009*"rolle" + 0.009*"kind" + 0.009*"virus" + 0.009*"forschung"
+2021-10-11 15:25:17,091:INFO:topic #4 (0.193): 0.384*"virus" + 0.244*"mensch" + 0.236*"zahl" + 0.010*"frau" + 0.010*"frage" + 0.010*"rolle" + 0.010*"symptom" + 0.010*"test" + 0.010*"winter" + 0.010*"herbst"
+2021-10-11 15:25:17,091:INFO:topic diff=0.028161, rho=0.277350
+2021-10-11 15:25:17,107:INFO:-3.259 per-word bound, 9.6 perplexity estimate based on a held-out corpus of 219 documents with 115 words
+2021-10-11 15:25:17,107:INFO:PROGRESS: pass 12, at document #219/219
+2021-10-11 15:25:17,115:INFO:optimized alpha [0.24575478, 0.21794662, 0.17033525, 0.17857425, 0.19297367]
+2021-10-11 15:25:17,116:INFO:topic #0 (0.246): 0.197*"herr" + 0.197*"symptom" + 0.149*"patient" + 0.149*"woche" + 0.125*"verlauf" + 0.125*"intensivstation" + 0.008*"zahl" + 0.005*"kind" + 0.005*"rolle" + 0.005*"frage"
+2021-10-11 15:25:17,116:INFO:topic #1 (0.218): 0.466*"frau" + 0.237*"forschung" + 0.203*"rolle" + 0.007*"winter" + 0.007*"herbst" + 0.007*"frage" + 0.007*"symptom" + 0.007*"virus" + 0.007*"kind" + 0.007*"herr"
+2021-10-11 15:25:17,116:INFO:topic #2 (0.170): 0.499*"kind" + 0.317*"test" + 0.013*"frau" + 0.013*"virus" + 0.012*"woche" + 0.012*"zahl" + 0.012*"herr" + 0.012*"symptom" + 0.012*"forschung" + 0.012*"rolle"
+2021-10-11 15:25:17,116:INFO:topic #3 (0.179): 0.321*"frage" + 0.276*"herbst" + 0.276*"winter" + 0.009*"herr" + 0.009*"frau" + 0.009*"symptom" + 0.009*"rolle" + 0.009*"kind" + 0.009*"virus" + 0.009*"forschung"
+2021-10-11 15:25:17,116:INFO:topic #4 (0.193): 0.384*"virus" + 0.243*"mensch" + 0.238*"zahl" + 0.010*"frau" + 0.010*"frage" + 0.010*"rolle" + 0.010*"symptom" + 0.010*"test" + 0.010*"winter" + 0.010*"herbst"
+2021-10-11 15:25:17,116:INFO:topic diff=0.021372, rho=0.267261
+2021-10-11 15:25:17,132:INFO:-3.258 per-word bound, 9.6 perplexity estimate based on a held-out corpus of 219 documents with 115 words
+2021-10-11 15:25:17,132:INFO:PROGRESS: pass 13, at document #219/219
+2021-10-11 15:25:17,141:INFO:optimized alpha [0.24743742, 0.21886241, 0.16942173, 0.17781089, 0.19255018]
+2021-10-11 15:25:17,141:INFO:topic #0 (0.247): 0.198*"herr" + 0.197*"symptom" + 0.149*"patient" + 0.149*"woche" + 0.125*"verlauf" + 0.125*"intensivstation" + 0.007*"zahl" + 0.005*"kind" + 0.005*"rolle" + 0.005*"frage"
+2021-10-11 15:25:17,141:INFO:topic #1 (0.219): 0.467*"frau" + 0.237*"forschung" + 0.204*"rolle" + 0.007*"winter" + 0.007*"herbst" + 0.007*"frage" + 0.007*"symptom" + 0.007*"virus" + 0.007*"kind" + 0.007*"herr"
+2021-10-11 15:25:17,141:INFO:topic #2 (0.169): 0.499*"kind" + 0.317*"test" + 0.013*"frau" + 0.013*"virus" + 0.012*"woche" + 0.012*"zahl" + 0.012*"herr" + 0.012*"symptom" + 0.012*"forschung" + 0.012*"rolle"
+2021-10-11 15:25:17,141:INFO:topic #3 (0.178): 0.321*"frage" + 0.277*"herbst" + 0.277*"winter" + 0.009*"herr" + 0.009*"frau" + 0.009*"symptom" + 0.009*"rolle" + 0.009*"kind" + 0.009*"virus" + 0.009*"forschung"
+2021-10-11 15:25:17,141:INFO:topic #4 (0.193): 0.384*"virus" + 0.243*"mensch" + 0.239*"zahl" + 0.010*"frau" + 0.010*"frage" + 0.010*"rolle" + 0.010*"symptom" + 0.010*"test" + 0.010*"winter" + 0.010*"herbst"
+2021-10-11 15:25:17,141:INFO:topic diff=0.016317, rho=0.258199
+2021-10-11 15:25:17,157:INFO:-3.256 per-word bound, 9.6 perplexity estimate based on a held-out corpus of 219 documents with 115 words
+2021-10-11 15:25:17,157:INFO:PROGRESS: pass 14, at document #219/219
+2021-10-11 15:25:17,165:INFO:optimized alpha [0.24903879, 0.21973471, 0.16856033, 0.177091, 0.1921524]
+2021-10-11 15:25:17,166:INFO:topic #0 (0.249): 0.198*"herr" + 0.198*"symptom" + 0.149*"patient" + 0.149*"woche" + 0.125*"verlauf" + 0.125*"intensivstation" + 0.006*"zahl" + 0.005*"kind" + 0.005*"rolle" + 0.005*"frage"
+2021-10-11 15:25:17,166:INFO:topic #1 (0.220): 0.467*"frau" + 0.237*"forschung" + 0.204*"rolle" + 0.007*"winter" + 0.007*"herbst" + 0.007*"frage" + 0.007*"symptom" + 0.007*"virus" + 0.007*"kind" + 0.007*"herr"
+2021-10-11 15:25:17,166:INFO:topic #2 (0.169): 0.499*"kind" + 0.317*"test" + 0.013*"frau" + 0.012*"virus" + 0.012*"woche" + 0.012*"zahl" + 0.012*"herr" + 0.012*"symptom" + 0.012*"forschung" + 0.012*"rolle"
+2021-10-11 15:25:17,166:INFO:topic #3 (0.177): 0.321*"frage" + 0.277*"herbst" + 0.277*"winter" + 0.009*"herr" + 0.009*"frau" + 0.009*"symptom" + 0.009*"rolle" + 0.009*"kind" + 0.009*"virus" + 0.009*"forschung"
+2021-10-11 15:25:17,166:INFO:topic #4 (0.192): 0.383*"virus" + 0.243*"mensch" + 0.240*"zahl" + 0.010*"frau" + 0.010*"frage" + 0.010*"rolle" + 0.010*"symptom" + 0.010*"test" + 0.010*"winter" + 0.010*"herbst"
+2021-10-11 15:25:17,166:INFO:topic diff=0.012517, rho=0.250000
+2021-10-11 15:25:17,182:INFO:-3.255 per-word bound, 9.5 perplexity estimate based on a held-out corpus of 219 documents with 115 words
+2021-10-11 15:25:17,182:INFO:PROGRESS: pass 15, at document #219/219
+2021-10-11 15:25:17,191:INFO:optimized alpha [0.25056642, 0.22056757, 0.16774565, 0.17641005, 0.19177766]
+2021-10-11 15:25:17,191:INFO:topic #0 (0.251): 0.198*"herr" + 0.198*"symptom" + 0.150*"patient" + 0.149*"woche" + 0.125*"verlauf" + 0.125*"intensivstation" + 0.006*"zahl" + 0.005*"kind" + 0.005*"rolle" + 0.005*"frage"
+2021-10-11 15:25:17,191:INFO:topic #1 (0.221): 0.467*"frau" + 0.237*"forschung" + 0.204*"rolle" + 0.007*"winter" + 0.007*"herbst" + 0.007*"frage" + 0.007*"symptom" + 0.007*"virus" + 0.007*"kind" + 0.007*"herr"
+2021-10-11 15:25:17,191:INFO:topic #2 (0.168): 0.499*"kind" + 0.317*"test" + 0.013*"frau" + 0.012*"virus" + 0.012*"woche" + 0.012*"zahl" + 0.012*"herr" + 0.012*"symptom" + 0.012*"forschung" + 0.012*"rolle"
+2021-10-11 15:25:17,191:INFO:topic #3 (0.176): 0.321*"frage" + 0.277*"herbst" + 0.277*"winter" + 0.009*"herr" + 0.009*"frau" + 0.009*"symptom" + 0.009*"rolle" + 0.009*"kind" + 0.009*"virus" + 0.009*"forschung"
+2021-10-11 15:25:17,191:INFO:topic #4 (0.192): 0.383*"virus" + 0.243*"mensch" + 0.241*"zahl" + 0.010*"frage" + 0.010*"frau" + 0.010*"rolle" + 0.010*"symptom" + 0.009*"test" + 0.009*"winter" + 0.009*"herbst"
+2021-10-11 15:25:17,191:INFO:topic diff=0.009638, rho=0.242536
+2021-10-11 15:25:17,206:INFO:-3.254 per-word bound, 9.5 perplexity estimate based on a held-out corpus of 219 documents with 115 words
+2021-10-11 15:25:17,206:INFO:PROGRESS: pass 16, at document #219/219
+2021-10-11 15:25:17,215:INFO:optimized alpha [0.25202662, 0.22136426, 0.16697316, 0.17576426, 0.19142349]
+2021-10-11 15:25:17,215:INFO:topic #0 (0.252): 0.198*"herr" + 0.198*"symptom" + 0.150*"patient" + 0.150*"woche" + 0.125*"verlauf" + 0.125*"intensivstation" + 0.006*"zahl" + 0.005*"kind" + 0.005*"rolle" + 0.005*"frage"
+2021-10-11 15:25:17,215:INFO:topic #1 (0.221): 0.467*"frau" + 0.237*"forschung" + 0.204*"rolle" + 0.007*"frage" + 0.007*"winter" + 0.007*"herbst" + 0.007*"symptom" + 0.007*"virus" + 0.007*"kind" + 0.007*"herr"
+2021-10-11 15:25:17,216:INFO:topic #2 (0.167): 0.499*"kind" + 0.317*"test" + 0.012*"frau" + 0.012*"woche" + 0.012*"virus" + 0.012*"zahl" + 0.012*"herr" + 0.012*"symptom" + 0.012*"forschung" + 0.012*"rolle"
+2021-10-11 15:25:17,216:INFO:topic #3 (0.176): 0.321*"frage" + 0.277*"herbst" + 0.277*"winter" + 0.009*"herr" + 0.009*"frau" + 0.009*"symptom" + 0.009*"rolle" + 0.009*"kind" + 0.009*"virus" + 0.009*"forschung"
+2021-10-11 15:25:17,216:INFO:topic #4 (0.191): 0.383*"virus" + 0.243*"mensch" + 0.241*"zahl" + 0.010*"frage" + 0.010*"frau" + 0.010*"rolle" + 0.010*"symptom" + 0.009*"test" + 0.009*"winter" + 0.009*"herbst"
+2021-10-11 15:25:17,216:INFO:topic diff=0.007446, rho=0.235702
+2021-10-11 15:25:17,231:INFO:-3.253 per-word bound, 9.5 perplexity estimate based on a held-out corpus of 219 documents with 115 words
+2021-10-11 15:25:17,231:INFO:PROGRESS: pass 17, at document #219/219
+2021-10-11 15:25:17,240:INFO:optimized alpha [0.253425, 0.2221278, 0.16623875, 0.17515033, 0.19108813]
+2021-10-11 15:25:17,240:INFO:topic #0 (0.253): 0.198*"herr" + 0.198*"symptom" + 0.150*"patient" + 0.150*"woche" + 0.126*"verlauf" + 0.125*"intensivstation" + 0.006*"zahl" + 0.005*"kind" + 0.005*"rolle" + 0.005*"frage"
+2021-10-11 15:25:17,240:INFO:topic #1 (0.222): 0.467*"frau" + 0.237*"forschung" + 0.204*"rolle" + 0.007*"frage" + 0.007*"winter" + 0.007*"herbst" + 0.007*"symptom" + 0.007*"virus" + 0.007*"kind" + 0.007*"herr"
+2021-10-11 15:25:17,240:INFO:topic #2 (0.166): 0.500*"kind" + 0.317*"test" + 0.012*"frau" + 0.012*"woche" + 0.012*"virus" + 0.012*"zahl" + 0.012*"herr" + 0.012*"symptom" + 0.012*"rolle" + 0.012*"forschung"
+2021-10-11 15:25:17,240:INFO:topic #3 (0.175): 0.321*"frage" + 0.277*"herbst" + 0.277*"winter" + 0.009*"frau" + 0.009*"herr" + 0.009*"symptom" + 0.009*"rolle" + 0.009*"kind" + 0.009*"virus" + 0.009*"forschung"
+2021-10-11 15:25:17,240:INFO:topic #4 (0.191): 0.383*"virus" + 0.243*"mensch" + 0.242*"zahl" + 0.010*"frage" + 0.010*"frau" + 0.010*"rolle" + 0.010*"symptom" + 0.009*"test" + 0.009*"winter" + 0.009*"herbst"
+2021-10-11 15:25:17,240:INFO:topic diff=0.005771, rho=0.229416
+2021-10-11 15:25:17,255:INFO:-3.252 per-word bound, 9.5 perplexity estimate based on a held-out corpus of 219 documents with 115 words
+2021-10-11 15:25:17,255:INFO:PROGRESS: pass 18, at document #219/219
+2021-10-11 15:25:17,264:INFO:optimized alpha [0.25476617, 0.222861, 0.16553912, 0.1745654, 0.19076978]
+2021-10-11 15:25:17,264:INFO:topic #0 (0.255): 0.198*"herr" + 0.198*"symptom" + 0.150*"patient" + 0.150*"woche" + 0.126*"verlauf" + 0.126*"intensivstation" + 0.005*"zahl" + 0.005*"kind" + 0.005*"rolle" + 0.005*"frage"
+2021-10-11 15:25:17,264:INFO:topic #1 (0.223): 0.467*"frau" + 0.237*"forschung" + 0.204*"rolle" + 0.007*"frage" + 0.007*"winter" + 0.007*"herbst" + 0.007*"symptom" + 0.007*"virus" + 0.007*"kind" + 0.007*"herr"
+2021-10-11 15:25:17,264:INFO:topic #2 (0.166): 0.500*"kind" + 0.317*"test" + 0.012*"frau" + 0.012*"woche" + 0.012*"zahl" + 0.012*"virus" + 0.012*"herr" + 0.012*"symptom" + 0.012*"rolle" + 0.012*"forschung"
+2021-10-11 15:25:17,264:INFO:topic #3 (0.175): 0.321*"frage" + 0.277*"herbst" + 0.277*"winter" + 0.009*"frau" + 0.009*"herr" + 0.009*"symptom" + 0.009*"rolle" + 0.009*"kind" + 0.009*"virus" + 0.009*"forschung"
+2021-10-11 15:25:17,265:INFO:topic #4 (0.191): 0.383*"virus" + 0.243*"mensch" + 0.242*"zahl" + 0.010*"frage" + 0.010*"frau" + 0.010*"rolle" + 0.009*"symptom" + 0.009*"test" + 0.009*"winter" + 0.009*"herbst"
+2021-10-11 15:25:17,265:INFO:topic diff=0.004486, rho=0.223607
+2021-10-11 15:25:17,280:INFO:-3.251 per-word bound, 9.5 perplexity estimate based on a held-out corpus of 219 documents with 115 words
+2021-10-11 15:25:17,280:INFO:PROGRESS: pass 19, at document #219/219
+2021-10-11 15:25:17,289:INFO:optimized alpha [0.25605446, 0.22356609, 0.16487128, 0.1740071, 0.1904669]
+2021-10-11 15:25:17,289:INFO:topic #0 (0.256): 0.198*"herr" + 0.198*"symptom" + 0.150*"patient" + 0.150*"woche" + 0.126*"verlauf" + 0.126*"intensivstation" + 0.005*"zahl" + 0.005*"kind" + 0.005*"rolle" + 0.005*"mensch"
+2021-10-11 15:25:17,289:INFO:topic #1 (0.224): 0.467*"frau" + 0.237*"forschung" + 0.204*"rolle" + 0.007*"frage" + 0.007*"winter" + 0.007*"herbst" + 0.007*"symptom" + 0.007*"virus" + 0.007*"kind" + 0.007*"herr"
+2021-10-11 15:25:17,289:INFO:topic #2 (0.165): 0.500*"kind" + 0.317*"test" + 0.012*"frau" + 0.012*"woche" + 0.012*"zahl" + 0.012*"virus" + 0.012*"herr" + 0.012*"symptom" + 0.012*"rolle" + 0.012*"forschung"
+2021-10-11 15:25:17,289:INFO:topic #3 (0.174): 0.321*"frage" + 0.277*"herbst" + 0.277*"winter" + 0.009*"frau" + 0.009*"herr" + 0.009*"virus" + 0.009*"symptom" + 0.009*"rolle" + 0.009*"kind" + 0.009*"forschung"
+2021-10-11 15:25:17,289:INFO:topic #4 (0.190): 0.383*"virus" + 0.243*"mensch" + 0.242*"zahl" + 0.010*"frage" + 0.009*"rolle" + 0.009*"symptom" + 0.009*"frau" + 0.009*"test" + 0.009*"winter" + 0.009*"herbst"
+2021-10-11 15:25:17,289:INFO:topic diff=0.003500, rho=0.218218
+2021-10-11 15:25:17,290:INFO:LdaModel lifecycle event {'msg': 'trained LdaModel(num_terms=17, num_topics=5, decay=0.5, chunksize=2000) in 0.52s', 'datetime': '2021-10-11T15:25:17.290011', 'gensim': '4.1.2', 'python': '3.9.5 (tags/v3.9.5:0a7dcbd, May  3 2021, 17:27:52) [MSC v.1928 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19043-SP0', 'event': 'created'}
+2021-10-11 15:25:17,293:INFO:
 
 **************TOPIC MODELING CHRISTIAN DROSTEN**************
-2021-09-29 12:46:04,443:INFO:adding document #0 to Dictionary(0 unique tokens: [])
-2021-09-29 12:46:04,446:INFO:built Dictionary(810 unique tokens: ['entscheidung', 'entwicklung', 'zahl', 'land', 'datenlage']...) from 837 documents (total 1782 corpus positions)
-2021-09-29 12:46:04,446:INFO:Dictionary lifecycle event {'msg': "built Dictionary(810 unique tokens: ['entscheidung', 'entwicklung', 'zahl', 'land', 'datenlage']...) from 837 documents (total 1782 corpus positions)", 'datetime': '2021-09-29T12:46:04.446189', 'gensim': '4.1.2', 'python': '3.9.5 (tags/v3.9.5:0a7dcbd, May  3 2021, 17:27:52) [MSC v.1928 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19043-SP0', 'event': 'created'}
-2021-09-29 12:46:04,446:INFO:discarding 743 tokens: [('entscheidung', 4), ('datenlage', 1), ('modellrechnungen', 1), ('schritt', 3), ('müssten', 1), ('monat', 2), ('abstandsregelung', 1), ('person', 3), ('reproduktionszahl', 1), ('rezeptor', 1)]...
-2021-09-29 12:46:04,446:INFO:keeping 67 tokens which were in no less than 5 and no more than 418 (=50.0%) documents
-2021-09-29 12:46:04,446:INFO:resulting dictionary: Dictionary(67 unique tokens: ['entwicklung', 'zahl', 'land', 'moment', 'ergebnis']...)
-2021-09-29 12:46:04,447:INFO:using autotuned alpha, starting with [0.2, 0.2, 0.2, 0.2, 0.2]
-2021-09-29 12:46:04,447:INFO:using serial LDA version on this node
-2021-09-29 12:46:04,448:INFO:running online (multi-pass) LDA training, 5 topics, 20 passes over the supplied corpus of 837 documents, updating model once every 837 documents, evaluating perplexity every 837 documents, iterating 400x with a convergence threshold of 0.001000
-2021-09-29 12:46:04,543:INFO:-6.052 per-word bound, 66.4 perplexity estimate based on a held-out corpus of 837 documents with 746 words
-2021-09-29 12:46:04,543:INFO:PROGRESS: pass 0, at document #837/837
-2021-09-29 12:46:04,614:INFO:optimized alpha [0.19714065, 0.19893365, 0.20987561, 0.1923706, 0.19653232]
-2021-09-29 12:46:04,614:INFO:topic #0 (0.197): 0.099*"beispiel" + 0.092*"patient" + 0.073*"symptom" + 0.067*"mensch" + 0.066*"studie" + 0.053*"bisschen" + 0.053*"moment" + 0.040*"impfstoff" + 0.036*"virus" + 0.034*"kontakt"
-2021-09-29 12:46:04,615:INFO:topic #1 (0.199): 0.089*"kind" + 0.082*"test" + 0.065*"mensch" + 0.060*"blick" + 0.054*"woche" + 0.054*"land" + 0.036*"infektion" + 0.036*"hinweis" + 0.036*"abstand" + 0.031*"rolle"
-2021-09-29 12:46:04,615:INFO:topic #2 (0.210): 0.161*"virus" + 0.114*"frage" + 0.075*"erkenntnis" + 0.071*"drosten" + 0.066*"herr" + 0.040*"weg" + 0.036*"maßnahme" + 0.027*"rolle" + 0.027*"labor" + 0.027*"situation"
-2021-09-29 12:46:04,615:INFO:topic #3 (0.192): 0.091*"fall" + 0.067*"antikörper" + 0.058*"forschung" + 0.044*"virus" + 0.043*"zahl" + 0.042*"variante" + 0.042*"hörer" + 0.042*"app" + 0.035*"frage" + 0.034*"sinn"
-2021-09-29 12:46:04,615:INFO:topic #4 (0.197): 0.130*"zahl" + 0.096*"sicht" + 0.070*"beispiel" + 0.063*"virus" + 0.062*"verlauf" + 0.055*"datum" + 0.042*"einschätzung" + 0.035*"zeit" + 0.035*"tag" + 0.035*"schule"
-2021-09-29 12:46:04,615:INFO:topic diff=2.572898, rho=1.000000
-2021-09-29 12:46:04,690:INFO:-4.759 per-word bound, 27.1 perplexity estimate based on a held-out corpus of 837 documents with 746 words
-2021-09-29 12:46:04,691:INFO:PROGRESS: pass 1, at document #837/837
-2021-09-29 12:46:04,743:INFO:optimized alpha [0.19612347, 0.19793333, 0.216465, 0.18801427, 0.19553357]
-2021-09-29 12:46:04,743:INFO:topic #0 (0.196): 0.113*"beispiel" + 0.100*"patient" + 0.078*"studie" + 0.073*"symptom" + 0.073*"mensch" + 0.069*"bisschen" + 0.064*"moment" + 0.047*"impfstoff" + 0.042*"ergebnis" + 0.034*"kontakt"
-2021-09-29 12:46:04,743:INFO:topic #1 (0.198): 0.092*"kind" + 0.088*"test" + 0.069*"mensch" + 0.062*"woche" + 0.062*"blick" + 0.058*"land" + 0.048*"rolle" + 0.044*"infektion" + 0.044*"hinweis" + 0.037*"abstand"
-2021-09-29 12:46:04,743:INFO:topic #2 (0.216): 0.189*"virus" + 0.128*"frage" + 0.079*"erkenntnis" + 0.071*"herr" + 0.071*"drosten" + 0.042*"weg" + 0.041*"maßnahme" + 0.028*"situation" + 0.027*"labor" + 0.027*"coronavirus"
-2021-09-29 12:46:04,743:INFO:topic #3 (0.188): 0.105*"fall" + 0.077*"forschung" + 0.077*"antikörper" + 0.051*"hörer" + 0.048*"app" + 0.046*"variante" + 0.040*"sommer" + 0.040*"wochenend" + 0.036*"virus" + 0.036*"vergleich"
-2021-09-29 12:46:04,743:INFO:topic #4 (0.196): 0.157*"zahl" + 0.114*"sicht" + 0.072*"verlauf" + 0.061*"datum" + 0.058*"beispiel" + 0.044*"einschätzung" + 0.044*"schule" + 0.042*"zeit" + 0.041*"tag" + 0.039*"virus"
-2021-09-29 12:46:04,743:INFO:topic diff=0.407953, rho=0.577350
-2021-09-29 12:46:04,815:INFO:-4.649 per-word bound, 25.1 perplexity estimate based on a held-out corpus of 837 documents with 746 words
-2021-09-29 12:46:04,815:INFO:PROGRESS: pass 2, at document #837/837
-2021-09-29 12:46:04,864:INFO:optimized alpha [0.1960869, 0.19754189, 0.2225859, 0.18479337, 0.19515215]
-2021-09-29 12:46:04,864:INFO:topic #0 (0.196): 0.117*"beispiel" + 0.102*"patient" + 0.083*"studie" + 0.083*"mensch" + 0.076*"bisschen" + 0.073*"symptom" + 0.070*"moment" + 0.052*"impfstoff" + 0.044*"ergebnis" + 0.034*"kontakt"
-2021-09-29 12:46:04,864:INFO:topic #1 (0.198): 0.092*"kind" + 0.091*"test" + 0.065*"woche" + 0.063*"land" + 0.062*"blick" + 0.062*"mensch" + 0.060*"rolle" + 0.052*"infektion" + 0.047*"hinweis" + 0.038*"abstand"
-2021-09-29 12:46:04,864:INFO:topic #2 (0.223): 0.214*"virus" + 0.138*"frage" + 0.081*"erkenntnis" + 0.073*"herr" + 0.071*"drosten" + 0.043*"weg" + 0.043*"maßnahme" + 0.030*"situation" + 0.028*"erklärung" + 0.027*"labor"
-2021-09-29 12:46:04,864:INFO:topic #3 (0.185): 0.113*"fall" + 0.094*"forschung" + 0.082*"antikörper" + 0.058*"hörer" + 0.051*"app" + 0.049*"variante" + 0.043*"sommer" + 0.042*"wochenend" + 0.041*"vergleich" + 0.036*"sinn"
-2021-09-29 12:46:04,864:INFO:topic #4 (0.195): 0.170*"zahl" + 0.122*"sicht" + 0.078*"verlauf" + 0.064*"datum" + 0.054*"beispiel" + 0.048*"schule" + 0.048*"einschätzung" + 0.048*"zeit" + 0.044*"tag" + 0.042*"erkrankung"
-2021-09-29 12:46:04,864:INFO:topic diff=0.296766, rho=0.500000
-2021-09-29 12:46:04,934:INFO:-4.587 per-word bound, 24.0 perplexity estimate based on a held-out corpus of 837 documents with 746 words
-2021-09-29 12:46:04,934:INFO:PROGRESS: pass 3, at document #837/837
-2021-09-29 12:46:04,978:INFO:optimized alpha [0.19671674, 0.19685654, 0.22805089, 0.18214723, 0.19488743]
-2021-09-29 12:46:04,978:INFO:topic #0 (0.197): 0.118*"beispiel" + 0.102*"patient" + 0.102*"mensch" + 0.086*"studie" + 0.079*"bisschen" + 0.073*"moment" + 0.072*"symptom" + 0.054*"impfstoff" + 0.046*"ergebnis" + 0.033*"kontakt"
-2021-09-29 12:46:04,978:INFO:topic #1 (0.197): 0.094*"kind" + 0.093*"test" + 0.069*"rolle" + 0.068*"woche" + 0.066*"land" + 0.063*"blick" + 0.058*"infektion" + 0.049*"hinweis" + 0.045*"mensch" + 0.038*"abstand"
-2021-09-29 12:46:04,978:INFO:topic #2 (0.228): 0.231*"virus" + 0.145*"frage" + 0.082*"erkenntnis" + 0.074*"herr" + 0.071*"drosten" + 0.044*"weg" + 0.044*"maßnahme" + 0.030*"situation" + 0.029*"erklärung" + 0.027*"labor"
-2021-09-29 12:46:04,978:INFO:topic #3 (0.182): 0.118*"fall" + 0.103*"forschung" + 0.085*"antikörper" + 0.063*"hörer" + 0.052*"app" + 0.051*"variante" + 0.044*"sommer" + 0.044*"wochenend" + 0.043*"vergleich" + 0.036*"sinn"
-2021-09-29 12:46:04,978:INFO:topic #4 (0.195): 0.176*"zahl" + 0.125*"sicht" + 0.081*"verlauf" + 0.065*"datum" + 0.052*"beispiel" + 0.050*"schule" + 0.050*"zeit" + 0.050*"einschätzung" + 0.045*"tag" + 0.044*"erkrankung"
-2021-09-29 12:46:04,978:INFO:topic diff=0.235135, rho=0.447214
-2021-09-29 12:46:05,047:INFO:-4.552 per-word bound, 23.5 perplexity estimate based on a held-out corpus of 837 documents with 746 words
-2021-09-29 12:46:05,047:INFO:PROGRESS: pass 4, at document #837/837
-2021-09-29 12:46:05,090:INFO:optimized alpha [0.19743772, 0.19628772, 0.23309739, 0.17999753, 0.19478634]
-2021-09-29 12:46:05,090:INFO:topic #0 (0.197): 0.118*"beispiel" + 0.114*"mensch" + 0.101*"patient" + 0.088*"studie" + 0.080*"bisschen" + 0.074*"moment" + 0.071*"symptom" + 0.055*"impfstoff" + 0.048*"ergebnis" + 0.033*"kontakt"
-2021-09-29 12:46:05,090:INFO:topic #1 (0.196): 0.095*"kind" + 0.095*"test" + 0.075*"rolle" + 0.069*"woche" + 0.068*"land" + 0.064*"blick" + 0.061*"infektion" + 0.050*"hinweis" + 0.039*"abstand" + 0.034*"mensch"
-2021-09-29 12:46:05,091:INFO:topic #2 (0.233): 0.241*"virus" + 0.149*"frage" + 0.083*"erkenntnis" + 0.075*"herr" + 0.071*"drosten" + 0.044*"weg" + 0.044*"maßnahme" + 0.031*"situation" + 0.030*"erklärung" + 0.027*"labor"
-2021-09-29 12:46:05,091:INFO:topic #3 (0.180): 0.121*"fall" + 0.108*"forschung" + 0.087*"antikörper" + 0.066*"hörer" + 0.053*"app" + 0.052*"variante" + 0.047*"vergleich" + 0.045*"sommer" + 0.045*"wochenend" + 0.037*"sinn"
-2021-09-29 12:46:05,091:INFO:topic #4 (0.195): 0.180*"zahl" + 0.128*"sicht" + 0.083*"verlauf" + 0.066*"datum" + 0.052*"zeit" + 0.051*"schule" + 0.051*"einschätzung" + 0.050*"beispiel" + 0.046*"tag" + 0.045*"erkrankung"
-2021-09-29 12:46:05,091:INFO:topic diff=0.194011, rho=0.408248
-2021-09-29 12:46:05,155:INFO:-4.530 per-word bound, 23.1 perplexity estimate based on a held-out corpus of 837 documents with 746 words
-2021-09-29 12:46:05,155:INFO:PROGRESS: pass 5, at document #837/837
-2021-09-29 12:46:05,196:INFO:optimized alpha [0.1981957, 0.19616927, 0.237537, 0.17822832, 0.19475889]
-2021-09-29 12:46:05,196:INFO:topic #0 (0.198): 0.123*"mensch" + 0.118*"beispiel" + 0.101*"patient" + 0.090*"studie" + 0.081*"bisschen" + 0.074*"moment" + 0.070*"symptom" + 0.056*"impfstoff" + 0.049*"ergebnis" + 0.034*"viruslast"
-2021-09-29 12:46:05,196:INFO:topic #1 (0.196): 0.096*"kind" + 0.095*"test" + 0.078*"rolle" + 0.070*"woche" + 0.069*"land" + 0.065*"infektion" + 0.064*"blick" + 0.051*"hinweis" + 0.039*"abstand" + 0.033*"coronavirus"
-2021-09-29 12:46:05,196:INFO:topic #2 (0.238): 0.248*"virus" + 0.154*"frage" + 0.083*"erkenntnis" + 0.076*"herr" + 0.071*"drosten" + 0.044*"weg" + 0.044*"maßnahme" + 0.031*"situation" + 0.030*"erklärung" + 0.027*"labor"
-2021-09-29 12:46:05,196:INFO:topic #3 (0.178): 0.122*"fall" + 0.111*"forschung" + 0.088*"antikörper" + 0.068*"hörer" + 0.054*"app" + 0.053*"variante" + 0.049*"vergleich" + 0.045*"sommer" + 0.045*"wochenend" + 0.038*"statistik"
-2021-09-29 12:46:05,196:INFO:topic #4 (0.195): 0.181*"zahl" + 0.130*"sicht" + 0.084*"verlauf" + 0.066*"datum" + 0.052*"zeit" + 0.052*"einschätzung" + 0.052*"schule" + 0.050*"beispiel" + 0.046*"tag" + 0.046*"erkrankung"
-2021-09-29 12:46:05,197:INFO:topic diff=0.160717, rho=0.377964
-2021-09-29 12:46:05,262:INFO:-4.513 per-word bound, 22.8 perplexity estimate based on a held-out corpus of 837 documents with 746 words
-2021-09-29 12:46:05,262:INFO:PROGRESS: pass 6, at document #837/837
-2021-09-29 12:46:05,303:INFO:optimized alpha [0.19883221, 0.19624682, 0.24150561, 0.17668596, 0.1947656]
-2021-09-29 12:46:05,303:INFO:topic #0 (0.199): 0.129*"mensch" + 0.118*"beispiel" + 0.101*"patient" + 0.091*"studie" + 0.081*"bisschen" + 0.075*"moment" + 0.070*"symptom" + 0.056*"impfstoff" + 0.050*"ergebnis" + 0.035*"viruslast"
-2021-09-29 12:46:05,303:INFO:topic #1 (0.196): 0.096*"kind" + 0.096*"test" + 0.080*"rolle" + 0.070*"woche" + 0.070*"land" + 0.069*"infektion" + 0.064*"blick" + 0.051*"hinweis" + 0.039*"abstand" + 0.039*"coronavirus"
-2021-09-29 12:46:05,303:INFO:topic #2 (0.242): 0.252*"virus" + 0.157*"frage" + 0.083*"erkenntnis" + 0.077*"herr" + 0.071*"drosten" + 0.044*"weg" + 0.044*"maßnahme" + 0.031*"situation" + 0.031*"erklärung" + 0.027*"labor"
-2021-09-29 12:46:05,303:INFO:topic #3 (0.177): 0.123*"fall" + 0.113*"forschung" + 0.089*"antikörper" + 0.069*"hörer" + 0.054*"app" + 0.054*"variante" + 0.051*"vergleich" + 0.045*"sommer" + 0.045*"wochenend" + 0.040*"statistik"
-2021-09-29 12:46:05,304:INFO:topic #4 (0.195): 0.182*"zahl" + 0.132*"sicht" + 0.085*"verlauf" + 0.066*"datum" + 0.053*"zeit" + 0.053*"einschätzung" + 0.052*"schule" + 0.049*"beispiel" + 0.047*"tag" + 0.046*"erkrankung"
-2021-09-29 12:46:05,304:INFO:topic diff=0.131387, rho=0.353553
-2021-09-29 12:46:05,368:INFO:-4.501 per-word bound, 22.6 perplexity estimate based on a held-out corpus of 837 documents with 746 words
-2021-09-29 12:46:05,368:INFO:PROGRESS: pass 7, at document #837/837
-2021-09-29 12:46:05,408:INFO:optimized alpha [0.19961648, 0.19647962, 0.24516085, 0.17533655, 0.19472557]
-2021-09-29 12:46:05,409:INFO:topic #0 (0.200): 0.135*"mensch" + 0.118*"beispiel" + 0.101*"patient" + 0.092*"studie" + 0.081*"bisschen" + 0.075*"moment" + 0.070*"symptom" + 0.057*"impfstoff" + 0.050*"ergebnis" + 0.037*"viruslast"
-2021-09-29 12:46:05,409:INFO:topic #1 (0.196): 0.096*"kind" + 0.096*"test" + 0.081*"rolle" + 0.073*"infektion" + 0.070*"woche" + 0.070*"land" + 0.064*"blick" + 0.051*"hinweis" + 0.042*"coronavirus" + 0.039*"abstand"
-2021-09-29 12:46:05,409:INFO:topic #2 (0.245): 0.256*"virus" + 0.160*"frage" + 0.084*"erkenntnis" + 0.078*"herr" + 0.071*"drosten" + 0.044*"weg" + 0.044*"maßnahme" + 0.031*"situation" + 0.031*"erklärung" + 0.027*"labor"
-2021-09-29 12:46:05,409:INFO:topic #3 (0.175): 0.124*"fall" + 0.114*"forschung" + 0.089*"antikörper" + 0.070*"hörer" + 0.054*"app" + 0.054*"variante" + 0.052*"vergleich" + 0.046*"sommer" + 0.046*"wochenend" + 0.042*"statistik"
-2021-09-29 12:46:05,409:INFO:topic #4 (0.195): 0.184*"zahl" + 0.134*"sicht" + 0.086*"verlauf" + 0.067*"datum" + 0.054*"schule" + 0.053*"zeit" + 0.053*"einschätzung" + 0.049*"beispiel" + 0.047*"tag" + 0.047*"erkrankung"
-2021-09-29 12:46:05,409:INFO:topic diff=0.111436, rho=0.333333
-2021-09-29 12:46:05,473:INFO:-4.489 per-word bound, 22.4 perplexity estimate based on a held-out corpus of 837 documents with 746 words
-2021-09-29 12:46:05,473:INFO:PROGRESS: pass 8, at document #837/837
-2021-09-29 12:46:05,513:INFO:optimized alpha [0.20043439, 0.19671993, 0.24853455, 0.17413025, 0.19465101]
-2021-09-29 12:46:05,513:INFO:topic #0 (0.200): 0.140*"mensch" + 0.118*"beispiel" + 0.101*"patient" + 0.092*"studie" + 0.081*"bisschen" + 0.075*"moment" + 0.070*"symptom" + 0.057*"impfstoff" + 0.050*"ergebnis" + 0.038*"viruslast"
-2021-09-29 12:46:05,513:INFO:topic #1 (0.197): 0.096*"kind" + 0.096*"test" + 0.082*"rolle" + 0.077*"infektion" + 0.070*"woche" + 0.070*"land" + 0.064*"blick" + 0.052*"hinweis" + 0.045*"coronavirus" + 0.039*"abstand"
-2021-09-29 12:46:05,513:INFO:topic #2 (0.249): 0.258*"virus" + 0.163*"frage" + 0.084*"erkenntnis" + 0.078*"herr" + 0.071*"drosten" + 0.044*"weg" + 0.044*"maßnahme" + 0.031*"situation" + 0.031*"erklärung" + 0.027*"labor"
-2021-09-29 12:46:05,513:INFO:topic #3 (0.174): 0.124*"fall" + 0.115*"forschung" + 0.089*"antikörper" + 0.071*"hörer" + 0.054*"app" + 0.054*"variante" + 0.053*"vergleich" + 0.046*"sommer" + 0.046*"wochenend" + 0.043*"statistik"
-2021-09-29 12:46:05,513:INFO:topic #4 (0.195): 0.185*"zahl" + 0.136*"sicht" + 0.086*"verlauf" + 0.067*"datum" + 0.055*"schule" + 0.054*"zeit" + 0.054*"einschätzung" + 0.049*"beispiel" + 0.047*"tag" + 0.047*"erkrankung"
-2021-09-29 12:46:05,513:INFO:topic diff=0.091472, rho=0.316228
-2021-09-29 12:46:05,577:INFO:-4.479 per-word bound, 22.3 perplexity estimate based on a held-out corpus of 837 documents with 746 words
-2021-09-29 12:46:05,577:INFO:PROGRESS: pass 9, at document #837/837
-2021-09-29 12:46:05,616:INFO:optimized alpha [0.2012151, 0.19702142, 0.2516626, 0.17304587, 0.19460775]
-2021-09-29 12:46:05,617:INFO:topic #0 (0.201): 0.143*"mensch" + 0.118*"beispiel" + 0.100*"patient" + 0.093*"studie" + 0.081*"bisschen" + 0.075*"moment" + 0.069*"symptom" + 0.057*"impfstoff" + 0.050*"ergebnis" + 0.040*"viruslast"
-2021-09-29 12:46:05,617:INFO:topic #1 (0.197): 0.096*"kind" + 0.096*"test" + 0.082*"rolle" + 0.080*"infektion" + 0.070*"woche" + 0.070*"land" + 0.064*"blick" + 0.052*"hinweis" + 0.048*"coronavirus" + 0.039*"abstand"
-2021-09-29 12:46:05,617:INFO:topic #2 (0.252): 0.260*"virus" + 0.164*"frage" + 0.084*"erkenntnis" + 0.079*"herr" + 0.071*"drosten" + 0.045*"weg" + 0.045*"maßnahme" + 0.031*"situation" + 0.031*"erklärung" + 0.027*"labor"
-2021-09-29 12:46:05,617:INFO:topic #3 (0.173): 0.125*"fall" + 0.116*"forschung" + 0.090*"antikörper" + 0.071*"hörer" + 0.055*"app" + 0.054*"variante" + 0.054*"vergleich" + 0.046*"sommer" + 0.046*"wochenend" + 0.044*"statistik"
-2021-09-29 12:46:05,617:INFO:topic #4 (0.195): 0.185*"zahl" + 0.137*"sicht" + 0.087*"verlauf" + 0.067*"datum" + 0.056*"schule" + 0.054*"zeit" + 0.054*"einschätzung" + 0.049*"beispiel" + 0.047*"tag" + 0.047*"erkrankung"
-2021-09-29 12:46:05,617:INFO:topic diff=0.074914, rho=0.301511
-2021-09-29 12:46:05,681:INFO:-4.472 per-word bound, 22.2 perplexity estimate based on a held-out corpus of 837 documents with 746 words
-2021-09-29 12:46:05,681:INFO:PROGRESS: pass 10, at document #837/837
-2021-09-29 12:46:05,720:INFO:optimized alpha [0.20195842, 0.1973228, 0.25457832, 0.17206235, 0.19458847]
-2021-09-29 12:46:05,720:INFO:topic #0 (0.202): 0.146*"mensch" + 0.118*"beispiel" + 0.100*"patient" + 0.093*"studie" + 0.081*"bisschen" + 0.075*"moment" + 0.069*"symptom" + 0.057*"impfstoff" + 0.050*"ergebnis" + 0.041*"viruslast"
-2021-09-29 12:46:05,721:INFO:topic #1 (0.197): 0.096*"kind" + 0.096*"test" + 0.082*"rolle" + 0.082*"infektion" + 0.070*"woche" + 0.070*"land" + 0.064*"blick" + 0.052*"hinweis" + 0.050*"coronavirus" + 0.039*"abstand"
-2021-09-29 12:46:05,721:INFO:topic #2 (0.255): 0.261*"virus" + 0.166*"frage" + 0.084*"erkenntnis" + 0.079*"herr" + 0.071*"drosten" + 0.045*"weg" + 0.045*"maßnahme" + 0.031*"situation" + 0.031*"erklärung" + 0.027*"labor"
-2021-09-29 12:46:05,721:INFO:topic #3 (0.172): 0.125*"fall" + 0.116*"forschung" + 0.090*"antikörper" + 0.072*"hörer" + 0.055*"app" + 0.055*"variante" + 0.054*"vergleich" + 0.046*"sommer" + 0.046*"wochenend" + 0.044*"statistik"
-2021-09-29 12:46:05,721:INFO:topic #4 (0.195): 0.186*"zahl" + 0.137*"sicht" + 0.087*"verlauf" + 0.067*"datum" + 0.057*"schule" + 0.054*"zeit" + 0.054*"einschätzung" + 0.049*"beispiel" + 0.047*"tag" + 0.047*"erkrankung"
-2021-09-29 12:46:05,721:INFO:topic diff=0.061446, rho=0.288675
-2021-09-29 12:46:05,784:INFO:-4.467 per-word bound, 22.1 perplexity estimate based on a held-out corpus of 837 documents with 746 words
-2021-09-29 12:46:05,784:INFO:PROGRESS: pass 11, at document #837/837
-2021-09-29 12:46:05,823:INFO:optimized alpha [0.20267355, 0.1976838, 0.25731695, 0.17116874, 0.19458878]
-2021-09-29 12:46:05,823:INFO:topic #0 (0.203): 0.148*"mensch" + 0.117*"beispiel" + 0.100*"patient" + 0.093*"studie" + 0.081*"bisschen" + 0.075*"moment" + 0.069*"symptom" + 0.057*"impfstoff" + 0.050*"ergebnis" + 0.041*"viruslast"
-2021-09-29 12:46:05,823:INFO:topic #1 (0.198): 0.095*"kind" + 0.095*"test" + 0.084*"infektion" + 0.082*"rolle" + 0.070*"land" + 0.070*"woche" + 0.064*"blick" + 0.052*"coronavirus" + 0.051*"hinweis" + 0.039*"abstand"
-2021-09-29 12:46:05,823:INFO:topic #2 (0.257): 0.262*"virus" + 0.167*"frage" + 0.084*"erkenntnis" + 0.079*"herr" + 0.071*"drosten" + 0.045*"weg" + 0.045*"maßnahme" + 0.031*"situation" + 0.031*"erklärung" + 0.027*"labor"
-2021-09-29 12:46:05,823:INFO:topic #3 (0.171): 0.125*"fall" + 0.116*"forschung" + 0.090*"antikörper" + 0.072*"hörer" + 0.055*"app" + 0.055*"variante" + 0.054*"vergleich" + 0.046*"sommer" + 0.046*"wochenend" + 0.045*"statistik"
-2021-09-29 12:46:05,823:INFO:topic #4 (0.195): 0.186*"zahl" + 0.138*"sicht" + 0.087*"verlauf" + 0.067*"datum" + 0.058*"schule" + 0.054*"zeit" + 0.054*"einschätzung" + 0.049*"beispiel" + 0.048*"tag" + 0.048*"erkrankung"
-2021-09-29 12:46:05,823:INFO:topic diff=0.051264, rho=0.277350
-2021-09-29 12:46:05,886:INFO:-4.463 per-word bound, 22.1 perplexity estimate based on a held-out corpus of 837 documents with 746 words
-2021-09-29 12:46:05,886:INFO:PROGRESS: pass 12, at document #837/837
-2021-09-29 12:46:05,924:INFO:optimized alpha [0.20335904, 0.19804397, 0.25989294, 0.17035043, 0.19460458]
-2021-09-29 12:46:05,924:INFO:topic #0 (0.203): 0.149*"mensch" + 0.117*"beispiel" + 0.100*"patient" + 0.093*"studie" + 0.081*"bisschen" + 0.075*"moment" + 0.069*"symptom" + 0.057*"impfstoff" + 0.050*"ergebnis" + 0.042*"viruslast"
-2021-09-29 12:46:05,924:INFO:topic #1 (0.198): 0.095*"kind" + 0.095*"test" + 0.086*"infektion" + 0.082*"rolle" + 0.070*"land" + 0.070*"woche" + 0.064*"blick" + 0.053*"coronavirus" + 0.051*"hinweis" + 0.039*"abstand"
-2021-09-29 12:46:05,924:INFO:topic #2 (0.260): 0.262*"virus" + 0.168*"frage" + 0.084*"erkenntnis" + 0.080*"herr" + 0.071*"drosten" + 0.045*"maßnahme" + 0.045*"weg" + 0.032*"situation" + 0.031*"erklärung" + 0.027*"labor"
-2021-09-29 12:46:05,924:INFO:topic #3 (0.170): 0.126*"fall" + 0.117*"forschung" + 0.090*"antikörper" + 0.072*"hörer" + 0.055*"app" + 0.055*"variante" + 0.054*"vergleich" + 0.046*"sommer" + 0.046*"wochenend" + 0.045*"statistik"
-2021-09-29 12:46:05,925:INFO:topic #4 (0.195): 0.187*"zahl" + 0.139*"sicht" + 0.087*"verlauf" + 0.068*"datum" + 0.058*"schule" + 0.054*"zeit" + 0.054*"einschätzung" + 0.049*"beispiel" + 0.048*"tag" + 0.048*"erkrankung"
-2021-09-29 12:46:05,925:INFO:topic diff=0.042731, rho=0.267261
-2021-09-29 12:46:05,988:INFO:-4.460 per-word bound, 22.0 perplexity estimate based on a held-out corpus of 837 documents with 746 words
-2021-09-29 12:46:05,988:INFO:PROGRESS: pass 13, at document #837/837
-2021-09-29 12:46:06,026:INFO:optimized alpha [0.20401767, 0.19845504, 0.26225907, 0.16959718, 0.19463335]
-2021-09-29 12:46:06,026:INFO:topic #0 (0.204): 0.151*"mensch" + 0.117*"beispiel" + 0.100*"patient" + 0.093*"studie" + 0.081*"bisschen" + 0.075*"moment" + 0.069*"symptom" + 0.057*"impfstoff" + 0.050*"ergebnis" + 0.042*"viruslast"
-2021-09-29 12:46:06,026:INFO:topic #1 (0.198): 0.095*"kind" + 0.095*"test" + 0.088*"infektion" + 0.082*"rolle" + 0.070*"land" + 0.070*"woche" + 0.064*"blick" + 0.054*"coronavirus" + 0.051*"hinweis" + 0.039*"abstand"
-2021-09-29 12:46:06,027:INFO:topic #2 (0.262): 0.263*"virus" + 0.169*"frage" + 0.084*"erkenntnis" + 0.080*"herr" + 0.071*"drosten" + 0.045*"maßnahme" + 0.045*"weg" + 0.032*"situation" + 0.032*"erklärung" + 0.027*"labor"
-2021-09-29 12:46:06,027:INFO:topic #3 (0.170): 0.126*"fall" + 0.117*"forschung" + 0.090*"antikörper" + 0.072*"hörer" + 0.055*"app" + 0.055*"variante" + 0.055*"vergleich" + 0.046*"sommer" + 0.046*"wochenend" + 0.045*"statistik"
-2021-09-29 12:46:06,027:INFO:topic #4 (0.195): 0.187*"zahl" + 0.139*"sicht" + 0.087*"verlauf" + 0.068*"datum" + 0.059*"schule" + 0.054*"zeit" + 0.054*"einschätzung" + 0.049*"beispiel" + 0.048*"tag" + 0.048*"erkrankung"
-2021-09-29 12:46:06,027:INFO:topic diff=0.036499, rho=0.258199
-2021-09-29 12:46:06,090:INFO:-4.457 per-word bound, 22.0 perplexity estimate based on a held-out corpus of 837 documents with 746 words
-2021-09-29 12:46:06,090:INFO:PROGRESS: pass 14, at document #837/837
-2021-09-29 12:46:06,128:INFO:optimized alpha [0.20465054, 0.19891214, 0.26442805, 0.16890045, 0.19467196]
-2021-09-29 12:46:06,129:INFO:topic #0 (0.205): 0.151*"mensch" + 0.117*"beispiel" + 0.100*"patient" + 0.093*"studie" + 0.081*"bisschen" + 0.075*"moment" + 0.069*"symptom" + 0.057*"impfstoff" + 0.050*"ergebnis" + 0.043*"viruslast"
-2021-09-29 12:46:06,129:INFO:topic #1 (0.199): 0.095*"kind" + 0.095*"test" + 0.089*"infektion" + 0.082*"rolle" + 0.070*"land" + 0.070*"woche" + 0.063*"blick" + 0.054*"coronavirus" + 0.051*"hinweis" + 0.039*"abstand"
-2021-09-29 12:46:06,129:INFO:topic #2 (0.264): 0.264*"virus" + 0.170*"frage" + 0.085*"erkenntnis" + 0.080*"herr" + 0.071*"drosten" + 0.045*"maßnahme" + 0.045*"weg" + 0.032*"situation" + 0.032*"erklärung" + 0.027*"labor"
-2021-09-29 12:46:06,129:INFO:topic #3 (0.169): 0.126*"fall" + 0.117*"forschung" + 0.090*"antikörper" + 0.073*"hörer" + 0.055*"app" + 0.055*"variante" + 0.055*"vergleich" + 0.046*"sommer" + 0.046*"wochenend" + 0.046*"statistik"
-2021-09-29 12:46:06,129:INFO:topic #4 (0.195): 0.187*"zahl" + 0.140*"sicht" + 0.088*"verlauf" + 0.068*"datum" + 0.059*"schule" + 0.054*"zeit" + 0.054*"einschätzung" + 0.049*"beispiel" + 0.048*"tag" + 0.048*"erkrankung"
-2021-09-29 12:46:06,129:INFO:topic diff=0.031394, rho=0.250000
-2021-09-29 12:46:06,191:INFO:-4.455 per-word bound, 21.9 perplexity estimate based on a held-out corpus of 837 documents with 746 words
-2021-09-29 12:46:06,191:INFO:PROGRESS: pass 15, at document #837/837
-2021-09-29 12:46:06,230:INFO:optimized alpha [0.20527121, 0.19948812, 0.2664953, 0.16826172, 0.19471882]
-2021-09-29 12:46:06,230:INFO:topic #0 (0.205): 0.152*"mensch" + 0.117*"beispiel" + 0.100*"patient" + 0.093*"studie" + 0.081*"bisschen" + 0.075*"moment" + 0.069*"symptom" + 0.057*"impfstoff" + 0.050*"ergebnis" + 0.043*"viruslast"
-2021-09-29 12:46:06,230:INFO:topic #1 (0.199): 0.094*"kind" + 0.094*"test" + 0.092*"infektion" + 0.082*"rolle" + 0.069*"land" + 0.069*"woche" + 0.063*"blick" + 0.055*"coronavirus" + 0.051*"hinweis" + 0.038*"abstand"
-2021-09-29 12:46:06,230:INFO:topic #2 (0.266): 0.265*"virus" + 0.171*"frage" + 0.085*"erkenntnis" + 0.080*"herr" + 0.071*"drosten" + 0.045*"maßnahme" + 0.045*"weg" + 0.032*"situation" + 0.032*"erklärung" + 0.027*"labor"
-2021-09-29 12:46:06,230:INFO:topic #3 (0.168): 0.126*"fall" + 0.117*"forschung" + 0.091*"antikörper" + 0.073*"hörer" + 0.055*"app" + 0.055*"variante" + 0.055*"vergleich" + 0.046*"sommer" + 0.046*"wochenend" + 0.046*"statistik"
-2021-09-29 12:46:06,230:INFO:topic #4 (0.195): 0.188*"zahl" + 0.141*"sicht" + 0.088*"verlauf" + 0.068*"datum" + 0.059*"schule" + 0.055*"zeit" + 0.055*"einschätzung" + 0.049*"beispiel" + 0.048*"tag" + 0.048*"erkrankung"
-2021-09-29 12:46:06,230:INFO:topic diff=0.027430, rho=0.242536
-2021-09-29 12:46:06,295:INFO:-4.452 per-word bound, 21.9 perplexity estimate based on a held-out corpus of 837 documents with 746 words
-2021-09-29 12:46:06,295:INFO:PROGRESS: pass 16, at document #837/837
-2021-09-29 12:46:06,334:INFO:optimized alpha [0.20587209, 0.2000623, 0.26846015, 0.1676689, 0.19477046]
-2021-09-29 12:46:06,334:INFO:topic #0 (0.206): 0.153*"mensch" + 0.117*"beispiel" + 0.100*"patient" + 0.093*"studie" + 0.081*"bisschen" + 0.075*"moment" + 0.069*"symptom" + 0.057*"impfstoff" + 0.050*"ergebnis" + 0.043*"viruslast"
-2021-09-29 12:46:06,334:INFO:topic #1 (0.200): 0.094*"infektion" + 0.094*"test" + 0.094*"kind" + 0.081*"rolle" + 0.069*"land" + 0.069*"woche" + 0.063*"blick" + 0.055*"coronavirus" + 0.050*"hinweis" + 0.038*"abstand"
-2021-09-29 12:46:06,334:INFO:topic #2 (0.268): 0.265*"virus" + 0.171*"frage" + 0.085*"erkenntnis" + 0.080*"herr" + 0.072*"drosten" + 0.045*"maßnahme" + 0.045*"weg" + 0.032*"situation" + 0.032*"erklärung" + 0.027*"labor"
-2021-09-29 12:46:06,334:INFO:topic #3 (0.168): 0.126*"fall" + 0.117*"forschung" + 0.091*"antikörper" + 0.073*"hörer" + 0.055*"app" + 0.055*"variante" + 0.055*"vergleich" + 0.046*"sommer" + 0.046*"wochenend" + 0.046*"statistik"
-2021-09-29 12:46:06,334:INFO:topic #4 (0.195): 0.189*"zahl" + 0.141*"sicht" + 0.088*"verlauf" + 0.068*"datum" + 0.060*"schule" + 0.055*"zeit" + 0.055*"einschätzung" + 0.049*"beispiel" + 0.048*"tag" + 0.048*"erkrankung"
-2021-09-29 12:46:06,334:INFO:topic diff=0.023539, rho=0.235702
-2021-09-29 12:46:06,397:INFO:-4.450 per-word bound, 21.9 perplexity estimate based on a held-out corpus of 837 documents with 746 words
-2021-09-29 12:46:06,398:INFO:PROGRESS: pass 17, at document #837/837
-2021-09-29 12:46:06,436:INFO:optimized alpha [0.20645504, 0.20062707, 0.27033246, 0.1671171, 0.19482824]
-2021-09-29 12:46:06,436:INFO:topic #0 (0.206): 0.153*"mensch" + 0.117*"beispiel" + 0.100*"patient" + 0.093*"studie" + 0.081*"bisschen" + 0.075*"moment" + 0.069*"symptom" + 0.057*"impfstoff" + 0.050*"ergebnis" + 0.044*"viruslast"
-2021-09-29 12:46:06,437:INFO:topic #1 (0.201): 0.097*"infektion" + 0.093*"test" + 0.093*"kind" + 0.081*"rolle" + 0.069*"land" + 0.069*"woche" + 0.063*"blick" + 0.055*"coronavirus" + 0.050*"hinweis" + 0.038*"abstand"
-2021-09-29 12:46:06,437:INFO:topic #2 (0.270): 0.266*"virus" + 0.172*"frage" + 0.085*"erkenntnis" + 0.080*"herr" + 0.072*"drosten" + 0.045*"maßnahme" + 0.045*"weg" + 0.032*"situation" + 0.032*"erklärung" + 0.027*"labor"
-2021-09-29 12:46:06,437:INFO:topic #3 (0.167): 0.126*"fall" + 0.117*"forschung" + 0.091*"antikörper" + 0.073*"hörer" + 0.055*"app" + 0.055*"variante" + 0.055*"vergleich" + 0.046*"wochenend" + 0.046*"sommer" + 0.046*"statistik"
-2021-09-29 12:46:06,437:INFO:topic #4 (0.195): 0.189*"zahl" + 0.142*"sicht" + 0.089*"verlauf" + 0.068*"datum" + 0.060*"schule" + 0.055*"zeit" + 0.055*"einschätzung" + 0.050*"beispiel" + 0.048*"tag" + 0.048*"erkrankung"
-2021-09-29 12:46:06,437:INFO:topic diff=0.020121, rho=0.229416
-2021-09-29 12:46:06,501:INFO:-4.449 per-word bound, 21.8 perplexity estimate based on a held-out corpus of 837 documents with 746 words
-2021-09-29 12:46:06,501:INFO:PROGRESS: pass 18, at document #837/837
-2021-09-29 12:46:06,539:INFO:optimized alpha [0.20702447, 0.20122373, 0.2721239, 0.1666046, 0.19489056]
-2021-09-29 12:46:06,540:INFO:topic #0 (0.207): 0.154*"mensch" + 0.117*"beispiel" + 0.100*"patient" + 0.093*"studie" + 0.081*"bisschen" + 0.075*"moment" + 0.069*"symptom" + 0.057*"impfstoff" + 0.050*"ergebnis" + 0.044*"viruslast"
-2021-09-29 12:46:06,540:INFO:topic #1 (0.201): 0.099*"infektion" + 0.093*"test" + 0.093*"kind" + 0.081*"rolle" + 0.068*"land" + 0.068*"woche" + 0.062*"blick" + 0.055*"coronavirus" + 0.050*"hinweis" + 0.038*"abstand"
-2021-09-29 12:46:06,540:INFO:topic #2 (0.272): 0.266*"virus" + 0.172*"frage" + 0.085*"erkenntnis" + 0.080*"herr" + 0.072*"drosten" + 0.045*"maßnahme" + 0.045*"weg" + 0.032*"situation" + 0.032*"erklärung" + 0.027*"labor"
-2021-09-29 12:46:06,540:INFO:topic #3 (0.167): 0.126*"fall" + 0.117*"forschung" + 0.091*"antikörper" + 0.073*"hörer" + 0.055*"app" + 0.055*"variante" + 0.055*"vergleich" + 0.046*"wochenend" + 0.046*"sommer" + 0.046*"statistik"
-2021-09-29 12:46:06,540:INFO:topic #4 (0.195): 0.190*"zahl" + 0.142*"sicht" + 0.089*"verlauf" + 0.069*"datum" + 0.060*"schule" + 0.055*"zeit" + 0.055*"einschätzung" + 0.050*"beispiel" + 0.049*"tag" + 0.049*"erkrankung"
-2021-09-29 12:46:06,540:INFO:topic diff=0.017848, rho=0.223607
-2021-09-29 12:46:06,603:INFO:-4.447 per-word bound, 21.8 perplexity estimate based on a held-out corpus of 837 documents with 746 words
-2021-09-29 12:46:06,603:INFO:PROGRESS: pass 19, at document #837/837
-2021-09-29 12:46:06,641:INFO:optimized alpha [0.20757832, 0.2018096, 0.27383777, 0.1661258, 0.19495702]
-2021-09-29 12:46:06,641:INFO:topic #0 (0.208): 0.154*"mensch" + 0.117*"beispiel" + 0.100*"patient" + 0.093*"studie" + 0.081*"bisschen" + 0.075*"moment" + 0.069*"symptom" + 0.057*"impfstoff" + 0.050*"ergebnis" + 0.044*"viruslast"
-2021-09-29 12:46:06,641:INFO:topic #1 (0.202): 0.101*"infektion" + 0.092*"test" + 0.092*"kind" + 0.080*"rolle" + 0.068*"land" + 0.068*"woche" + 0.062*"blick" + 0.055*"coronavirus" + 0.050*"hinweis" + 0.038*"abstand"
-2021-09-29 12:46:06,641:INFO:topic #2 (0.274): 0.266*"virus" + 0.173*"frage" + 0.085*"erkenntnis" + 0.081*"herr" + 0.072*"drosten" + 0.045*"maßnahme" + 0.045*"weg" + 0.032*"situation" + 0.032*"erklärung" + 0.027*"labor"
-2021-09-29 12:46:06,641:INFO:topic #3 (0.166): 0.126*"fall" + 0.117*"forschung" + 0.091*"antikörper" + 0.073*"hörer" + 0.055*"app" + 0.055*"variante" + 0.055*"vergleich" + 0.046*"wochenend" + 0.046*"sommer" + 0.046*"statistik"
-2021-09-29 12:46:06,641:INFO:topic #4 (0.195): 0.191*"zahl" + 0.143*"sicht" + 0.089*"verlauf" + 0.069*"datum" + 0.061*"schule" + 0.055*"zeit" + 0.055*"einschätzung" + 0.050*"beispiel" + 0.049*"tag" + 0.049*"erkrankung"
-2021-09-29 12:46:06,641:INFO:topic diff=0.015466, rho=0.218218
-2021-09-29 12:46:06,641:INFO:LdaModel lifecycle event {'msg': 'trained LdaModel(num_terms=67, num_topics=5, decay=0.5, chunksize=2000) in 2.19s', 'datetime': '2021-09-29T12:46:06.641936', 'gensim': '4.1.2', 'python': '3.9.5 (tags/v3.9.5:0a7dcbd, May  3 2021, 17:27:52) [MSC v.1928 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19043-SP0', 'event': 'created'}
-2021-09-29 12:46:06,646:INFO:
+2021-10-11 15:25:17,293:INFO:adding document #0 to Dictionary(0 unique tokens: [])
+2021-10-11 15:25:17,295:INFO:built Dictionary(810 unique tokens: ['entscheidung', 'entwicklung', 'zahl', 'land', 'datenlage']...) from 837 documents (total 1782 corpus positions)
+2021-10-11 15:25:17,295:INFO:Dictionary lifecycle event {'msg': "built Dictionary(810 unique tokens: ['entscheidung', 'entwicklung', 'zahl', 'land', 'datenlage']...) from 837 documents (total 1782 corpus positions)", 'datetime': '2021-10-11T15:25:17.295995', 'gensim': '4.1.2', 'python': '3.9.5 (tags/v3.9.5:0a7dcbd, May  3 2021, 17:27:52) [MSC v.1928 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19043-SP0', 'event': 'created'}
+2021-10-11 15:25:17,295:INFO:discarding 743 tokens: [('entscheidung', 4), ('datenlage', 1), ('modellrechnungen', 1), ('schritt', 3), ('müssten', 1), ('monat', 2), ('abstandsregelung', 1), ('person', 3), ('reproduktionszahl', 1), ('rezeptor', 1)]...
+2021-10-11 15:25:17,295:INFO:keeping 67 tokens which were in no less than 5 and no more than 418 (=50.0%) documents
+2021-10-11 15:25:17,295:INFO:resulting dictionary: Dictionary(67 unique tokens: ['entwicklung', 'zahl', 'land', 'moment', 'ergebnis']...)
+2021-10-11 15:25:17,297:INFO:using autotuned alpha, starting with [0.2, 0.2, 0.2, 0.2, 0.2]
+2021-10-11 15:25:17,297:INFO:using serial LDA version on this node
+2021-10-11 15:25:17,297:INFO:running online (multi-pass) LDA training, 5 topics, 20 passes over the supplied corpus of 837 documents, updating model once every 837 documents, evaluating perplexity every 837 documents, iterating 400x with a convergence threshold of 0.001000
+2021-10-11 15:25:17,395:INFO:-6.056 per-word bound, 66.5 perplexity estimate based on a held-out corpus of 837 documents with 746 words
+2021-10-11 15:25:17,395:INFO:PROGRESS: pass 0, at document #837/837
+2021-10-11 15:25:17,469:INFO:optimized alpha [0.20574911, 0.1957706, 0.19579041, 0.1987881, 0.19950786]
+2021-10-11 15:25:17,469:INFO:topic #0 (0.206): 0.183*"virus" + 0.150*"frage" + 0.066*"patient" + 0.059*"herr" + 0.045*"drosten" + 0.038*"impfstoff" + 0.033*"symptom" + 0.024*"variante" + 0.020*"mensch" + 0.020*"beispiel"
+2021-10-11 15:25:17,469:INFO:topic #1 (0.196): 0.085*"moment" + 0.078*"beispiel" + 0.050*"antikörper" + 0.044*"entwicklung" + 0.043*"erklärung" + 0.037*"erkenntnis" + 0.037*"infektion" + 0.036*"bisschen" + 0.030*"frage" + 0.030*"forschung"
+2021-10-11 15:25:17,469:INFO:topic #2 (0.196): 0.109*"virus" + 0.061*"erkenntnis" + 0.061*"verlauf" + 0.054*"land" + 0.054*"woche" + 0.047*"forschung" + 0.041*"schule" + 0.035*"kind" + 0.035*"leben" + 0.032*"drosten"
+2021-10-11 15:25:17,469:INFO:topic #3 (0.199): 0.141*"zahl" + 0.123*"mensch" + 0.090*"sicht" + 0.060*"beispiel" + 0.052*"einschätzung" + 0.046*"tag" + 0.033*"datum" + 0.027*"kind" + 0.027*"sommer" + 0.021*"infektion"
+2021-10-11 15:25:17,469:INFO:topic #4 (0.200): 0.083*"test" + 0.064*"rolle" + 0.058*"fall" + 0.055*"studie" + 0.052*"zeit" + 0.051*"weg" + 0.039*"coronavirus" + 0.039*"ergebnis" + 0.033*"infektion" + 0.032*"abstand"
+2021-10-11 15:25:17,470:INFO:topic diff=2.417091, rho=1.000000
+2021-10-11 15:25:17,546:INFO:-4.805 per-word bound, 28.0 perplexity estimate based on a held-out corpus of 837 documents with 746 words
+2021-10-11 15:25:17,546:INFO:PROGRESS: pass 1, at document #837/837
+2021-10-11 15:25:17,598:INFO:optimized alpha [0.21000643, 0.1943496, 0.19168842, 0.19781823, 0.19963017]
+2021-10-11 15:25:17,598:INFO:topic #0 (0.210): 0.217*"virus" + 0.154*"frage" + 0.070*"herr" + 0.069*"patient" + 0.058*"drosten" + 0.043*"symptom" + 0.040*"impfstoff" + 0.026*"variante" + 0.020*"kontakt" + 0.019*"kapazität"
+2021-10-11 15:25:17,598:INFO:topic #1 (0.194): 0.087*"beispiel" + 0.084*"moment" + 0.057*"antikörper" + 0.046*"entwicklung" + 0.046*"erklärung" + 0.043*"infektion" + 0.041*"hörer" + 0.040*"bisschen" + 0.038*"maßnahme" + 0.034*"situation"
+2021-10-11 15:25:17,598:INFO:topic #2 (0.192): 0.082*"erkenntnis" + 0.081*"verlauf" + 0.077*"virus" + 0.068*"forschung" + 0.067*"woche" + 0.067*"land" + 0.055*"kind" + 0.045*"schule" + 0.038*"leben" + 0.034*"erkrankung"
+2021-10-11 15:25:17,598:INFO:topic #3 (0.198): 0.161*"zahl" + 0.133*"mensch" + 0.109*"sicht" + 0.068*"beispiel" + 0.054*"tag" + 0.053*"einschätzung" + 0.041*"datum" + 0.027*"sommer" + 0.025*"infektionsgeschehen" + 0.021*"schule"
+2021-10-11 15:25:17,598:INFO:topic #4 (0.200): 0.087*"test" + 0.072*"rolle" + 0.069*"fall" + 0.065*"studie" + 0.050*"zeit" + 0.050*"weg" + 0.044*"ergebnis" + 0.044*"coronavirus" + 0.038*"infektion" + 0.035*"abstand"
+2021-10-11 15:25:17,598:INFO:topic diff=0.426985, rho=0.577350
+2021-10-11 15:25:17,674:INFO:-4.680 per-word bound, 25.6 perplexity estimate based on a held-out corpus of 837 documents with 746 words
+2021-10-11 15:25:17,674:INFO:PROGRESS: pass 2, at document #837/837
+2021-10-11 15:25:17,723:INFO:optimized alpha [0.21338342, 0.19397224, 0.18875313, 0.19683672, 0.19939195]
+2021-10-11 15:25:17,723:INFO:topic #0 (0.213): 0.233*"virus" + 0.156*"frage" + 0.076*"herr" + 0.071*"patient" + 0.066*"drosten" + 0.047*"symptom" + 0.041*"impfstoff" + 0.027*"variante" + 0.022*"kontakt" + 0.019*"kapazität"
+2021-10-11 15:25:17,723:INFO:topic #1 (0.194): 0.092*"beispiel" + 0.081*"moment" + 0.058*"antikörper" + 0.052*"maßnahme" + 0.051*"infektion" + 0.046*"hörer" + 0.046*"entwicklung" + 0.046*"erklärung" + 0.040*"bisschen" + 0.037*"situation"
+2021-10-11 15:25:17,723:INFO:topic #2 (0.189): 0.097*"erkenntnis" + 0.092*"verlauf" + 0.078*"forschung" + 0.076*"land" + 0.076*"woche" + 0.070*"kind" + 0.060*"virus" + 0.047*"schule" + 0.040*"leben" + 0.038*"infektionsketten"
+2021-10-11 15:25:17,723:INFO:topic #3 (0.197): 0.171*"zahl" + 0.138*"mensch" + 0.121*"sicht" + 0.071*"beispiel" + 0.058*"tag" + 0.054*"einschätzung" + 0.045*"datum" + 0.028*"sommer" + 0.026*"infektionsgeschehen" + 0.026*"sinn"
+2021-10-11 15:25:17,724:INFO:topic #4 (0.199): 0.090*"test" + 0.076*"fall" + 0.076*"rolle" + 0.069*"studie" + 0.050*"zeit" + 0.050*"weg" + 0.047*"coronavirus" + 0.047*"ergebnis" + 0.038*"infektion" + 0.037*"abstand"
+2021-10-11 15:25:17,724:INFO:topic diff=0.309339, rho=0.500000
+2021-10-11 15:25:17,796:INFO:-4.622 per-word bound, 24.6 perplexity estimate based on a held-out corpus of 837 documents with 746 words
+2021-10-11 15:25:17,796:INFO:PROGRESS: pass 3, at document #837/837
+2021-10-11 15:25:17,841:INFO:optimized alpha [0.21675026, 0.19386369, 0.18640688, 0.19634034, 0.19923386]
+2021-10-11 15:25:17,841:INFO:topic #0 (0.217): 0.244*"virus" + 0.159*"frage" + 0.079*"herr" + 0.072*"patient" + 0.069*"drosten" + 0.048*"symptom" + 0.041*"impfstoff" + 0.028*"variante" + 0.022*"kontakt" + 0.019*"kapazität"
+2021-10-11 15:25:17,841:INFO:topic #1 (0.194): 0.091*"beispiel" + 0.080*"moment" + 0.060*"antikörper" + 0.058*"maßnahme" + 0.054*"infektion" + 0.049*"hörer" + 0.046*"entwicklung" + 0.046*"erklärung" + 0.041*"situation" + 0.040*"bisschen"
+2021-10-11 15:25:17,841:INFO:topic #2 (0.186): 0.107*"erkenntnis" + 0.099*"verlauf" + 0.084*"forschung" + 0.082*"woche" + 0.082*"land" + 0.079*"kind" + 0.050*"schule" + 0.045*"virus" + 0.044*"infektionsketten" + 0.041*"leben"
+2021-10-11 15:25:17,841:INFO:topic #3 (0.196): 0.176*"zahl" + 0.140*"mensch" + 0.128*"sicht" + 0.075*"beispiel" + 0.059*"tag" + 0.054*"einschätzung" + 0.049*"datum" + 0.030*"sinn" + 0.028*"infektionsgeschehen" + 0.028*"sommer"
+2021-10-11 15:25:17,841:INFO:topic #4 (0.199): 0.091*"test" + 0.081*"fall" + 0.078*"rolle" + 0.072*"studie" + 0.050*"zeit" + 0.050*"weg" + 0.049*"coronavirus" + 0.048*"ergebnis" + 0.038*"infektion" + 0.037*"abstand"
+2021-10-11 15:25:17,841:INFO:topic diff=0.247341, rho=0.447214
+2021-10-11 15:25:17,912:INFO:-4.591 per-word bound, 24.1 perplexity estimate based on a held-out corpus of 837 documents with 746 words
+2021-10-11 15:25:17,912:INFO:PROGRESS: pass 4, at document #837/837
+2021-10-11 15:25:17,958:INFO:optimized alpha [0.21975113, 0.19388081, 0.18469208, 0.19594713, 0.19901782]
+2021-10-11 15:25:17,958:INFO:topic #0 (0.220): 0.251*"virus" + 0.162*"frage" + 0.080*"herr" + 0.072*"patient" + 0.071*"drosten" + 0.049*"symptom" + 0.041*"impfstoff" + 0.028*"variante" + 0.023*"kontakt" + 0.019*"kapazität"
+2021-10-11 15:25:17,958:INFO:topic #1 (0.194): 0.091*"beispiel" + 0.079*"moment" + 0.062*"antikörper" + 0.061*"maßnahme" + 0.058*"infektion" + 0.050*"hörer" + 0.046*"entwicklung" + 0.046*"erklärung" + 0.043*"situation" + 0.040*"bisschen"
+2021-10-11 15:25:17,958:INFO:topic #2 (0.185): 0.113*"erkenntnis" + 0.102*"verlauf" + 0.088*"land" + 0.087*"forschung" + 0.086*"woche" + 0.084*"kind" + 0.052*"schule" + 0.051*"infektionsketten" + 0.042*"leben" + 0.036*"erkrankung"
+2021-10-11 15:25:17,958:INFO:topic #3 (0.196): 0.180*"zahl" + 0.141*"mensch" + 0.131*"sicht" + 0.077*"beispiel" + 0.060*"tag" + 0.054*"einschätzung" + 0.051*"datum" + 0.032*"sinn" + 0.029*"infektionsgeschehen" + 0.028*"sommer"
+2021-10-11 15:25:17,959:INFO:topic #4 (0.199): 0.093*"test" + 0.084*"fall" + 0.080*"rolle" + 0.074*"studie" + 0.051*"zeit" + 0.051*"weg" + 0.050*"coronavirus" + 0.050*"ergebnis" + 0.038*"abstand" + 0.036*"infektion"
+2021-10-11 15:25:17,959:INFO:topic diff=0.201158, rho=0.408248
+2021-10-11 15:25:18,030:INFO:-4.573 per-word bound, 23.8 perplexity estimate based on a held-out corpus of 837 documents with 746 words
+2021-10-11 15:25:18,030:INFO:PROGRESS: pass 5, at document #837/837
+2021-10-11 15:25:18,079:INFO:optimized alpha [0.22259751, 0.19397561, 0.18346196, 0.19582261, 0.19877581]
+2021-10-11 15:25:18,079:INFO:topic #0 (0.223): 0.256*"virus" + 0.164*"frage" + 0.081*"herr" + 0.072*"patient" + 0.071*"drosten" + 0.050*"symptom" + 0.041*"impfstoff" + 0.028*"variante" + 0.023*"kontakt" + 0.019*"kapazität"
+2021-10-11 15:25:18,079:INFO:topic #1 (0.194): 0.091*"beispiel" + 0.079*"moment" + 0.065*"infektion" + 0.063*"antikörper" + 0.063*"maßnahme" + 0.051*"hörer" + 0.046*"entwicklung" + 0.046*"erklärung" + 0.044*"situation" + 0.040*"bisschen"
+2021-10-11 15:25:18,080:INFO:topic #2 (0.183): 0.115*"erkenntnis" + 0.104*"verlauf" + 0.095*"land" + 0.089*"forschung" + 0.087*"woche" + 0.086*"kind" + 0.058*"infektionsketten" + 0.053*"schule" + 0.042*"leben" + 0.037*"erkrankung"
+2021-10-11 15:25:18,080:INFO:topic #3 (0.196): 0.180*"zahl" + 0.140*"mensch" + 0.133*"sicht" + 0.078*"beispiel" + 0.060*"tag" + 0.054*"datum" + 0.054*"einschätzung" + 0.035*"sinn" + 0.030*"infektionsgeschehen" + 0.028*"sommer"
+2021-10-11 15:25:18,080:INFO:topic #4 (0.199): 0.094*"test" + 0.086*"fall" + 0.081*"rolle" + 0.075*"studie" + 0.051*"weg" + 0.051*"zeit" + 0.051*"coronavirus" + 0.050*"ergebnis" + 0.038*"abstand" + 0.032*"infektion"
+2021-10-11 15:25:18,080:INFO:topic diff=0.166728, rho=0.377964
+2021-10-11 15:25:18,150:INFO:-4.557 per-word bound, 23.5 perplexity estimate based on a held-out corpus of 837 documents with 746 words
+2021-10-11 15:25:18,150:INFO:PROGRESS: pass 6, at document #837/837
+2021-10-11 15:25:18,192:INFO:optimized alpha [0.22522326, 0.1940084, 0.18264791, 0.19575295, 0.1988508]
+2021-10-11 15:25:18,192:INFO:topic #0 (0.225): 0.260*"virus" + 0.166*"frage" + 0.081*"herr" + 0.072*"patient" + 0.072*"drosten" + 0.050*"symptom" + 0.041*"impfstoff" + 0.028*"variante" + 0.023*"kontakt" + 0.019*"kapazität"
+2021-10-11 15:25:18,192:INFO:topic #1 (0.194): 0.092*"beispiel" + 0.080*"moment" + 0.069*"infektion" + 0.065*"antikörper" + 0.065*"maßnahme" + 0.053*"hörer" + 0.047*"entwicklung" + 0.047*"erklärung" + 0.046*"situation" + 0.041*"bisschen"
+2021-10-11 15:25:18,192:INFO:topic #2 (0.183): 0.120*"erkenntnis" + 0.104*"verlauf" + 0.100*"land" + 0.092*"forschung" + 0.088*"woche" + 0.087*"kind" + 0.062*"infektionsketten" + 0.054*"schule" + 0.041*"leben" + 0.038*"erkrankung"
+2021-10-11 15:25:18,192:INFO:topic #3 (0.196): 0.181*"zahl" + 0.140*"mensch" + 0.134*"sicht" + 0.078*"beispiel" + 0.060*"tag" + 0.056*"datum" + 0.054*"einschätzung" + 0.038*"sinn" + 0.031*"infektionsgeschehen" + 0.027*"sommer"
+2021-10-11 15:25:18,192:INFO:topic #4 (0.199): 0.094*"test" + 0.087*"fall" + 0.082*"rolle" + 0.079*"studie" + 0.051*"weg" + 0.051*"zeit" + 0.051*"coronavirus" + 0.051*"ergebnis" + 0.039*"abstand" + 0.032*"familie"
+2021-10-11 15:25:18,192:INFO:topic diff=0.135165, rho=0.353553
+2021-10-11 15:25:18,260:INFO:-4.545 per-word bound, 23.3 perplexity estimate based on a held-out corpus of 837 documents with 746 words
+2021-10-11 15:25:18,260:INFO:PROGRESS: pass 7, at document #837/837
+2021-10-11 15:25:18,302:INFO:optimized alpha [0.22764103, 0.19404152, 0.18201627, 0.1957043, 0.19896838]
+2021-10-11 15:25:18,302:INFO:topic #0 (0.228): 0.263*"virus" + 0.168*"frage" + 0.081*"herr" + 0.073*"patient" + 0.072*"drosten" + 0.050*"symptom" + 0.041*"impfstoff" + 0.028*"variante" + 0.023*"kontakt" + 0.019*"kapazität"
+2021-10-11 15:25:18,302:INFO:topic #1 (0.194): 0.093*"beispiel" + 0.081*"moment" + 0.073*"infektion" + 0.066*"maßnahme" + 0.066*"antikörper" + 0.053*"hörer" + 0.048*"entwicklung" + 0.047*"erklärung" + 0.047*"situation" + 0.041*"bisschen"
+2021-10-11 15:25:18,302:INFO:topic #2 (0.182): 0.126*"erkenntnis" + 0.103*"verlauf" + 0.103*"land" + 0.095*"forschung" + 0.087*"woche" + 0.087*"kind" + 0.065*"infektionsketten" + 0.054*"schule" + 0.041*"leben" + 0.039*"erkrankung"
+2021-10-11 15:25:18,302:INFO:topic #3 (0.196): 0.182*"zahl" + 0.140*"mensch" + 0.135*"sicht" + 0.079*"beispiel" + 0.060*"tag" + 0.057*"datum" + 0.054*"einschätzung" + 0.040*"sinn" + 0.032*"infektionsgeschehen" + 0.027*"sommer"
+2021-10-11 15:25:18,302:INFO:topic #4 (0.199): 0.094*"test" + 0.087*"fall" + 0.083*"studie" + 0.082*"rolle" + 0.051*"weg" + 0.051*"zeit" + 0.051*"coronavirus" + 0.051*"ergebnis" + 0.039*"abstand" + 0.032*"familie"
+2021-10-11 15:25:18,302:INFO:topic diff=0.108423, rho=0.333333
+2021-10-11 15:25:18,370:INFO:-4.535 per-word bound, 23.2 perplexity estimate based on a held-out corpus of 837 documents with 746 words
+2021-10-11 15:25:18,370:INFO:PROGRESS: pass 8, at document #837/837
+2021-10-11 15:25:18,413:INFO:optimized alpha [0.22987361, 0.1940739, 0.18146808, 0.19567463, 0.19909155]
+2021-10-11 15:25:18,413:INFO:topic #0 (0.230): 0.265*"virus" + 0.170*"frage" + 0.081*"herr" + 0.073*"patient" + 0.072*"drosten" + 0.050*"symptom" + 0.041*"impfstoff" + 0.028*"variante" + 0.023*"kontakt" + 0.019*"kapazität"
+2021-10-11 15:25:18,413:INFO:topic #1 (0.194): 0.094*"beispiel" + 0.082*"moment" + 0.076*"infektion" + 0.067*"maßnahme" + 0.067*"antikörper" + 0.054*"hörer" + 0.048*"entwicklung" + 0.048*"erklärung" + 0.047*"situation" + 0.041*"bisschen"
+2021-10-11 15:25:18,413:INFO:topic #2 (0.181): 0.131*"erkenntnis" + 0.105*"land" + 0.103*"verlauf" + 0.096*"forschung" + 0.087*"woche" + 0.087*"kind" + 0.067*"infektionsketten" + 0.054*"schule" + 0.041*"leben" + 0.039*"erkrankung"
+2021-10-11 15:25:18,413:INFO:topic #3 (0.196): 0.183*"zahl" + 0.141*"mensch" + 0.136*"sicht" + 0.079*"beispiel" + 0.060*"tag" + 0.058*"datum" + 0.054*"einschätzung" + 0.042*"sinn" + 0.032*"infektionsgeschehen" + 0.027*"sommer"
+2021-10-11 15:25:18,413:INFO:topic #4 (0.199): 0.094*"test" + 0.088*"fall" + 0.086*"studie" + 0.082*"rolle" + 0.051*"weg" + 0.051*"zeit" + 0.051*"coronavirus" + 0.051*"ergebnis" + 0.039*"abstand" + 0.032*"familie"
+2021-10-11 15:25:18,413:INFO:topic diff=0.086281, rho=0.316228
+2021-10-11 15:25:18,481:INFO:-4.529 per-word bound, 23.1 perplexity estimate based on a held-out corpus of 837 documents with 746 words
+2021-10-11 15:25:18,482:INFO:PROGRESS: pass 9, at document #837/837
+2021-10-11 15:25:18,526:INFO:optimized alpha [0.23195398, 0.19427794, 0.18099217, 0.1956555, 0.19923353]
+2021-10-11 15:25:18,527:INFO:topic #0 (0.232): 0.266*"virus" + 0.171*"frage" + 0.081*"herr" + 0.073*"patient" + 0.072*"drosten" + 0.050*"symptom" + 0.041*"impfstoff" + 0.028*"variante" + 0.023*"kontakt" + 0.019*"kapazität"
+2021-10-11 15:25:18,527:INFO:topic #1 (0.194): 0.097*"beispiel" + 0.082*"moment" + 0.077*"infektion" + 0.068*"maßnahme" + 0.068*"antikörper" + 0.055*"hörer" + 0.048*"entwicklung" + 0.048*"erklärung" + 0.048*"situation" + 0.043*"bisschen"
+2021-10-11 15:25:18,527:INFO:topic #2 (0.181): 0.135*"erkenntnis" + 0.106*"land" + 0.103*"verlauf" + 0.098*"forschung" + 0.087*"woche" + 0.087*"kind" + 0.068*"infektionsketten" + 0.054*"schule" + 0.041*"leben" + 0.039*"erkrankung"
+2021-10-11 15:25:18,527:INFO:topic #3 (0.196): 0.183*"zahl" + 0.141*"mensch" + 0.137*"sicht" + 0.077*"beispiel" + 0.060*"datum" + 0.060*"tag" + 0.054*"einschätzung" + 0.043*"sinn" + 0.033*"infektionsgeschehen" + 0.027*"sommer"
+2021-10-11 15:25:18,527:INFO:topic #4 (0.199): 0.094*"test" + 0.088*"studie" + 0.088*"fall" + 0.082*"rolle" + 0.051*"weg" + 0.051*"zeit" + 0.051*"coronavirus" + 0.051*"ergebnis" + 0.039*"abstand" + 0.032*"familie"
+2021-10-11 15:25:18,527:INFO:topic diff=0.069917, rho=0.301511
+2021-10-11 15:25:18,596:INFO:-4.523 per-word bound, 23.0 perplexity estimate based on a held-out corpus of 837 documents with 746 words
+2021-10-11 15:25:18,596:INFO:PROGRESS: pass 10, at document #837/837
+2021-10-11 15:25:18,637:INFO:optimized alpha [0.23389198, 0.19453768, 0.18057182, 0.1956567, 0.19938211]
+2021-10-11 15:25:18,638:INFO:topic #0 (0.234): 0.268*"virus" + 0.173*"frage" + 0.082*"herr" + 0.073*"patient" + 0.073*"drosten" + 0.050*"symptom" + 0.041*"impfstoff" + 0.028*"variante" + 0.023*"kontakt" + 0.019*"kapazität"
+2021-10-11 15:25:18,638:INFO:topic #1 (0.195): 0.098*"beispiel" + 0.082*"moment" + 0.079*"infektion" + 0.068*"maßnahme" + 0.068*"antikörper" + 0.055*"hörer" + 0.048*"entwicklung" + 0.048*"erklärung" + 0.048*"situation" + 0.045*"bisschen"
+2021-10-11 15:25:18,638:INFO:topic #2 (0.181): 0.138*"erkenntnis" + 0.107*"land" + 0.103*"verlauf" + 0.098*"forschung" + 0.087*"woche" + 0.087*"kind" + 0.069*"infektionsketten" + 0.054*"schule" + 0.041*"leben" + 0.040*"erkrankung"
+2021-10-11 15:25:18,638:INFO:topic #3 (0.196): 0.183*"zahl" + 0.141*"mensch" + 0.137*"sicht" + 0.076*"beispiel" + 0.061*"datum" + 0.060*"tag" + 0.054*"einschätzung" + 0.044*"sinn" + 0.033*"infektionsgeschehen" + 0.027*"sommer"
+2021-10-11 15:25:18,638:INFO:topic #4 (0.199): 0.094*"test" + 0.089*"studie" + 0.088*"fall" + 0.082*"rolle" + 0.051*"weg" + 0.051*"zeit" + 0.051*"coronavirus" + 0.051*"ergebnis" + 0.039*"abstand" + 0.032*"familie"
+2021-10-11 15:25:18,638:INFO:topic diff=0.056763, rho=0.288675
+2021-10-11 15:25:18,706:INFO:-4.518 per-word bound, 22.9 perplexity estimate based on a held-out corpus of 837 documents with 746 words
+2021-10-11 15:25:18,706:INFO:PROGRESS: pass 11, at document #837/837
+2021-10-11 15:25:18,748:INFO:optimized alpha [0.23570295, 0.19479777, 0.18019494, 0.19567037, 0.19953369]
+2021-10-11 15:25:18,749:INFO:topic #0 (0.236): 0.269*"virus" + 0.174*"frage" + 0.082*"herr" + 0.073*"patient" + 0.073*"drosten" + 0.050*"symptom" + 0.041*"impfstoff" + 0.028*"variante" + 0.023*"kontakt" + 0.019*"kapazität"
+2021-10-11 15:25:18,749:INFO:topic #1 (0.195): 0.100*"beispiel" + 0.082*"moment" + 0.081*"infektion" + 0.068*"maßnahme" + 0.068*"antikörper" + 0.055*"hörer" + 0.048*"entwicklung" + 0.048*"erklärung" + 0.048*"situation" + 0.047*"bisschen"
+2021-10-11 15:25:18,749:INFO:topic #2 (0.180): 0.140*"erkenntnis" + 0.107*"land" + 0.102*"verlauf" + 0.099*"forschung" + 0.087*"woche" + 0.087*"kind" + 0.069*"infektionsketten" + 0.054*"schule" + 0.040*"leben" + 0.040*"erkrankung"
+2021-10-11 15:25:18,749:INFO:topic #3 (0.196): 0.184*"zahl" + 0.141*"mensch" + 0.138*"sicht" + 0.075*"beispiel" + 0.063*"datum" + 0.060*"tag" + 0.054*"einschätzung" + 0.045*"sinn" + 0.033*"infektionsgeschehen" + 0.027*"sommer"
+2021-10-11 15:25:18,749:INFO:topic #4 (0.200): 0.094*"test" + 0.091*"studie" + 0.088*"fall" + 0.082*"rolle" + 0.051*"weg" + 0.051*"coronavirus" + 0.051*"zeit" + 0.051*"ergebnis" + 0.039*"abstand" + 0.032*"familie"
+2021-10-11 15:25:18,749:INFO:topic diff=0.046378, rho=0.277350
+2021-10-11 15:25:18,819:INFO:-4.515 per-word bound, 22.9 perplexity estimate based on a held-out corpus of 837 documents with 746 words
+2021-10-11 15:25:18,819:INFO:PROGRESS: pass 12, at document #837/837
+2021-10-11 15:25:18,861:INFO:optimized alpha [0.23740819, 0.19510692, 0.17986175, 0.19568785, 0.19975236]
+2021-10-11 15:25:18,862:INFO:topic #0 (0.237): 0.270*"virus" + 0.175*"frage" + 0.082*"herr" + 0.073*"patient" + 0.073*"drosten" + 0.050*"symptom" + 0.042*"impfstoff" + 0.028*"variante" + 0.023*"kontakt" + 0.019*"kapazität"
+2021-10-11 15:25:18,862:INFO:topic #1 (0.195): 0.100*"beispiel" + 0.083*"infektion" + 0.082*"moment" + 0.068*"maßnahme" + 0.068*"antikörper" + 0.055*"hörer" + 0.049*"bisschen" + 0.048*"entwicklung" + 0.048*"erklärung" + 0.048*"situation"
+2021-10-11 15:25:18,862:INFO:topic #2 (0.180): 0.141*"erkenntnis" + 0.108*"land" + 0.102*"verlauf" + 0.100*"forschung" + 0.087*"woche" + 0.087*"kind" + 0.070*"infektionsketten" + 0.054*"schule" + 0.040*"leben" + 0.040*"erkrankung"
+2021-10-11 15:25:18,862:INFO:topic #3 (0.196): 0.184*"zahl" + 0.142*"mensch" + 0.138*"sicht" + 0.075*"beispiel" + 0.064*"datum" + 0.060*"tag" + 0.054*"einschätzung" + 0.045*"sinn" + 0.033*"infektionsgeschehen" + 0.028*"sommer"
+2021-10-11 15:25:18,862:INFO:topic #4 (0.200): 0.094*"test" + 0.091*"studie" + 0.088*"fall" + 0.082*"rolle" + 0.051*"weg" + 0.051*"coronavirus" + 0.051*"zeit" + 0.051*"ergebnis" + 0.038*"abstand" + 0.032*"familie"
+2021-10-11 15:25:18,862:INFO:topic diff=0.039879, rho=0.267261
+2021-10-11 15:25:18,931:INFO:-4.512 per-word bound, 22.8 perplexity estimate based on a held-out corpus of 837 documents with 746 words
+2021-10-11 15:25:18,931:INFO:PROGRESS: pass 13, at document #837/837
+2021-10-11 15:25:18,972:INFO:optimized alpha [0.23902147, 0.19550659, 0.17956562, 0.19572473, 0.19996701]
+2021-10-11 15:25:18,973:INFO:topic #0 (0.239): 0.271*"virus" + 0.175*"frage" + 0.082*"herr" + 0.073*"patient" + 0.073*"drosten" + 0.051*"symptom" + 0.042*"impfstoff" + 0.028*"variante" + 0.024*"kontakt" + 0.019*"kapazität"
+2021-10-11 15:25:18,973:INFO:topic #1 (0.196): 0.100*"beispiel" + 0.085*"infektion" + 0.082*"moment" + 0.068*"maßnahme" + 0.068*"antikörper" + 0.055*"hörer" + 0.052*"bisschen" + 0.048*"entwicklung" + 0.048*"erklärung" + 0.048*"situation"
+2021-10-11 15:25:18,973:INFO:topic #2 (0.180): 0.143*"erkenntnis" + 0.108*"land" + 0.102*"verlauf" + 0.100*"forschung" + 0.086*"kind" + 0.086*"woche" + 0.070*"infektionsketten" + 0.054*"schule" + 0.040*"leben" + 0.040*"erkrankung"
+2021-10-11 15:25:18,973:INFO:topic #3 (0.196): 0.184*"zahl" + 0.143*"mensch" + 0.138*"sicht" + 0.075*"beispiel" + 0.064*"datum" + 0.060*"tag" + 0.054*"einschätzung" + 0.046*"sinn" + 0.034*"infektionsgeschehen" + 0.028*"sommer"
+2021-10-11 15:25:18,973:INFO:topic #4 (0.200): 0.094*"test" + 0.092*"studie" + 0.088*"fall" + 0.082*"rolle" + 0.051*"weg" + 0.051*"coronavirus" + 0.051*"zeit" + 0.051*"ergebnis" + 0.038*"abstand" + 0.032*"familie"
+2021-10-11 15:25:18,973:INFO:topic diff=0.034010, rho=0.258199
+2021-10-11 15:25:19,042:INFO:-4.509 per-word bound, 22.8 perplexity estimate based on a held-out corpus of 837 documents with 746 words
+2021-10-11 15:25:19,042:INFO:PROGRESS: pass 14, at document #837/837
+2021-10-11 15:25:19,085:INFO:optimized alpha [0.24054606, 0.19590545, 0.17929776, 0.19577187, 0.2001768]
+2021-10-11 15:25:19,085:INFO:topic #0 (0.241): 0.272*"virus" + 0.176*"frage" + 0.082*"herr" + 0.073*"patient" + 0.073*"drosten" + 0.051*"symptom" + 0.042*"impfstoff" + 0.028*"variante" + 0.024*"kontakt" + 0.019*"kapazität"
+2021-10-11 15:25:19,086:INFO:topic #1 (0.196): 0.101*"beispiel" + 0.086*"infektion" + 0.082*"moment" + 0.068*"maßnahme" + 0.068*"antikörper" + 0.055*"hörer" + 0.054*"bisschen" + 0.048*"entwicklung" + 0.048*"erklärung" + 0.048*"situation"
+2021-10-11 15:25:19,086:INFO:topic #2 (0.179): 0.144*"erkenntnis" + 0.108*"land" + 0.102*"verlauf" + 0.100*"forschung" + 0.086*"kind" + 0.086*"woche" + 0.070*"infektionsketten" + 0.054*"schule" + 0.040*"leben" + 0.040*"erkrankung"
+2021-10-11 15:25:19,086:INFO:topic #3 (0.196): 0.184*"zahl" + 0.144*"mensch" + 0.138*"sicht" + 0.074*"beispiel" + 0.065*"datum" + 0.060*"tag" + 0.054*"einschätzung" + 0.046*"sinn" + 0.034*"infektionsgeschehen" + 0.028*"sommer"
+2021-10-11 15:25:19,086:INFO:topic #4 (0.200): 0.094*"test" + 0.093*"studie" + 0.088*"fall" + 0.082*"rolle" + 0.051*"weg" + 0.051*"coronavirus" + 0.051*"zeit" + 0.051*"ergebnis" + 0.038*"abstand" + 0.032*"familie"
+2021-10-11 15:25:19,086:INFO:topic diff=0.029026, rho=0.250000
+2021-10-11 15:25:19,155:INFO:-4.506 per-word bound, 22.7 perplexity estimate based on a held-out corpus of 837 documents with 746 words
+2021-10-11 15:25:19,155:INFO:PROGRESS: pass 15, at document #837/837
+2021-10-11 15:25:19,197:INFO:optimized alpha [0.24199373, 0.19630052, 0.17905746, 0.19586702, 0.2003859]
+2021-10-11 15:25:19,197:INFO:topic #0 (0.242): 0.273*"virus" + 0.177*"frage" + 0.083*"herr" + 0.074*"patient" + 0.074*"drosten" + 0.051*"symptom" + 0.042*"impfstoff" + 0.028*"variante" + 0.024*"kontakt" + 0.019*"kapazität"
+2021-10-11 15:25:19,197:INFO:topic #1 (0.196): 0.101*"beispiel" + 0.088*"infektion" + 0.082*"moment" + 0.068*"maßnahme" + 0.068*"antikörper" + 0.057*"bisschen" + 0.055*"hörer" + 0.048*"entwicklung" + 0.048*"erklärung" + 0.048*"situation"
+2021-10-11 15:25:19,197:INFO:topic #2 (0.179): 0.144*"erkenntnis" + 0.109*"land" + 0.102*"verlauf" + 0.101*"forschung" + 0.086*"kind" + 0.086*"woche" + 0.070*"infektionsketten" + 0.054*"schule" + 0.040*"leben" + 0.040*"erkrankung"
+2021-10-11 15:25:19,197:INFO:topic #3 (0.196): 0.184*"zahl" + 0.145*"mensch" + 0.138*"sicht" + 0.074*"beispiel" + 0.065*"datum" + 0.060*"tag" + 0.054*"einschätzung" + 0.046*"sinn" + 0.034*"infektionsgeschehen" + 0.028*"sommer"
+2021-10-11 15:25:19,197:INFO:topic #4 (0.200): 0.094*"test" + 0.093*"studie" + 0.088*"fall" + 0.082*"rolle" + 0.051*"weg" + 0.051*"coronavirus" + 0.051*"zeit" + 0.051*"ergebnis" + 0.039*"abstand" + 0.032*"gedanke"
+2021-10-11 15:25:19,197:INFO:topic diff=0.025131, rho=0.242536
+2021-10-11 15:25:19,265:INFO:-4.504 per-word bound, 22.7 perplexity estimate based on a held-out corpus of 837 documents with 746 words
+2021-10-11 15:25:19,265:INFO:PROGRESS: pass 16, at document #837/837
+2021-10-11 15:25:19,309:INFO:optimized alpha [0.24336955, 0.19668758, 0.17883945, 0.19597156, 0.20059241]
+2021-10-11 15:25:19,309:INFO:topic #0 (0.243): 0.273*"virus" + 0.178*"frage" + 0.083*"herr" + 0.074*"patient" + 0.074*"drosten" + 0.051*"symptom" + 0.042*"impfstoff" + 0.028*"variante" + 0.024*"kontakt" + 0.019*"kapazität"
+2021-10-11 15:25:19,309:INFO:topic #1 (0.197): 0.101*"beispiel" + 0.089*"infektion" + 0.081*"moment" + 0.068*"maßnahme" + 0.068*"antikörper" + 0.059*"bisschen" + 0.055*"hörer" + 0.048*"entwicklung" + 0.048*"erklärung" + 0.048*"situation"
+2021-10-11 15:25:19,309:INFO:topic #2 (0.179): 0.145*"erkenntnis" + 0.109*"land" + 0.102*"verlauf" + 0.101*"forschung" + 0.086*"kind" + 0.086*"woche" + 0.070*"infektionsketten" + 0.054*"schule" + 0.040*"leben" + 0.040*"erkrankung"
+2021-10-11 15:25:19,309:INFO:topic #3 (0.196): 0.184*"zahl" + 0.146*"mensch" + 0.138*"sicht" + 0.074*"beispiel" + 0.065*"datum" + 0.060*"tag" + 0.054*"einschätzung" + 0.046*"sinn" + 0.034*"infektionsgeschehen" + 0.027*"sommer"
+2021-10-11 15:25:19,310:INFO:topic #4 (0.201): 0.095*"test" + 0.094*"studie" + 0.088*"fall" + 0.082*"rolle" + 0.051*"weg" + 0.051*"coronavirus" + 0.051*"zeit" + 0.051*"ergebnis" + 0.039*"abstand" + 0.032*"gedanke"
+2021-10-11 15:25:19,310:INFO:topic diff=0.021725, rho=0.235702
+2021-10-11 15:25:19,377:INFO:-4.502 per-word bound, 22.7 perplexity estimate based on a held-out corpus of 837 documents with 746 words
+2021-10-11 15:25:19,377:INFO:PROGRESS: pass 17, at document #837/837
+2021-10-11 15:25:19,418:INFO:optimized alpha [0.24468108, 0.19706663, 0.17864144, 0.19608247, 0.20079719]
+2021-10-11 15:25:19,418:INFO:topic #0 (0.245): 0.274*"virus" + 0.178*"frage" + 0.083*"herr" + 0.074*"patient" + 0.074*"drosten" + 0.051*"symptom" + 0.042*"impfstoff" + 0.028*"variante" + 0.024*"kontakt" + 0.019*"kapazität"
+2021-10-11 15:25:19,418:INFO:topic #1 (0.197): 0.101*"beispiel" + 0.090*"infektion" + 0.081*"moment" + 0.068*"maßnahme" + 0.068*"antikörper" + 0.061*"bisschen" + 0.055*"hörer" + 0.048*"erklärung" + 0.048*"entwicklung" + 0.048*"situation"
+2021-10-11 15:25:19,419:INFO:topic #2 (0.179): 0.146*"erkenntnis" + 0.109*"land" + 0.102*"verlauf" + 0.101*"forschung" + 0.086*"kind" + 0.086*"woche" + 0.070*"infektionsketten" + 0.054*"schule" + 0.040*"leben" + 0.040*"erkrankung"
+2021-10-11 15:25:19,419:INFO:topic #3 (0.196): 0.184*"zahl" + 0.147*"mensch" + 0.138*"sicht" + 0.074*"beispiel" + 0.066*"datum" + 0.060*"tag" + 0.054*"einschätzung" + 0.047*"sinn" + 0.034*"infektionsgeschehen" + 0.027*"sommer"
+2021-10-11 15:25:19,419:INFO:topic #4 (0.201): 0.095*"test" + 0.094*"studie" + 0.088*"fall" + 0.082*"rolle" + 0.051*"weg" + 0.051*"coronavirus" + 0.051*"zeit" + 0.051*"ergebnis" + 0.039*"abstand" + 0.032*"gedanke"
+2021-10-11 15:25:19,419:INFO:topic diff=0.018832, rho=0.229416
+2021-10-11 15:25:19,487:INFO:-4.501 per-word bound, 22.6 perplexity estimate based on a held-out corpus of 837 documents with 746 words
+2021-10-11 15:25:19,487:INFO:PROGRESS: pass 18, at document #837/837
+2021-10-11 15:25:19,527:INFO:optimized alpha [0.24593268, 0.19743666, 0.17846131, 0.19619872, 0.20099996]
+2021-10-11 15:25:19,527:INFO:topic #0 (0.246): 0.274*"virus" + 0.178*"frage" + 0.083*"herr" + 0.074*"patient" + 0.074*"drosten" + 0.051*"symptom" + 0.042*"impfstoff" + 0.028*"variante" + 0.024*"kontakt" + 0.019*"kapazität"
+2021-10-11 15:25:19,527:INFO:topic #1 (0.197): 0.101*"beispiel" + 0.090*"infektion" + 0.081*"moment" + 0.068*"maßnahme" + 0.068*"antikörper" + 0.062*"bisschen" + 0.055*"hörer" + 0.048*"erklärung" + 0.048*"entwicklung" + 0.048*"situation"
+2021-10-11 15:25:19,528:INFO:topic #2 (0.178): 0.146*"erkenntnis" + 0.109*"land" + 0.102*"verlauf" + 0.101*"forschung" + 0.086*"kind" + 0.086*"woche" + 0.070*"infektionsketten" + 0.054*"schule" + 0.040*"leben" + 0.040*"erkrankung"
+2021-10-11 15:25:19,528:INFO:topic #3 (0.196): 0.184*"zahl" + 0.148*"mensch" + 0.138*"sicht" + 0.074*"beispiel" + 0.066*"datum" + 0.060*"tag" + 0.053*"einschätzung" + 0.047*"sinn" + 0.034*"infektionsgeschehen" + 0.027*"sommer"
+2021-10-11 15:25:19,528:INFO:topic #4 (0.201): 0.095*"test" + 0.094*"studie" + 0.088*"fall" + 0.082*"rolle" + 0.051*"weg" + 0.051*"coronavirus" + 0.051*"zeit" + 0.051*"ergebnis" + 0.039*"abstand" + 0.032*"gedanke"
+2021-10-11 15:25:19,528:INFO:topic diff=0.016366, rho=0.223607
+2021-10-11 15:25:19,595:INFO:-4.500 per-word bound, 22.6 perplexity estimate based on a held-out corpus of 837 documents with 746 words
+2021-10-11 15:25:19,595:INFO:PROGRESS: pass 19, at document #837/837
+2021-10-11 15:25:19,638:INFO:optimized alpha [0.2471304, 0.19779892, 0.17829712, 0.1963193, 0.20120107]
+2021-10-11 15:25:19,638:INFO:topic #0 (0.247): 0.275*"virus" + 0.179*"frage" + 0.083*"herr" + 0.074*"patient" + 0.074*"drosten" + 0.051*"symptom" + 0.042*"impfstoff" + 0.028*"variante" + 0.024*"kontakt" + 0.019*"kapazität"
+2021-10-11 15:25:19,638:INFO:topic #1 (0.198): 0.101*"beispiel" + 0.091*"infektion" + 0.081*"moment" + 0.068*"maßnahme" + 0.068*"antikörper" + 0.063*"bisschen" + 0.054*"hörer" + 0.048*"erklärung" + 0.048*"entwicklung" + 0.048*"situation"
+2021-10-11 15:25:19,638:INFO:topic #2 (0.178): 0.146*"erkenntnis" + 0.109*"land" + 0.101*"verlauf" + 0.101*"forschung" + 0.086*"kind" + 0.086*"woche" + 0.070*"infektionsketten" + 0.054*"schule" + 0.040*"leben" + 0.040*"erkrankung"
+2021-10-11 15:25:19,638:INFO:topic #3 (0.196): 0.184*"zahl" + 0.149*"mensch" + 0.138*"sicht" + 0.073*"beispiel" + 0.066*"datum" + 0.060*"tag" + 0.053*"einschätzung" + 0.047*"sinn" + 0.034*"infektionsgeschehen" + 0.027*"sommer"
+2021-10-11 15:25:19,638:INFO:topic #4 (0.201): 0.095*"test" + 0.094*"studie" + 0.088*"fall" + 0.082*"rolle" + 0.051*"weg" + 0.051*"coronavirus" + 0.051*"zeit" + 0.051*"ergebnis" + 0.039*"abstand" + 0.032*"gedanke"
+2021-10-11 15:25:19,639:INFO:topic diff=0.014249, rho=0.218218
+2021-10-11 15:25:19,639:INFO:LdaModel lifecycle event {'msg': 'trained LdaModel(num_terms=67, num_topics=5, decay=0.5, chunksize=2000) in 2.34s', 'datetime': '2021-10-11T15:25:19.639223', 'gensim': '4.1.2', 'python': '3.9.5 (tags/v3.9.5:0a7dcbd, May  3 2021, 17:27:52) [MSC v.1928 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19043-SP0', 'event': 'created'}
+2021-10-11 15:25:19,644:INFO:
 
 ******************************** The program finished. ********************************
 

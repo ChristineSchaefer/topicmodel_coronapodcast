@@ -19,6 +19,8 @@ def get_question_list(scientist: str) -> list:
     # set variables
     drosten_questions = list()
     ciesek_questions = list()
+    number_interviews_d = 0
+    number_interviews_c = 0
     path = 'podcast.csv'
 
     # initialize question list of scientists
@@ -29,15 +31,19 @@ def get_question_list(scientist: str) -> list:
             if row.__contains__("CD"):
                 # fill list with questions
                 drosten_questions.append(row[3:len(row) - 1])
+                number_interviews_d += 1
             elif row.__contains__("SC"):
                 # fill list with questions
                 ciesek_questions.append(row[3:len(row) - 1])
+                number_interviews_c += 1
 
     if scientist == 'SC':
         ciesek_questions = __normalized_questions(ciesek_questions)
+        print('Number of interviews with Ciesek: ', number_interviews_c)
         return ciesek_questions
     if scientist == 'CD':
         drosten_questions = __normalized_questions(drosten_questions)
+        print('Number of interviews with Drosten: ', number_interviews_d)
         return drosten_questions
     else:
         # default
