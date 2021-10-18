@@ -11,7 +11,7 @@ from timeit import default_timer as timer
 from datetime import timedelta
 
 # configuration logging
-logging.basicConfig(filename='lda.log',
+logging.basicConfig(filename='docs/lda.log',
                     format="%(asctime)s:%(levelname)s:%(message)s",
                     filemode='w',
                     level=logging.INFO)

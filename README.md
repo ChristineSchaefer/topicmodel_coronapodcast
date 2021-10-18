@@ -57,3 +57,8 @@ Informationen über die erfolgten Abläufe und Ergebnisse werden in der logging-
 3. **Training**: Zum Training wird das LDA-Model von Gensim genutzt. Diesem werden Parameter übergeben, z.B. wie viele Topics gefunden werden sollen.
 
 Die Module werden innerhalb des Main-Moduls nacheinander aufgerufen. 
+
+***
+### Dokumentation
+***
+Die dazugehörige Präsentation befindet sich [hier](docs/Topic%20Modelling.pdf).

@@ -91,7 +91,7 @@ def tokenize(questions: list) -> list:
 
     for q in questions:
         # use spacy model to detect sentences and use token
-        sentence = nlp(q)
+        sentence = nlp(q.lower())
         pre_token = list()
         for token in sentence:
             # only return tokens with pos tag 'NOUN'
@@ -122,7 +122,7 @@ def lemmatizer(questions: list) -> list:
 
     for q in questions:
         # use spacy model to detect sentences and use lemma
-        sentence = nlp(q)
+        sentence = nlp(q.lower())
         pre_lemma = list()
         for token in sentence:
             # only return lemma with pos tag 'NOUN'
